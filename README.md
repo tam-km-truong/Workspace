@@ -6,3 +6,9 @@ BakRep – https://doi.org/10.1099/mgen.0.001305 - [slides](https://docs.google.
 661k - https://doi.org/10.1371/journal.pbio.3001421 - [slides]()
 
 Allthebacteria - https://doi.org/10.1101/2024.03.08.584059
+
+#### to do
+
+read [this](https://doi.org/10.1186/s13059-016-0997-x)
+
+Create a Genouest account

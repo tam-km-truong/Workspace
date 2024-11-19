@@ -22,7 +22,7 @@ Compress the metadata file using xz:
 xz [filename.tsv]
 ```
 
-## run create_batches.py
+## Run create_batches.py
 
 exemple 1: BakRep metadata
 
@@ -54,3 +54,12 @@ Created 305 batches of 143 pseudoclusters
 
 Finished
 
+
+## Download the 661k collection
+
+The compressed 661k collection with MiniPhy is available at [zenodo](https://zenodo.org/record/4602622)
+
+The 661k collection is downloadable from [ebi](http://ftp.ebi.ac.uk/pub/databases/ENA2018-bacteria-661k/)
+The entire compressed file here is 750gb.
+
+                                                                                                                        

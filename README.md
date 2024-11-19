@@ -12,3 +12,5 @@ Allthebacteria - https://doi.org/10.1101/2024.03.08.584059
 read [this](https://doi.org/10.1186/s13059-016-0997-x)
 
 Create a Genouest account
+### week 18/11/2024
+Add the new bakrep tsv metadata

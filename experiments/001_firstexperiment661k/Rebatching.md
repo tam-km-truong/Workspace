@@ -27,7 +27,7 @@ xz [filename.tsv]
 exemple 1: BakRep metadata
 
 ```shell
-./create_batches.py /home/ktruong/Documents/code/Workspace/files/bakrep-export-661k.tsv.xz -s gtdbtk.classification.species -f '#id'
+./create_batches.py /home/ktruong/Documents/code/Workspace/files/bakrep-export_18112024.tsv.xz -s gtdbtk.classification.species -f '#id'
 ```
 
 

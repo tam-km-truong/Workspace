@@ -62,4 +62,8 @@ The compressed 661k collection with MiniPhy is available at [zenodo](https://zen
 The 661k collection is downloadable from [ebi](http://ftp.ebi.ac.uk/pub/databases/ENA2018-bacteria-661k/)
 The entire compressed file here is 750gb.
 
+## Extract genomes from the collection
+Use extract_genomes.py in experiment 003 to extract the needed genomes for each batch from create_batches.py
+
+## Continue by following MiniPhy instruction
                                                                                                                         

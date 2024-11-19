@@ -27,16 +27,9 @@ xz [filename.tsv]
 exemple 1: BakRep metadata
 
 ```shell
-./create_batches.py /home/ktruong/Documents/code/Workspace/files/bakrep-export-661k.tsv.xz -s bakta.genome.species -f '#id'
+./create_batches.py /home/ktruong/Documents/code/Workspace/files/bakrep-export-661k.tsv.xz -s gtdbtk.classification.species -f '#id'
 ```
 
-Loaded 661401 genomes across 3914 species clusters
-
-Put 16467 genomes of 3796 species into the dustbin
-
-Created 277 batches of 119 pseudoclusters
-
-Finished
 
 
 

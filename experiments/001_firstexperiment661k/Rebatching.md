@@ -29,9 +29,13 @@ exemple 1: BakRep metadata
 ```shell
 ./create_batches.py /home/ktruong/Documents/code/Workspace/files/bakrep-export_18112024.tsv.xz -s gtdbtk.classification.species -f '#id'
 ```
+Loaded 661401 genomes across 8208 species clusters
 
+Put 25485 genomes of 8067 species into the dustbin
 
+Created 306 batches of 142 pseudoclusters
 
+Finished
 
 exemple 2: original 661k metadata
 

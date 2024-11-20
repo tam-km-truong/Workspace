@@ -13,4 +13,6 @@ read [this](https://doi.org/10.1186/s13059-016-0997-x)
 
 Create a Genouest account
 ### week 18/11/2024
-Add the new bakrep tsv metadata
+Added the new bakrep tsv metadata
+Read Mash paper - make summary slide todo
+Read Mashtree paper - make summary slide todo

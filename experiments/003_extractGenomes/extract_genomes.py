@@ -16,7 +16,7 @@ def extract_genomes(genome_id_file, archives_dir, output_dir):
     id_data = id_file.read()
     
     neccessary_genomes = set(id_data.split('\n'))
-    
+    neccessary_genomes.discard('')
     tar_files = [archives_dir + '/'+ f for f in os.listdir(archives_dir) if tarfile.is_tarfile(archives_dir + '/'+ f)]
     
     number_of_file = len(tar_files)
@@ -28,8 +28,12 @@ def extract_genomes(genome_id_file, archives_dir, output_dir):
         
         for genome in file.getmembers():   
             genome_id = genome.name.split('/')[1][:-3]
+            if len(neccessary_genomes) == 0:
+                print('Extracted all neccessary genomes.')
+                return
             if genome_id in neccessary_genomes:
                 file.extract(genome, path = output_dir)
+                neccessary_genomes.discard(genome_id)
             
 def main():
     parser = argparse.ArgumentParser(description="")

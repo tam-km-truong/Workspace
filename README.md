@@ -1,6 +1,6 @@
 # Workspace
 
-### week 18/11/2024
+### Week 18/11/2024
 Added the new bakrep tsv metadata
 
 Read Mash paper - make summary slide todo

@@ -14,6 +14,8 @@ Search without any condition.
 
 Export the result using the 'Export as tsv' feature provided.
 
+Now can be download directly from the website
+
 ## Compress tsv to tsv.xz
 
 Compress the metadata file using xz:

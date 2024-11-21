@@ -1,11 +1,14 @@
 # Workspace
 
 ### Week 18/11/2024
-Added the new bakrep tsv metadata
+
+Look at sourmash - to do
 
 Read Mash paper - make summary slide todo
 
 Read Mashtree paper - make summary slide todo
+
+Added the new bakrep tsv metadata
 
 ## Progress update week 11/11/2024
 ### Litterature:

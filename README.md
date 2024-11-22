@@ -2,6 +2,8 @@
 
 ### Week 18/11/2024
 
+Added experiment 003 extract genomes 
+
 Look at sourmash - to do
 
 Read Mash paper - make summary slide todo

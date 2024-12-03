@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "4100762fb7dc6232",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b275838d49e16f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43fa3c4c3246b1ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2290b5534310ea16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa5de7c0b2848d8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e39818e6f51e669",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a4ff0977d492115",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff6b619f569a98e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6f9066bb35e4e1e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2acb041520e8e0ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "808a5ae4248d6e5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "265b20c28c12ff7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91f2ce00a77e0fea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "34f50e88fc8307b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4002f20e5572f9c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f7092da2aa6ea67d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "43fa3c4c3246b1ac",
+  "lastOpenFiles": [
+    "Bloom filter.md",
+    "Burrow Wheeler Transform.md",
+    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+    "bloom filter-based.md",
+    "images/Pasted image 20241203141443.png",
+    "images/Pasted image 20241203141226.png",
+    "images"
+  ]
+}

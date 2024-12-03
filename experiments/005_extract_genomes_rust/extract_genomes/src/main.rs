@@ -7,7 +7,6 @@ use tar::Archive;
 
 fn extract_genomes(genome_id_file: &str, archives_dir: &str, output_dir: &str) -> io::Result<()> {
     // Read genome IDs into a HashSet
-    println!("necessary_genomes");
     let file = fs::File::open(genome_id_file)?;
     let reader = io::BufReader::new(file);
     let mut necessary_genomes: HashSet<String> = reader

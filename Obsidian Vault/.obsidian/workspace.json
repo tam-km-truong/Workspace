@@ -20,28 +20,37 @@
               "icon": "lucide-file",
               "title": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data"
             }
-          }
-        ]
-      },
-      {
-        "id": "2290b5534310ea16",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "aa5de7c0b2848d8c",
+            "id": "7fc3a10a0e5485b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+                "file": "Allthebacteria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data"
+              "title": "Allthebacteria"
+            }
+          },
+          {
+            "id": "1528c2942205efb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allthebacteria.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Allthebacteria"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,11 +187,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43fa3c4c3246b1ac",
+  "active": "1528c2942205efb6",
   "lastOpenFiles": [
+    "Vertical and horizontal inheritance.md",
+    "Allthebacteria.md",
+    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
     "Bloom filter.md",
     "Burrow Wheeler Transform.md",
-    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
     "bloom filter-based.md",
     "images/Pasted image 20241203141443.png",
     "images/Pasted image 20241203141226.png",

@@ -11,14 +11,14 @@ Datasets:
 
 The datasets used in the BIGSI paper include:
 
-1. **Bacterial and Viral Whole Genome Sequence Data**: A comprehensive set of 447,833 datasets from the European Nucleotide Archive (ENA), spanning bacteria, viruses, and some eukaryotic parasites.
+1. **Bacterial and Viral Whole Genome Sequence Data**: A set of 447,833 datasets from the European Nucleotide Archive (ENA), bacteria, viruses, and some eukaryotic parasites.
 2. **Plasmids**: A set of 2,827 plasmid sequences used for host-range analysis.
 3. **Antimicrobial Resistance Genes**: Over 2,000 sequences from the Comprehensive Antibiotic Resistance Database (CARD).
 4. **Mycobacterium tuberculosis Datasets**: 3,480 datasets used for genotyping and validation.
 
 The BIGSI paper compares its method to
 
-    Sequence Bloom Tree (SBT) and Split SBT (SSBT): These tools fail to scale effectively with the high diversity and massive volume of microbial datasets, requiring significantly more storage.
+Sequence Bloom Tree (SBT) and Split SBT (SSBT): These tools fail to scale effectively with the high diversity and massive volume of microbial datasets, requiring significantly more storage.
 
 - **Storage Efficiency**: Indexed 447,833 datasets in just 1.5 TB, less than 1% of the original 170 TB data size.
 - **Query Speed**: Detected antimicrobial resistance genes across the dataset in under 2 seconds.

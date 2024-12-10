@@ -1,0 +1,1 @@
+Add `time` before the command you want to measure. For example: `time ls`.

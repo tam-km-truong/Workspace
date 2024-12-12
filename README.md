@@ -1,5 +1,5 @@
 # Workspace
-
+MOVED TO OBSIDIAN VAULT
 ### Week 18/11/2024
 
 Added experiment 003 extract genomes 

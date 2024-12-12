@@ -1,0 +1,5 @@
+klebsiella_pneumoniae__01_4k:
+real	7m13.020s
+user	0m4.920s
+sys	0m37.543s
+

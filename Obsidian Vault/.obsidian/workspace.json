@@ -8,91 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6941a025895eb69d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JellyFish paper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JellyFish paper"
-            }
-          },
-          {
-            "id": "36e07407e3c9ea60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JellyFish paper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JellyFish paper"
-            }
-          },
-          {
-            "id": "00a2495f0c28a56b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JellyFish2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JellyFish2"
-            }
-          },
-          {
-            "id": "b713cc86e0834aa7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attotree.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Attotree"
-            }
-          },
-          {
             "id": "e7c446c72d289344",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WEEKY PROGRESS NOTE.md",
+                "file": "daily_log/2024-12-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WEEKY PROGRESS NOTE"
+              "title": "2024-12-17"
             }
           },
           {
-            "id": "bbe13276d8f16fd0",
+            "id": "1612ea35d7457e91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc.md",
+                "file": "Allthebacteria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "Allthebacteria"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,31 +177,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7c446c72d289344",
+  "active": "1612ea35d7457e91",
   "lastOpenFiles": [
     "Attotree.md",
-    "WEEKY PROGRESS NOTE.md",
-    "JellyFish2.md",
-    "Untitled",
-    "JellyFish paper.md",
-    "MapReduce.md",
-    "Dashing2.md",
-    "Misc.md",
-    "Allthebacteria.md",
-    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
-    "Mashtree.md",
+    "Bloom filter.md",
     "Command Line.md",
+    "DanD.md",
+    "Mash.md",
+    "QuickTree.md",
+    "Rust.md",
+    "Vertical and horizontal inheritance.md",
+    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+    "Allthebacteria.md",
+    "daily_log/2024-12-18.md",
+    "daily_log/2024-12-16.md",
+    "daily_log/2024-12-17.md",
+    "Misc.md",
+    "daily_log",
+    "WEEKLY PROGRESS NOTE.md",
     "miniphy2.md",
     "MinHash.md",
-    "Mash.md",
-    "Vertical and horizontal inheritance.md",
-    "Phylogenetic confidence values.md",
-    "QuickTree.md",
-    "images/Pasted image 20241211105420.png",
-    "Rust.md",
-    "Command Line note",
-    "Bloom filter.md",
+    "Mashtree.md",
+    "MapReduce.md",
+    "JellyFish2.md",
+    "JellyFish paper.md",
+    "Dashing2.md",
     "Burrow Wheeler Transform.md",
+    "Phylogenetic confidence values.md",
+    "images/Pasted image 20241211105420.png",
+    "Command Line note",
     "bloom filter-based.md",
     "images/Pasted image 20241203141443.png",
     "images/Pasted image 20241203141226.png",

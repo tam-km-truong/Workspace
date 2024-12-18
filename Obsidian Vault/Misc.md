@@ -4,3 +4,4 @@ found the output file in dashing2, modified it to human readable
 extract batches too slow
 11/12/2025
 Check attotree with miniphy2
+learn to use tmux

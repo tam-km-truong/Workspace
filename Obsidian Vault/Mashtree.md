@@ -1,3 +1,4 @@
+#mash
 ### In a nutshell
 
 The **Mashtree** tool for rapidly comparing whole genome sequences and constructing phylogenetic trees. 

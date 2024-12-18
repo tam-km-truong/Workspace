@@ -1,3 +1,4 @@
+#mash
 ### In a nutshell
 Mash uses the MinHash technique to create "sketches" of sequences,small, representation of sequences
 Mash distance, an estimate of the mutation rate between sequences. I is calculated from the fraction of shared k-mers (Jaccard index) between MinHash sketches.

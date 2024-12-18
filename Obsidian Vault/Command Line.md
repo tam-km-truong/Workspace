@@ -7,3 +7,5 @@ symlink hard vs soft
 ln -s <path to the file/folder to be linked> <the path of the link to be created>
 ```
 
+conda info --envs
+to view list of environments

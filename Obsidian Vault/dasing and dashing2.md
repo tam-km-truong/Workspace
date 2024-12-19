@@ -16,3 +16,12 @@ The specific command is:
   
 
 The output files are binary files.
+
+dashing2 doesnt offer the function to estimate cardinality 
+check if dashing2 code give the kmer count somewhere
+
+for dashing, the command line to get the estimation kmer count is:
+
+```shell
+./dashing_s128 card -k 31 /data/*.fa 
+```

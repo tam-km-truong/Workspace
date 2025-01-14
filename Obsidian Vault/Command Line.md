@@ -11,3 +11,13 @@ conda info --envs
 to view list of environments
 
 **chmod +x filename**
+
+du -ch --block-size=1M  ./* >> files_size.csv
+./kmc -k31 -fa genome.fa countkmerstuber01.res ./kmc_tmp_dir
+
+`<(cat *.fa)` is a **process substitution**
+
+```
+for d in /home/ktruong/Documents/data/tuberculosis/*; do ./dashing_s128 card -k 31 <(cat $d/*.fa); 
+done
+```

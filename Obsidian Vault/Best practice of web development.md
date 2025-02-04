@@ -16,6 +16,6 @@ Perennisser le code = findable, well documented, evoluer facilement, not over-en
 recherche reproductible 
 Brand image, bonne code = good image for the reputation of you institute
 ## Git, Source content management
-...
+... take git class
 ## Code readable and explicite
 ## Documentation

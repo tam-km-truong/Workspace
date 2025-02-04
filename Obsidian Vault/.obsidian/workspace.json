@@ -27,16 +27,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc.md",
+                "file": "daily_log/2025-01-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "2025-01-26"
+            }
+          },
+          {
+            "id": "635a307489dc14c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data"
+            }
+          },
+          {
+            "id": "e75025dace5b97c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command Line.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Command Line"
+            }
+          },
+          {
+            "id": "36c0b440aae7ebd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Best practice of web development.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Best practice of web development"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -55,7 +97,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,35 +220,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1612ea35d7457e91",
+  "active": "36c0b440aae7ebd5",
   "lastOpenFiles": [
     "Command Line.md",
+    "Best practice of web development.md",
     "dasing and dashing2.md",
-    "JellyFish paper.md",
+    "daily_log/2025-02-03.md",
+    "Raptor.md",
+    "Misc.md",
+    "miniphy2.md",
+    "Mashtree.md",
+    "Kmers counter.md",
+    "Math.md",
+    "daily_log/2025-01-30.md",
     "DanD.md",
-    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+    "daily_log/2025-01-26.md",
+    "daily_log/2025-01-14.md",
+    "daily_log/2025-01-23.md",
     "Burrow Wheeler Transform.md",
+    "daily_log/2025-01-19.md",
+    "WEEKLY PROGRESS NOTE.md",
+    "JellyFish paper.md",
+    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
     "JellyFish2.md",
     "MapReduce.md",
-    "Mashtree.md",
     "MinHash.md",
     "QuickTree.md",
     "Vertical and horizontal inheritance.md",
-    "WEEKLY PROGRESS NOTE.md",
     "Mash.md",
-    "Math.md",
-    "Phylogenetic confidence values.md",
-    "Misc.md",
-    "Rust.md",
-    "daily_log/2025-01-07.md",
-    "Attotree.md",
-    "Kmers counter.md",
-    "miniphy2.md",
-    "Allthebacteria.md",
-    "daily_log/2025-01-19.md",
-    "daily_log/2025-01-14.md",
     "Untitled",
-    "daily_log/2024-12-19.md",
     "daily_log",
     "images/Pasted image 20241211105420.png",
     "Command Line note",

@@ -61,3 +61,8 @@ Dashing version: v1.0.2-4-g0635
 /dev/fd/63	166303792.00000000
 /home/ktruong/Documents/data/tuberculosis/mytuber_batch.csv
 ```
+
+
+pigz for gziping is super fast
+
+find data/661k/4602622/ -type f -name '*.fa' -exec pigz -v {} \;

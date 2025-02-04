@@ -1,0 +1,916 @@
+Warning: No .fa files in /Users/ktruong/data/661k/gziped_full/_md5.txt
+Processing: /Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01
+#Path	Size (est.)
+/dev/fd/63	159301616.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__02
+#Path	Size (est.)
+/dev/fd/63	86562328.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/acinetobacter_nosocomialis__01
+#Path	Size (est.)
+/dev/fd/63	43828308.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/acinetobacter_pittii__01
+#Path	Size (est.)
+/dev/fd/63	70363192.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/actinobacillus_pleuropneumoniae__01
+#Path	Size (est.)
+/dev/fd/63	15841974.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/aeromonas_hydrophila__01
+#Path	Size (est.)
+/dev/fd/63	128439968.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/aeromonas_salmonicida__01
+#Path	Size (est.)
+/dev/fd/63	15791179.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/aeromonas_veronii__01
+#Path	Size (est.)
+/dev/fd/63	122750168.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/bacillus_anthracis__01
+#Path	Size (est.)
+/dev/fd/63	25757380.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/bacillus_cereus__01
+#Path	Size (est.)
+/dev/fd/63	250904416.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01
+#Path	Size (est.)
+/dev/fd/63	266972640.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/bacillus_thuringiensis__01
+#Path	Size (est.)
+/dev/fd/63	210220032.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/bacteroides_fragilis__01
+#Path	Size (est.)
+/dev/fd/63	133394336.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/bordetella_bronchiseptica__01
+#Path	Size (est.)
+/dev/fd/63	27964356.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/bordetella_pertussis__01
+#Path	Size (est.)
+/dev/fd/63	11477665.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/borreliella_burgdorferi__01
+#Path	Size (est.)
+/dev/fd/63	23654614.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/brucella_abortus__01
+#Path	Size (est.)
+/dev/fd/63	7256929.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/brucella_melitensis__01
+#Path	Size (est.)
+/dev/fd/63	4143413.75000000
+Processing: /Users/ktruong/data/661k/gziped_full/brucella_suis__01
+#Path	Size (est.)
+/dev/fd/63	4129115.25000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_cenocepacia__01
+#Path	Size (est.)
+/dev/fd/63	113730504.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_cepacia__01
+#Path	Size (est.)
+/dev/fd/63	267177584.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_contaminans__01
+#Path	Size (est.)
+/dev/fd/63	45456856.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_gladioli__01
+#Path	Size (est.)
+/dev/fd/63	77591808.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_multivorans__01
+#Path	Size (est.)
+/dev/fd/63	67368496.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_pseudomallei__01
+#Path	Size (est.)
+/dev/fd/63	69016240.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_ubonensis__01
+#Path	Size (est.)
+/dev/fd/63	107728160.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/burkholderia_vietnamiensis__01
+#Path	Size (est.)
+/dev/fd/63	54251288.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_coli__01
+#Path	Size (est.)
+/dev/fd/63	70669136.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_coli__02
+#Path	Size (est.)
+/dev/fd/63	42009820.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_coli__03
+#Path	Size (est.)
+/dev/fd/63	12767569.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_fetus__01
+#Path	Size (est.)
+/dev/fd/63	15222400.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_helveticus__01
+#Path	Size (est.)
+/dev/fd/63	16875860.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__01
+#Path	Size (est.)
+/dev/fd/63	58716552.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__02
+#Path	Size (est.)
+/dev/fd/63	73730768.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__03
+#Path	Size (est.)
+/dev/fd/63	75750888.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__04
+#Path	Size (est.)
+/dev/fd/63	76794328.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__05
+#Path	Size (est.)
+/dev/fd/63	39109984.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__06
+#Path	Size (est.)
+/dev/fd/63	25651906.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__07
+#Path	Size (est.)
+/dev/fd/63	24994222.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__08
+#Path	Size (est.)
+/dev/fd/63	11138265.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/campylobacter_lari__01
+#Path	Size (est.)
+/dev/fd/63	28026946.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/caulobacter_vibrioides__01
+#Path	Size (est.)
+/dev/fd/63	16607189.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/chlamydia_pecorum__01
+#Path	Size (est.)
+/dev/fd/63	44753800.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/chlamydia_trachomatis__01
+#Path	Size (est.)
+/dev/fd/63	162710240.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/citrobacter_freundii__01
+#Path	Size (est.)
+/dev/fd/63	117505448.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/citrobacter_rodentium__01
+#Path	Size (est.)
+/dev/fd/63	17932084.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/clostridioides_difficile__01
+#Path	Size (est.)
+/dev/fd/63	147766976.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/clostridioides_difficile__02
+#Path	Size (est.)
+/dev/fd/63	248274880.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/clostridioides_difficile__03
+#Path	Size (est.)
+/dev/fd/63	192507840.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/clostridioides_difficile__04
+#Path	Size (est.)
+/dev/fd/63	148431248.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01
+#Path	Size (est.)
+/dev/fd/63	170108624.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/clostridium_perfringens__01
+#Path	Size (est.)
+/dev/fd/63	70029328.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/corynebacterium_diphtheriae__01
+#Path	Size (est.)
+/dev/fd/63	35100592.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/cronobacter_sakazakii__01
+#Path	Size (est.)
+/dev/fd/63	28281998.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/cutibacterium_acnes__01
+#Path	Size (est.)
+/dev/fd/63	43167652.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dichelobacter_nodosus__01
+#Path	Size (est.)
+/dev/fd/63	17866842.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__01
+#Path	Size (est.)
+/dev/fd/63	1104263296.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__02
+#Path	Size (est.)
+/dev/fd/63	1872945024.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__03
+#Path	Size (est.)
+/dev/fd/63	1680610304.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__04
+#Path	Size (est.)
+/dev/fd/63	1965412736.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__05
+#Path	Size (est.)
+/dev/fd/63	1723128704.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__06
+#Path	Size (est.)
+/dev/fd/63	1855511680.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__07
+#Path	Size (est.)
+/dev/fd/63	1648312704.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__08
+#Path	Size (est.)
+/dev/fd/63	2060858624.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__09
+#Path	Size (est.)
+/dev/fd/63	1732221056.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__10
+#Path	Size (est.)
+/dev/fd/63	2051967616.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__11
+#Path	Size (est.)
+/dev/fd/63	1865724160.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__12
+#Path	Size (est.)
+/dev/fd/63	1914947968.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__13
+#Path	Size (est.)
+/dev/fd/63	1929371520.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__14
+#Path	Size (est.)
+/dev/fd/63	1450376576.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__15
+#Path	Size (est.)
+/dev/fd/63	2031726464.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__16
+#Path	Size (est.)
+/dev/fd/63	1681791744.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__17
+#Path	Size (est.)
+/dev/fd/63	1320651136.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__18
+#Path	Size (est.)
+/dev/fd/63	1563303552.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__19
+#Path	Size (est.)
+/dev/fd/63	1349180032.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__20
+#Path	Size (est.)
+/dev/fd/63	1693863808.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__21
+#Path	Size (est.)
+/dev/fd/63	1742248320.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/dustbin__22
+#Path	Size (est.)
+/dev/fd/63	1595501568.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/elizabethkingia_anophelis__01
+#Path	Size (est.)
+/dev/fd/63	19204552.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/enterobacter_cloacae__01
+#Path	Size (est.)
+/dev/fd/63	418642624.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/enterobacter_hormaechei__01
+#Path	Size (est.)
+/dev/fd/63	156315952.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/enterococcus_faecalis__01
+#Path	Size (est.)
+/dev/fd/63	205409328.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01
+#Path	Size (est.)
+/dev/fd/63	88108368.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/enterococcus_faecium__02
+#Path	Size (est.)
+/dev/fd/63	121427544.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/enterococcus_faecium__03
+#Path	Size (est.)
+/dev/fd/63	36145632.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/enterococcus_hirae__01
+#Path	Size (est.)
+/dev/fd/63	21707344.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/erysipelothrix_rhusiopathiae__01
+#Path	Size (est.)
+/dev/fd/63	22332884.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_albertii__01
+#Path	Size (est.)
+/dev/fd/63	35839996.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__01
+#Path	Size (est.)
+/dev/fd/63	168449792.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__02
+#Path	Size (est.)
+/dev/fd/63	312419776.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__03
+#Path	Size (est.)
+/dev/fd/63	213768144.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__04
+#Path	Size (est.)
+/dev/fd/63	138272960.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__05
+#Path	Size (est.)
+/dev/fd/63	239340832.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__06
+#Path	Size (est.)
+/dev/fd/63	136451088.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__07
+#Path	Size (est.)
+/dev/fd/63	147482832.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__08
+#Path	Size (est.)
+/dev/fd/63	277893600.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__09
+#Path	Size (est.)
+/dev/fd/63	164520976.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__10
+#Path	Size (est.)
+/dev/fd/63	155690416.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__11
+#Path	Size (est.)
+/dev/fd/63	181841920.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__12
+#Path	Size (est.)
+/dev/fd/63	154449664.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__13
+#Path	Size (est.)
+/dev/fd/63	214816160.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__14
+#Path	Size (est.)
+/dev/fd/63	187991312.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__15
+#Path	Size (est.)
+/dev/fd/63	150762656.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__16
+#Path	Size (est.)
+/dev/fd/63	146494112.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__17
+#Path	Size (est.)
+/dev/fd/63	140574048.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__18
+#Path	Size (est.)
+/dev/fd/63	141884432.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__19
+#Path	Size (est.)
+/dev/fd/63	175818000.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__20
+#Path	Size (est.)
+/dev/fd/63	205001280.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__21
+#Path	Size (est.)
+/dev/fd/63	163413424.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__22
+#Path	Size (est.)
+/dev/fd/63	169947760.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/escherichia_coli__23
+#Path	Size (est.)
+/dev/fd/63	75326760.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/eubacterium_hallii__01
+#Path	Size (est.)
+/dev/fd/63	180800032.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/flavobacterium_johnsoniae__01
+#Path	Size (est.)
+/dev/fd/63	243029328.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/glaesserella_parasuis__01
+#Path	Size (est.)
+/dev/fd/63	29646300.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/haemophilus_influenzae__01
+#Path	Size (est.)
+/dev/fd/63	54498816.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01
+#Path	Size (est.)
+/dev/fd/63	50280768.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/hungateiclostridium_thermocellum__01
+#Path	Size (est.)
+/dev/fd/63	17423378.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_aerogenes__01
+#Path	Size (est.)
+/dev/fd/63	64616392.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_oxytoca__01
+#Path	Size (est.)
+/dev/fd/63	125044528.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_pneumoniae__01
+#Path	Size (est.)
+/dev/fd/63	218758144.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_pneumoniae__02
+#Path	Size (est.)
+/dev/fd/63	197083264.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_pneumoniae__03
+#Path	Size (est.)
+/dev/fd/63	223474128.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_pneumoniae__04
+#Path	Size (est.)
+/dev/fd/63	112837280.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_quasipneumoniae__01
+#Path	Size (est.)
+/dev/fd/63	95782496.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/klebsiella_variicola__01
+#Path	Size (est.)
+/dev/fd/63	91801760.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/lactobacillus_casei__01
+#Path	Size (est.)
+/dev/fd/63	29080656.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/lactobacillus_plantarum__01
+#Path	Size (est.)
+/dev/fd/63	124351088.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/lactobacillus_rhamnosus__01
+#Path	Size (est.)
+/dev/fd/63	35495784.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/lactobacillus_salivarius__01
+#Path	Size (est.)
+/dev/fd/63	21911082.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/lactococcus_lactis__01
+#Path	Size (est.)
+/dev/fd/63	40628068.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/legionella_pneumophila__01
+#Path	Size (est.)
+/dev/fd/63	146708256.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/leptospira_interrogans__01
+#Path	Size (est.)
+/dev/fd/63	69837056.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/listeria_monocytogenes__01
+#Path	Size (est.)
+/dev/fd/63	46069084.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/listeria_monocytogenes__02
+#Path	Size (est.)
+/dev/fd/63	67097500.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/listeria_monocytogenes__03
+#Path	Size (est.)
+/dev/fd/63	76607040.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/listeria_monocytogenes__04
+#Path	Size (est.)
+/dev/fd/63	64310248.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/listeria_monocytogenes__05
+#Path	Size (est.)
+/dev/fd/63	109110016.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/listeria_monocytogenes__06
+#Path	Size (est.)
+/dev/fd/63	77641632.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/listeria_monocytogenes__07
+#Path	Size (est.)
+/dev/fd/63	31110038.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mannheimia_haemolytica__01
+#Path	Size (est.)
+/dev/fd/63	67366000.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mesorhizobium_ciceri__01
+#Path	Size (est.)
+/dev/fd/63	213006384.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/moraxella_catarrhalis__01
+#Path	Size (est.)
+/dev/fd/63	40819480.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/morganella_morganii__01
+#Path	Size (est.)
+/dev/fd/63	92748664.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_avium__01
+#Path	Size (est.)
+/dev/fd/63	527949728.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_bovis__01
+#Path	Size (est.)
+/dev/fd/63	8991777.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_chimaera__01
+#Path	Size (est.)
+/dev/fd/63	189113664.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_intracellulare__01
+#Path	Size (est.)
+/dev/fd/63	120519080.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_kansasii__01
+#Path	Size (est.)
+/dev/fd/63	158645184.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01
+#Path	Size (est.)
+/dev/fd/63	212738112.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__02
+#Path	Size (est.)
+/dev/fd/63	130080048.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__03
+#Path	Size (est.)
+/dev/fd/63	508730912.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__04
+#Path	Size (est.)
+/dev/fd/63	200019264.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__05
+#Path	Size (est.)
+/dev/fd/63	191255760.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__06
+#Path	Size (est.)
+/dev/fd/63	239203296.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__07
+#Path	Size (est.)
+/dev/fd/63	438626624.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__08
+#Path	Size (est.)
+/dev/fd/63	325284192.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__09
+#Path	Size (est.)
+/dev/fd/63	77325072.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__10
+#Path	Size (est.)
+/dev/fd/63	332991392.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__11
+#Path	Size (est.)
+/dev/fd/63	105624416.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__12
+#Path	Size (est.)
+/dev/fd/63	301108640.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__13
+#Path	Size (est.)
+/dev/fd/63	166303792.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacterium_ulcerans__01
+#Path	Size (est.)
+/dev/fd/63	32042012.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacteroides_abscessus__01
+#Path	Size (est.)
+/dev/fd/63	247841680.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycobacteroides_chelonae__01
+#Path	Size (est.)
+/dev/fd/63	146467232.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycolicibacterium_smegmatis__01
+#Path	Size (est.)
+/dev/fd/63	51303256.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycoplasma_bovis__01
+#Path	Size (est.)
+/dev/fd/63	7717111.50000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycoplasma_hyopneumoniae__01
+#Path	Size (est.)
+/dev/fd/63	8419097.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/mycoplasma_pneumoniae__01
+#Path	Size (est.)
+/dev/fd/63	1486920.12500000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_gonorrhoeae__01
+#Path	Size (est.)
+/dev/fd/63	65760752.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_gonorrhoeae__02
+#Path	Size (est.)
+/dev/fd/63	106137520.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_gonorrhoeae__03
+#Path	Size (est.)
+/dev/fd/63	5099066.50000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_lactamica__01
+#Path	Size (est.)
+/dev/fd/63	38578444.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_meningitidis__01
+#Path	Size (est.)
+/dev/fd/63	43610852.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_meningitidis__02
+#Path	Size (est.)
+/dev/fd/63	29147190.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_meningitidis__03
+#Path	Size (est.)
+/dev/fd/63	40216268.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_meningitidis__04
+#Path	Size (est.)
+/dev/fd/63	77668344.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_meningitidis__05
+#Path	Size (est.)
+/dev/fd/63	13407793.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/neisseria_subflava__01
+#Path	Size (est.)
+/dev/fd/63	39170744.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/oenococcus_oeni__01
+#Path	Size (est.)
+/dev/fd/63	4709021.50000000
+Processing: /Users/ktruong/data/661k/gziped_full/paenibacillus_larvae__01
+#Path	Size (est.)
+/dev/fd/63	11194978.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/pasteurella_multocida__01
+#Path	Size (est.)
+/dev/fd/63	30153710.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01
+#Path	Size (est.)
+/dev/fd/63	32104368.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/prochlorococcus_marinus__01
+#Path	Size (est.)
+/dev/fd/63	294275136.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/proteus_mirabilis__01
+#Path	Size (est.)
+/dev/fd/63	126665016.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01
+#Path	Size (est.)
+/dev/fd/63	246441568.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__02
+#Path	Size (est.)
+/dev/fd/63	214949696.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/pseudomonas_fluorescens__01
+#Path	Size (est.)
+/dev/fd/63	462261216.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/pseudomonas_putida__01
+#Path	Size (est.)
+/dev/fd/63	208791744.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/pseudomonas_syringae__01
+#Path	Size (est.)
+/dev/fd/63	88501584.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/rhizobium_leguminosarum__01
+#Path	Size (est.)
+/dev/fd/63	199816944.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/roseburia_hominis__01
+#Path	Size (est.)
+/dev/fd/63	220854224.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_bongori__01
+#Path	Size (est.)
+/dev/fd/63	15004150.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__01
+#Path	Size (est.)
+/dev/fd/63	99751304.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__02
+#Path	Size (est.)
+/dev/fd/63	143491312.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__03
+#Path	Size (est.)
+/dev/fd/63	130148328.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__04
+#Path	Size (est.)
+/dev/fd/63	98509840.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__05
+#Path	Size (est.)
+/dev/fd/63	102072648.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__06
+#Path	Size (est.)
+/dev/fd/63	188823152.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__07
+#Path	Size (est.)
+/dev/fd/63	146111216.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__08
+#Path	Size (est.)
+/dev/fd/63	168453664.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__09
+#Path	Size (est.)
+/dev/fd/63	164383136.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__10
+#Path	Size (est.)
+/dev/fd/63	134474768.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__11
+#Path	Size (est.)
+/dev/fd/63	168498688.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__12
+#Path	Size (est.)
+/dev/fd/63	295574560.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__13
+#Path	Size (est.)
+/dev/fd/63	279953856.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__14
+#Path	Size (est.)
+/dev/fd/63	108892464.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__15
+#Path	Size (est.)
+/dev/fd/63	115149080.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__16
+#Path	Size (est.)
+/dev/fd/63	204070912.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__17
+#Path	Size (est.)
+/dev/fd/63	155910688.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__18
+#Path	Size (est.)
+/dev/fd/63	121820632.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__19
+#Path	Size (est.)
+/dev/fd/63	139309152.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__20
+#Path	Size (est.)
+/dev/fd/63	107450128.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__21
+#Path	Size (est.)
+/dev/fd/63	177817424.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__22
+#Path	Size (est.)
+/dev/fd/63	119007696.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__23
+#Path	Size (est.)
+/dev/fd/63	108226464.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__24
+#Path	Size (est.)
+/dev/fd/63	167170224.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__25
+#Path	Size (est.)
+/dev/fd/63	105601064.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__26
+#Path	Size (est.)
+/dev/fd/63	92193512.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__27
+#Path	Size (est.)
+/dev/fd/63	106230648.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__28
+#Path	Size (est.)
+/dev/fd/63	165119040.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__29
+#Path	Size (est.)
+/dev/fd/63	125384040.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__30
+#Path	Size (est.)
+/dev/fd/63	102483632.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__31
+#Path	Size (est.)
+/dev/fd/63	97742824.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__32
+#Path	Size (est.)
+/dev/fd/63	104509880.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__33
+#Path	Size (est.)
+/dev/fd/63	85772936.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__34
+#Path	Size (est.)
+/dev/fd/63	141598592.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__35
+#Path	Size (est.)
+/dev/fd/63	110893776.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__36
+#Path	Size (est.)
+/dev/fd/63	159405808.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__37
+#Path	Size (est.)
+/dev/fd/63	194712288.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__38
+#Path	Size (est.)
+/dev/fd/63	189545472.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__39
+#Path	Size (est.)
+/dev/fd/63	230075440.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__40
+#Path	Size (est.)
+/dev/fd/63	202913024.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__41
+#Path	Size (est.)
+/dev/fd/63	121364720.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__42
+#Path	Size (est.)
+/dev/fd/63	92737920.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__43
+#Path	Size (est.)
+/dev/fd/63	136202416.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__44
+#Path	Size (est.)
+/dev/fd/63	147212080.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__45
+#Path	Size (est.)
+/dev/fd/63	101989632.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/salmonella_enterica__46
+#Path	Size (est.)
+/dev/fd/63	82495960.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/serratia_marcescens__01
+#Path	Size (est.)
+/dev/fd/63	123336232.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/shigella_dysenteriae__01
+#Path	Size (est.)
+/dev/fd/63	11512021.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/shigella_flexneri__01
+#Path	Size (est.)
+/dev/fd/63	25373928.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/sinorhizobium_meliloti__01
+#Path	Size (est.)
+/dev/fd/63	87607728.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_agnetis__01
+#Path	Size (est.)
+/dev/fd/63	20732688.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_argenteus__01
+#Path	Size (est.)
+/dev/fd/63	18271806.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01
+#Path	Size (est.)
+/dev/fd/63	103194880.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__02
+#Path	Size (est.)
+/dev/fd/63	25758026.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__03
+#Path	Size (est.)
+/dev/fd/63	40402036.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__04
+#Path	Size (est.)
+/dev/fd/63	43373772.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__05
+#Path	Size (est.)
+/dev/fd/63	47661200.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__06
+#Path	Size (est.)
+/dev/fd/63	71006160.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__07
+#Path	Size (est.)
+/dev/fd/63	101166384.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__08
+#Path	Size (est.)
+/dev/fd/63	71209168.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__09
+#Path	Size (est.)
+/dev/fd/63	69129304.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__10
+#Path	Size (est.)
+/dev/fd/63	199038896.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__11
+#Path	Size (est.)
+/dev/fd/63	215229312.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__12
+#Path	Size (est.)
+/dev/fd/63	286416256.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__13
+#Path	Size (est.)
+/dev/fd/63	10020357.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_capitis__01
+#Path	Size (est.)
+/dev/fd/63	25958796.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_epidermidis__01
+#Path	Size (est.)
+/dev/fd/63	111377672.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_haemolyticus__01
+#Path	Size (est.)
+/dev/fd/63	52647308.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_pseudintermedius__01
+#Path	Size (est.)
+/dev/fd/63	23394376.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/staphylococcus_sciuri__01
+#Path	Size (est.)
+/dev/fd/63	65476256.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/stenotrophomonas_maltophilia__01
+#Path	Size (est.)
+/dev/fd/63	307529088.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_agalactiae__01
+#Path	Size (est.)
+/dev/fd/63	196983920.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_agalactiae__02
+#Path	Size (est.)
+/dev/fd/63	48058184.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_agalactiae__03
+#Path	Size (est.)
+/dev/fd/63	46554864.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_dysgalactiae__01
+#Path	Size (est.)
+/dev/fd/63	50599352.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_equi__01
+#Path	Size (est.)
+/dev/fd/63	29624006.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_mitis__01
+#Path	Size (est.)
+/dev/fd/63	177012368.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_mutans__01
+#Path	Size (est.)
+/dev/fd/63	31591570.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_oralis__01
+#Path	Size (est.)
+/dev/fd/63	126744328.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__01
+#Path	Size (est.)
+/dev/fd/63	71010424.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__02
+#Path	Size (est.)
+/dev/fd/63	94319888.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__03
+#Path	Size (est.)
+/dev/fd/63	109171992.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__04
+#Path	Size (est.)
+/dev/fd/63	76616496.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__05
+#Path	Size (est.)
+/dev/fd/63	76188952.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__06
+#Path	Size (est.)
+/dev/fd/63	70851288.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__07
+#Path	Size (est.)
+/dev/fd/63	84379528.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__08
+#Path	Size (est.)
+/dev/fd/63	77025872.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__09
+#Path	Size (est.)
+/dev/fd/63	61201212.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__10
+#Path	Size (est.)
+/dev/fd/63	50177408.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__11
+#Path	Size (est.)
+/dev/fd/63	98054816.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__12
+#Path	Size (est.)
+/dev/fd/63	88106280.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pneumoniae__13
+#Path	Size (est.)
+/dev/fd/63	15256329.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pseudopneumoniae__01
+#Path	Size (est.)
+/dev/fd/63	21616850.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__01
+#Path	Size (est.)
+/dev/fd/63	83531280.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__02
+#Path	Size (est.)
+/dev/fd/63	49085800.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__03
+#Path	Size (est.)
+/dev/fd/63	47864900.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__04
+#Path	Size (est.)
+/dev/fd/63	33477530.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__05
+#Path	Size (est.)
+/dev/fd/63	9417716.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_sp_group_b__01
+#Path	Size (est.)
+/dev/fd/63	6337701.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_suis__01
+#Path	Size (est.)
+/dev/fd/63	124387640.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/streptococcus_uberis__01
+#Path	Size (est.)
+/dev/fd/63	19639226.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/taylorella_equigenitalis__01
+#Path	Size (est.)
+/dev/fd/63	5346078.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/treponema_pallidum__01
+#Path	Size (est.)
+/dev/fd/63	50935464.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/vibrio_cholerae__01
+#Path	Size (est.)
+/dev/fd/63	165954272.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/vibrio_cholerae__02
+#Path	Size (est.)
+/dev/fd/63	131541688.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/vibrio_parahaemolyticus__01
+#Path	Size (est.)
+/dev/fd/63	110343000.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/vibrio_shilonii__01
+#Path	Size (est.)
+/dev/fd/63	19904038.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/vibrio_vulnificus__01
+#Path	Size (est.)
+/dev/fd/63	79690648.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/wolbachia_endosymbiont_of_drosophila_melanogaster__01
+#Path	Size (est.)
+/dev/fd/63	1312887.25000000
+Processing: /Users/ktruong/data/661k/gziped_full/xanthomonas_oryzae__01
+#Path	Size (est.)
+/dev/fd/63	47483496.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/yersinia_enterocolitica__01
+#Path	Size (est.)
+/dev/fd/63	104364472.00000000
+Processing: /Users/ktruong/data/661k/gziped_full/yersinia_pestis__01
+#Path	Size (est.)
+/dev/fd/63	8080753.50000000
+Processing: /Users/ktruong/data/661k/gziped_full/yersinia_pseudotuberculosis__01
+#Path	Size (est.)
+/dev/fd/63	22969436.00000000

@@ -63,6 +63,3 @@ Dashing version: v1.0.2-4-g0635
 ```
 
 
-pigz for gziping is super fast
-
-find data/661k/4602622/ -type f -name '*.fa' -exec pigz -v {} \;

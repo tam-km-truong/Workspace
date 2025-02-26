@@ -21,3 +21,8 @@ du -ch --block-size=1M  ./* >> files_size.csv
 for d in /home/ktruong/Documents/data/tuberculosis/*; do ./dashing_s128 card -k 31 <(cat $d/*.fa); 
 done
 ```
+
+pigz for gziping is super fast
+```
+ find data/661k/4602622/ -type f -name '*.fa' -exec pigz -v {} \;
+```

@@ -4,109 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b275838d49e16f0",
+        "id": "e80fb78ebb39b628",
         "type": "tabs",
         "children": [
           {
-            "id": "e7c446c72d289344",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily_log/2024-12-17.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-12-17"
-            }
-          },
-          {
-            "id": "1612ea35d7457e91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily_log/2025-01-26.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-01-26"
-            }
-          },
-          {
-            "id": "635a307489dc14c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data"
-            }
-          },
-          {
-            "id": "e75025dace5b97c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command Line.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Command Line"
-            }
-          },
-          {
-            "id": "36c0b440aae7ebd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JellyFish paper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JellyFish paper"
-            }
-          },
-          {
-            "id": "092ceb4afbe92396",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dasing and dashing2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dasing and dashing2"
-            }
-          },
-          {
-            "id": "882453e9956f64f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily_log/2025-02-18.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-02-18"
-            }
-          },
-          {
-            "id": "f927c5be52e73bc6",
+            "id": "bd2d0663d9415174",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -119,8 +21,7 @@
               "title": "2025-02-26"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,18 +163,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f927c5be52e73bc6",
+  "active": "bd2d0663d9415174",
   "lastOpenFiles": [
-    "Command Line.md",
     "daily_log/2025-02-26.md",
-    "Misc.md",
-    "dasing and dashing2.md",
-    "daily_log/2025-02-20.md",
     "daily_log/2025-02-18.md",
+    "dasing and dashing2.md",
+    "JellyFish paper.md",
+    "Command Line.md",
+    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
+    "daily_log/2025-01-26.md",
+    "daily_log/2024-12-17.md",
+    "daily_log/2025-02-20.md",
+    "daily_log/2025-02-03.md",
+    "Misc.md",
     "miniphy2.md",
     "Burrow Wheeler Transform.md",
     "DanD.md",
-    "JellyFish paper.md",
     "Mash.md",
     "JellyFish2.md",
     "Vertical and horizontal inheritance.md",
@@ -284,14 +189,10 @@
     "Kmers counter.md",
     "Math.md",
     "MinHash.md",
-    "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
     "Allthebacteria.md",
     "Best practice of web development.md",
     "Untitled",
-    "daily_log/2025-02-03.md",
     "Mashtree.md",
-    "daily_log/2025-01-30.md",
-    "daily_log/2025-01-26.md",
     "daily_log",
     "images/Pasted image 20241211105420.png",
     "Command Line note",

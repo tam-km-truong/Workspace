@@ -17,7 +17,7 @@ This workspace contains scripts, notes, experiments, resources and other various
 - The shell scripts that I used for the prepare the input for the compression steps:
   - `estimate_cardinality.sh`: Estimating set cardinality.
   - `phylo_order.sh`: Phylogenetic tree ordering.
-  - `split_files.sh`: Splitting large datasets.
+  - `split_files.sh`: Splitting big text file into smaller one.
 
 ### 3️⃣ **Experiments**
 - Some experiments in python and (progressively) rust:

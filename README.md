@@ -1,27 +1,40 @@
-# Workspace
-MOVED TO OBSIDIAN VAULT
-### Week 18/11/2024
+# Research Project Directory
 
-Added experiment 003 extract genomes 
+This workspace contains scripts, notes, experiments, resources and other various stuffs related to my PhD research. 
 
-Look at sourmash - to do
+---
 
-Read Mash paper - make summary slide todo
+## 📖 Contents (the main one)
 
-Read Mashtree paper - make summary slide todo
+### 1️⃣ **Obsidian Vault**
+- My draft and notes on various topics, like:
+  - **Algorithms & Data Structures**: Bloom filters, Burrows-Wheeler Transform, MinHash, etc.
+  - **Software & Tools**: BIGSI, Jellyfish, Mash, Mashtree, Raptor, etc.
+  - **PhD Organization**: Some daily logs.
+  - **French Learning**: Notes for C1-level French.
+  
+### 2️⃣ **Bash Scripts**
+- The shell scripts that I used for the prepare the input for the compression steps:
+  - `estimate_cardinality.sh`: Estimating set cardinality.
+  - `phylo_order.sh`: Phylogenetic tree ordering.
+  - `split_files.sh`: Splitting large datasets.
 
-Added the new bakrep tsv metadata
+### 3️⃣ **Experiments**
+- Some experiments in python and (progressively) rust:
+  - `001_firstexperiment661k/`
+  - `005_extract_genomes_rust/`
+  - `008_attotree/`
+  - `011_sketching/`
 
-## Progress update week 11/11/2024
-### Litterature:
-BakRep – https://doi.org/10.1099/mgen.0.001305 - [slides](https://docs.google.com/presentation/d/1N2KbT2aS4WPdf0QO515IXsvLDOi0kjBaDPA9ab5Ceqw/edit?usp=sharing)
 
-661k - https://doi.org/10.1371/journal.pbio.3001421 - [slides]()
+### 4️⃣ **Files**
+- Metadata files for 661k collection (at the moment).
 
-Allthebacteria - https://doi.org/10.1101/2024.03.08.584059
+### 5️⃣ **Jupyter Notebooks**
+- Used for data visualization, analysis, and algorithm testing.
+- Some key notebooks:
+  - `phylo_bin_packing.ipynb`: Exploring bin packing for phylogenetic analysis.
+  - `phylo_compressed_size_661k_visualization_tuberculosis.ipynb`: Data visualization.
+  - `phylo_experiment_greedy.ipynb`: Algorithm evaluation.
 
-#### to do
 
-read [this](https://doi.org/10.1186/s13059-016-0997-x)
-
-Create a Genouest account

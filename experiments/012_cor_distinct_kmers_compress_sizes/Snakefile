@@ -1,0 +1,72 @@
+import os
+import glob
+
+# List all input text files dynamically
+input_files = glob.glob("input_folder/*.txt")  # Adjust "input_folder" to your actual path
+
+# Extract file names without extensions
+file_names = [f.split("/")[-1].replace(".txt", "") for f in input_files]
+
+
+# Load config file
+configfile: "experiments/012_cor_distinct_kmers_compress_sizes/config.yaml"
+
+rule all:
+    input:
+        expand("final_input_for_comp/{file}.txt", file=file_names)
+
+# Rule to run find_genome_paths.sh for genome files
+rule find_genome_paths:
+    input:
+        "input/{batch}.txt"
+    output:
+        "output/path_to_genome_files/{batch}.txt"
+    shell:
+        """
+        bash bash_scripts/find_genome_paths.sh {input} {config[genome_folder]} {output}
+        """
+
+# Rule to run find_genome_paths.sh for HLL sketches
+rule find_hll_paths:
+    input:
+        "input/{batch}.txt"
+    output:
+        "output/batches_hll_sketches/{batch}.txt"
+    shell:
+        """
+        bash bash_scripts/find_genome_paths.sh {input} {config[sketch_folder]} {output}
+        """
+
+# Rule to convert bin files into trees
+rule bin_to_tree:
+    input:
+        "output/path_to_genome_files/{batch}.txt"
+    output:
+        "output/batches_tree/{batch}.nw"
+    shell:
+        """
+        bash bash_scripts/bin_to_tree.sh {input} {output}
+        """
+
+# Rule to generate phylogenetic order
+rule extract_phylo_order:
+    input:
+        "output/batches_tree/{batch}.nw"
+    output:
+        "output/phylo_reorder/{batch}.txt"
+    shell:
+        """
+        bash bash_scripts/extract_phylo_order.sh {input} {output}
+        """
+
+# Rule to generate final input files for computational pipeline
+rule final_input:
+    input:
+        "output/phylo_reorder/{batch}.txt"
+    output:
+        "output/final_input_for_comp/{batch}.txt"
+    shell:
+        """
+        bash bash_scripts/find_genome_paths.sh {input} {config[genome_folder]} {output}
+        """
+

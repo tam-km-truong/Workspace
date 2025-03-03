@@ -3,9 +3,10 @@ jupyter_notebook/data/tuber_hll-balancing_full_genome_path
 jupyter_notebook/data/tuber_hll-binning_full_genome_path
 jupyter_notebook/output/
 jupyter_notebook/.DS_Store
-
+jupyter_notebook/data/sample_100_batches_50_gen
 jupyter_notebook/data/.DS_Store
 .DS_Store
 .DS_Store
 jupyter_notebook/data/.DS_Store
 jupyter_notebook/data/bakrep-export_18112024.tsv
+experiments/012_cor_distinct_kmers_compress_sizes/1_sample_batches

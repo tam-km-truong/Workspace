@@ -1,13 +1,28 @@
 #!/bin/bash
 
-# Define input and output directories
-INPUT_DIR="/Users/ktruong/workspace/Workspace/jupyter_notebook/data/tuber_hll-balancing_full_genome_path"
-OUTPUT_DIR="/Users/ktruong/data/tuber_balancing"
+# Check if correct number of arguments is provided
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <input_dir> <output_dir>"
+    exit 1
+fi
 
-# Loop over bin_00.txt to bin_23.txt
-for i in $(seq -w 0 23); do
-    INPUT_FILE="${INPUT_DIR}/bin_${i}.txt"
-    OUTPUT_FILE="${OUTPUT_DIR}/tree$((10#${i} + 1)).nw"
+# Read input arguments
+INPUT_DIR="$1"
+OUTPUT_DIR="$2"
+
+# Ensure output directory exists
+mkdir -p "$OUTPUT_DIR"
+
+# Process each text file in the input directory
+for INPUT_FILE in "$INPUT_DIR"/*.txt; do
+    # Check if there are no .txt files
+    [ -e "$INPUT_FILE" ] || { echo "No text files found in $INPUT_DIR"; exit 1; }
+
+    # Extract filename without extension
+    BASENAME=$(basename "$INPUT_FILE" .txt)
+    
+    # Define output file
+    OUTPUT_FILE="${OUTPUT_DIR}/tree_${BASENAME}.nw"
     
     # Run attotree
     attotree -L "$INPUT_FILE" -o "$OUTPUT_FILE"

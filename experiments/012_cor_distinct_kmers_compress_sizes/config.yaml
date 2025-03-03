@@ -1,0 +1,7 @@
+genome_folder: "/Users/ktruong/data/661k/gziped_full"
+sketch_folder: "/Users/ktruong/data/661k/hll_sketches_661k"
+output_path_to_genomes: "experiments/012_cor_distinct_kmers_compress_sizes/3_path_to_genome_files"
+output_batches_hll: "experiments/012_cor_distinct_kmers_compress_sizes/2_batches_hll_sketches"
+output_batches_tree: "experiments/012_cor_distinct_kmers_compress_sizes/4_batches_tree"
+output_phylo_reorder: "experiments/012_cor_distinct_kmers_compress_sizes/5_phylo_reorder"
+output_final_input: "experiments/012_cor_distinct_kmers_compress_sizes/6_final_input_for_compression"

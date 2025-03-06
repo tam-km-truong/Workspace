@@ -9,4 +9,12 @@ jupyter_notebook/data/.DS_Store
 .DS_Store
 jupyter_notebook/data/.DS_Store
 jupyter_notebook/data/bakrep-export_18112024.tsv
-experiments/012_cor_distinct_kmers_compress_sizes/1_sample_batches
+experiments/012_cor_distinct_kmers_compress_sizes/tmp/*
+experiments/012_cor_distinct_kmers_compress_sizes/input/*
+experiments/012_cor_distinct_kmers_compress_sizes/output/*
+.snakemake
+.DS_Store
+jupyter_notebook/.DS_Store
+jupyter_notebook/data/.DS_Store
+r_scripts/.Rhistory
+r_scripts/.RData

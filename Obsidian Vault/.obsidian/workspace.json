@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily_log/2025-02-20.md",
+                "file": "Command Line.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-20"
+              "title": "Command Line"
             }
           }
         ]
@@ -165,6 +165,7 @@
   },
   "active": "bd2d0663d9415174",
   "lastOpenFiles": [
+    "daily_log/2025-02-20.md",
     "daily_log/2025-02-26.md",
     "daily_log/2025-02-18.md",
     "dasing and dashing2.md",
@@ -173,7 +174,6 @@
     "BIGSI Ultra-fast search of all deposited bacterial and viral genomic data.md",
     "daily_log/2025-01-26.md",
     "daily_log/2024-12-17.md",
-    "daily_log/2025-02-20.md",
     "daily_log/2025-02-03.md",
     "Misc.md",
     "miniphy2.md",

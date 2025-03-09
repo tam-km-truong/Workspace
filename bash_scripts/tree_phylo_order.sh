@@ -14,15 +14,15 @@ OUTPUT_FOLDER="$2"
 mkdir -p "$OUTPUT_FOLDER"
 
 # Loop over each tree file in the folder
-for tree_file in "$TREE_FOLDER"/tree*.nw; do
+for tree_file in "$TREE_FOLDER"/*.nw; do
     # Check if there are no tree files
     [ -e "$tree_file" ] || { echo "No tree files found in $TREE_FOLDER"; exit 1; }
 
     # Extract the tree number (e.g., tree01.nw → 01)
-    tree_number=$(basename "$tree_file" | grep -o '[0-9]\+')
+    filename=$(basename "$tree_file" .nw )
 
     # Define output file
-    output_file="$OUTPUT_FOLDER/phylo_order_${tree_number}.txt"
+    output_file="$OUTPUT_FOLDER/phylo_order_${filename}.txt"
 
     # Process tree file and save output
     grep -o '[^,:()]*:' "$tree_file" | sed 's/:$//' | grep -Ev '^$' > "$output_file"

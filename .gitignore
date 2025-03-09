@@ -18,3 +18,7 @@ jupyter_notebook/.DS_Store
 jupyter_notebook/data/.DS_Store
 r_scripts/.Rhistory
 r_scripts/.RData
+files/compressed_100x50_batches/*
+experiments/013_phylo_tree_661k_batches/first_25
+experiments/013_phylo_tree_661k_batches/first_50
+experiments/013_phylo_tree_661k_batches/batches_reordered

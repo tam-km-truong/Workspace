@@ -31,7 +31,7 @@ for TXT_FILE in "$INPUT_FOLDER"/*.txt; do
     OUTPUT_FILE="${OUTPUT_FOLDER}/${FILE_NAME}.tar.xz"
 
     # Run the miniphy2 compress command
-    ./miniphy2 compress -p "${FILE_NAME}/" -lfo "$OUTPUT_FILE" "$TXT_FILE"
+    miniphy2 compress -lfo "$OUTPUT_FILE" "$TXT_FILE"
 
     echo "Compressed: $TXT_FILE -> $OUTPUT_FILE"
 done

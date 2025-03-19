@@ -35,7 +35,7 @@ def process_text_files(input_folder, genome_folder, output_folder):
     # Process each text file
     for text_file in glob.glob(os.path.join(input_folder, "*.txt")):
         output_file = os.path.join(output_folder, os.path.basename(text_file))
-
+        print(output_file)
         with open(text_file, "r") as infile, open(output_file, "w") as outfile:
             for line in infile:
                 genome_name = line.strip().split('.')[0]
@@ -52,6 +52,7 @@ def main():
     parser.add_argument("output_folder", help="Folder where output text files will be saved.")
     
     args = parser.parse_args()
+    print(args)
 
     # Process the text files with the provided arguments
     process_text_files(args.input_folder, args.genome_folder, args.output_folder)

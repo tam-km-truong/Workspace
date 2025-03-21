@@ -1,0 +1,110 @@
+INPUT_DIR = "experiments/019_version_2_snakemake_workflow/input"
+OUTPUT_DIR = "experiments/019_version_2_snakemake_workflow/output"
+TMP_DIR = "experiments/019_version_2_snakemake_workflow/tmp"
+GENOME_DIR = '/Users/ktruong/data/661k/gziped_full/'
+SKETCH_DIR = "/Users/ktruong/data/661k/hll_sketches_661k"
+
+# Use glob_wildcards to collect dataset names from input files
+datasets = glob_wildcards(INPUT_DIR+"/file.{dataset}.txt").dataset
+orders = ['random','accession','phylo'] 
+number_of_data_point = 20
+
+# Rule all: Automatically collects all datasets from input files
+rule all:
+    input:
+        # expand(TMP_DIR + "/bins/{dataset}/{order}/", dataset=datasets, order=orders),
+        # expand(TMP_DIR + "/sketches/{dataset}/{order}/", dataset=datasets, order=orders),
+        expand(OUTPUT_DIR + "/{dataset}/{order}/batches/", dataset=datasets, order=orders),
+        expand(OUTPUT_DIR + "/{dataset}/{order}/cardinalities.csv", dataset=datasets, order=orders)
+
+### Reordering via accession number
+rule reorder_accession:
+    input:
+        INPUT_DIR + "/file.{dataset}.txt"
+    output:
+        TMP_DIR + "/accession/{dataset}.accession.txt"
+    shell:
+        "sort {input} > {output}"
+
+### Reordering via ramdom shuffle
+rule reorder_random:
+    input:
+        INPUT_DIR + "/file.{dataset}.txt"
+    output:
+        TMP_DIR + "/random/{dataset}.random.txt"
+    shell:
+        "gshuf {input} > {output}"
+
+### Reordering via evolutionary distances
+rule find_genome_paths:
+    input:
+        INPUT_DIR + "/file.{dataset}.txt"
+    output:
+        TMP_DIR + "/datasets_prepend_genome_paths/{dataset}.full_path.txt"
+    shell:
+        """
+        python python_scripts/find_genome_paths.py {input} {GENOME_DIR} {output} --is_text
+        """
+
+rule calculate_tree:
+    input:
+        TMP_DIR + "/datasets_prepend_genome_paths/{dataset}.full_path.txt"
+    output:
+        TMP_DIR + "/trees/{dataset}.tree.nw"
+    shell:
+        "attotree -k 31 -L {input} -o {output}"
+
+rule phylo_order:
+    input:
+        TMP_DIR + "/trees/{dataset}.tree.nw"
+    output:
+        TMP_DIR + "/phylo/{dataset}.phylo.txt"
+    shell:
+        """
+        grep -o '[^,:()]*:' {input} | sed 's/:$//' | grep -Ev '^$' > {output}
+        """
+
+### Split the reordered datasets into bin
+rule splitting_into_bins_tmp:
+    input:
+        TMP_DIR + "/{order}/{dataset}.{order}.txt"
+    output:
+        directory(TMP_DIR + "/bins/{dataset}/{order}/")
+    params:
+        bin_number = number_of_data_point
+    shell:
+        """
+        python python_scripts/split_txt_into_increasing_sublists.py {input} {output} {params.bin_number}
+        """
+
+### get the sketch path
+rule prepend_genome_sketch_path:
+    input:
+        TMP_DIR + "/bins/{dataset}/{order}/"
+    output:
+        directory(TMP_DIR + "/sketches/{dataset}/{order}/")
+    shell:
+        """
+        python python_scripts/find_genome_paths.py {input} {SKETCH_DIR} {output}
+        """    
+
+### get the full path and output the batches
+rule prepend_genome_full_path_output:
+    input:
+        TMP_DIR + "/bins/{dataset}/{order}/"
+    output:
+        directory(OUTPUT_DIR + "/{dataset}/{order}/batches")
+    shell:
+        """
+        python python_scripts/find_genome_paths.py {input} {GENOME_DIR} {output}
+        """    
+
+rule compute_cardinalities:
+    input:
+        TMP_DIR + "/sketches/{dataset}/{order}/"
+    output:
+        OUTPUT_DIR + "/{dataset}/{order}/cardinalities.csv"
+    shell:
+        """
+        python python_scripts/calculate_batches_card.py {input} {output}
+        """

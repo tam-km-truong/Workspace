@@ -1,8 +1,8 @@
 # Snakefile
 
-INPUT_FOLDER = "experiments/012_IMPORTANT_snakemake_workflow/input"
-OUTPUT_FOLDER = "experiments/012_IMPORTANT_snakemake_workflow/output"
-TMP_FOLDER = "experiments/012_IMPORTANT_snakemake_workflow/tmp"
+INPUT_FOLDER = "experiments/012_version_1_IMPORTANT_snakemake_workflow/input"
+OUTPUT_FOLDER = "experiments/012_version_1_IMPORTANT_snakemake_workflow/output"
+TMP_FOLDER = "experiments/012_version_1_IMPORTANT_snakemake_workflow/tmp"
 GENOME_FOLDER = '/Users/ktruong/data/661k/gziped_full/'
 SKETCH_FOLDER = "/Users/ktruong/data/661k/hll_sketches_661k"
 

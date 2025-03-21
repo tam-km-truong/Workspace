@@ -3,23 +3,28 @@
 This workspace contains scripts, notes, experiments, resources and other various stuffs related to my PhD research. 
 
 ---
+## Requirements on Mac:
+```
+brew install coreutils
+```
 
-## 📖 Contents (the main one)
+## Contents (the main one)
 
-### 1️⃣ **Obsidian Vault**
+### **Obsidian Vault**
 - My draft and notes on various topics, like:
 
   
-### 2️⃣ **Bash Scripts**
+### **Bash Scripts**
 - The shell scripts that I used for the prepare the input for the compression steps:
 
 
-### 3️⃣ **Experiments**
+### **Experiments**
 - Some experiments in python and (progressively) rust:
 
 
-### 4️⃣ **Files**
+### **Files**
 - Metadata files for 661k collection (at the moment).
 
-### 5️⃣ **Jupyter Notebooks**
+### **Jupyter Notebooks**
 - Used for data visualization, analysis, and algorithm testing.
+

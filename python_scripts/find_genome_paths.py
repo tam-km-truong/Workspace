@@ -19,7 +19,7 @@ def find_genome_paths(genome_folder):
     
     return genome_paths
 
-def process_text_files(input_folder, genome_folder, output_folder):
+def process_text_files(input_path, genome_folder, output_path, is_text):
     """
     Reads input text files, replaces genome names with their full paths, and saves results.
 
@@ -27,14 +27,22 @@ def process_text_files(input_folder, genome_folder, output_folder):
     :param genome_folder: Folder containing genome files (*.fa, *.hll) in subdirectories.
     :param output_folder: Folder where output text files will be saved.
     """
-    os.makedirs(output_folder, exist_ok=True)
 
     # Get genome paths mapping
     genome_paths = find_genome_paths(genome_folder)
 
+    if is_text:
+        input_files = [input_path]
+    else:
+        os.makedirs(output_path, exist_ok=True)
+        input_files = glob.glob(os.path.join(input_path, "*.txt"))
+
     # Process each text file
-    for text_file in glob.glob(os.path.join(input_folder, "*.txt")):
-        output_file = os.path.join(output_folder, os.path.basename(text_file))
+    for text_file in input_files:
+        if is_text:
+            output_file = output_path
+        else:
+            output_file = os.path.join(output_path, os.path.basename(text_file))
         print(output_file)
         with open(text_file, "r") as infile, open(output_file, "w") as outfile:
             for line in infile:
@@ -50,12 +58,12 @@ def main():
     parser.add_argument("input_folder", help="Folder containing text files with genome names.")
     parser.add_argument("genome_folder", help="Folder containing genome files (*.fa, *.hll) in subdirectories.")
     parser.add_argument("output_folder", help="Folder where output text files will be saved.")
-    
-    args = parser.parse_args()
-    print(args)
+    parser.add_argument("--is_text", action="store_true", help="Input is a txt file")
+
+    args = parser.parse_args() 
 
     # Process the text files with the provided arguments
-    process_text_files(args.input_folder, args.genome_folder, args.output_folder)
+    process_text_files(args.input_folder, args.genome_folder, args.output_folder,args.is_text)
 
 if __name__ == "__main__":
     main()

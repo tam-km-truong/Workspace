@@ -12,10 +12,12 @@ number_of_data_point = 20
 # Rule all: Automatically collects all datasets from input files
 rule all:
     input:
-        # expand(TMP_DIR + "/bins/{dataset}/{order}/", dataset=datasets, order=orders),
-        # expand(TMP_DIR + "/sketches/{dataset}/{order}/", dataset=datasets, order=orders),
         expand(OUTPUT_DIR + "/{dataset}/{order}/batches/", dataset=datasets, order=orders),
-        expand(OUTPUT_DIR + "/{dataset}/{order}/cardinalities.csv", dataset=datasets, order=orders)
+        expand(OUTPUT_DIR + "/{dataset}/{order}/cardinalities.csv", dataset=datasets, order=orders),
+        expand(OUTPUT_DIR + "/{dataset}/accession_phylo/batches", dataset=datasets),
+        expand(OUTPUT_DIR + "/{dataset}/random_phylo/batches", dataset=datasets),
+        expand(OUTPUT_DIR + "/{dataset}/accession_phylo/cardinalities.csv", dataset=datasets),
+        expand(OUTPUT_DIR + "/{dataset}/random_phylo/cardinalities.csv", dataset=datasets)
 
 ### Reordering via accession number
 rule reorder_accession:
@@ -108,3 +110,88 @@ rule compute_cardinalities:
         """
         python python_scripts/calculate_batches_card.py {input} {output}
         """
+
+### calculate 2 additional combined orders
+
+#### compute trees
+rule reorder_accession_phylo_trees:
+    input:
+        OUTPUT_DIR + "/{dataset}/accession/batches"
+    output:
+        directory(TMP_DIR + "/accession_phylo/{dataset}/trees/") 
+    shell:
+        """
+        bash bash_scripts/bin_to_tree.sh {input} {output}
+        """
+
+rule reorder_random_phylo_trees:
+    input:
+        OUTPUT_DIR + "/{dataset}/random/batches"  # This will take the 'order' as a wildcard
+    output:
+        directory(TMP_DIR + "/random_phylo/{dataset}/trees/")
+    shell:
+        """
+        bash bash_scripts/bin_to_tree.sh {input} {output}
+        """
+
+#### process trees to bins
+rule reorder_accession_phylo_trees_to_batches:
+    input:
+        TMP_DIR + "/accession_phylo/{dataset}/trees/"
+    output:
+        directory(TMP_DIR + "/accession_phylo/{dataset}/batches/") 
+    shell:
+        """
+        bash bash_scripts/tree_phylo_order.sh {input} {output}
+        """
+
+rule reorder_random_phylo_trees_to_batches:
+    input:
+        TMP_DIR + "/random_phylo/{dataset}/trees/"
+    output:
+        directory(TMP_DIR + "/random_phylo/{dataset}/batches/") 
+    shell:
+        """
+        bash bash_scripts/tree_phylo_order.sh {input} {output}
+        """
+
+#### output new batches orders
+rule reorder_accession_phylo_output:
+    input:
+        TMP_DIR + "/accession_phylo/{dataset}/batches/"
+    output:
+        directory(OUTPUT_DIR + "/{dataset}/accession_phylo/batches")
+    shell:
+        """
+        python python_scripts/find_genome_paths.py {input} {GENOME_DIR} {output}
+        """
+
+rule reorder_random_phylo_output:
+    input:
+        TMP_DIR + "/random_phylo/{dataset}/trees/"
+    output:
+        directory(OUTPUT_DIR + "/{dataset}/random_phylo/batches")
+    shell:
+        """
+        python python_scripts/find_genome_paths.py {input} {GENOME_DIR} {output}
+        """
+
+#### copy the cardinalities to new ordering folder
+rule copy_cardinalities_accession_phylo:
+    input:
+        OUTPUT_DIR + "/{dataset}/accession/cardinalities.csv"
+    output:
+        OUTPUT_DIR + "/{dataset}/accession_phylo/cardinalities.csv"
+    shell:
+        "cp {input} {output}"
+
+rule copy_cardinalities_random_phylo:
+    input:
+        OUTPUT_DIR + "/{dataset}/random/cardinalities.csv"
+    output:
+        OUTPUT_DIR + "/{dataset}/random_phylo/cardinalities.csv"
+    shell:
+        "cp {input} {output}"
+
+
+

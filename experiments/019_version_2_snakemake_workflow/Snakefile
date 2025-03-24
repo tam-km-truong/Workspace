@@ -1,13 +1,28 @@
-INPUT_DIR = "experiments/019_version_2_snakemake_workflow/input"
-OUTPUT_DIR = "experiments/019_version_2_snakemake_workflow/output"
-TMP_DIR = "experiments/019_version_2_snakemake_workflow/tmp"
-GENOME_DIR = '/Users/ktruong/data/661k/gziped_full/'
-SKETCH_DIR = "/Users/ktruong/data/661k/hll_sketches_661k"
+#load configuration
+configfile: "experiments/019_version_2_snakemake_workflow/config.yaml"
+
+# Assign variables from config directories
+INPUT_DIR = config["INPUT_DIR"]
+OUTPUT_DIR = config["OUTPUT_DIR"]
+TMP_DIR = config["TMP_DIR"]
+CPR_DIR = config["CPR_DIR"]
+GENOME_DIR = config["GENOME_DIR"]
+SKETCH_DIR = config["SKETCH_DIR"]
 
 # Use glob_wildcards to collect dataset names from input files
 datasets = glob_wildcards(INPUT_DIR+"/file.{dataset}.txt").dataset
 orders = ['random','accession','phylo'] 
 number_of_data_point = 20
+
+# Only include compression in the `all` rule if enabled
+if config.get("enable_compression", False):
+    compression_targets = expand(CPR_DIR + "/{dataset}/{order}/", dataset=datasets, order=orders)
+    compression_targets_accession_phylo = expand(CPR_DIR + "/{dataset}/accession_phylo/", dataset=datasets)
+    compression_targets_random_phylo = expand(CPR_DIR + "/{dataset}/random_phylo/", dataset=datasets)
+else:
+    compression_targets = []
+    compression_targets_accession_phylo = []
+    compression_targets_random_phylo = []
 
 # Rule all: Automatically collects all datasets from input files
 rule all:
@@ -17,7 +32,11 @@ rule all:
         expand(OUTPUT_DIR + "/{dataset}/accession_phylo/batches", dataset=datasets),
         expand(OUTPUT_DIR + "/{dataset}/random_phylo/batches", dataset=datasets),
         expand(OUTPUT_DIR + "/{dataset}/accession_phylo/cardinalities.csv", dataset=datasets),
-        expand(OUTPUT_DIR + "/{dataset}/random_phylo/cardinalities.csv", dataset=datasets)
+        expand(OUTPUT_DIR + "/{dataset}/random_phylo/cardinalities.csv", dataset=datasets),
+        *compression_targets,
+        *compression_targets_accession_phylo,
+        *compression_targets_random_phylo,
+        expand(OUTPUT_DIR + "/{dataset}/{order}/cpr_size.{order}.csv",dataset=datasets,order=orders)
 
 ### Reordering via accession number
 rule reorder_accession:
@@ -168,7 +187,7 @@ rule reorder_accession_phylo_output:
 
 rule reorder_random_phylo_output:
     input:
-        TMP_DIR + "/random_phylo/{dataset}/trees/"
+        TMP_DIR + "/random_phylo/{dataset}/batches/"
     output:
         directory(OUTPUT_DIR + "/{dataset}/random_phylo/batches")
     shell:
@@ -193,5 +212,50 @@ rule copy_cardinalities_random_phylo:
     shell:
         "cp {input} {output}"
 
+#### manually compress the output folder
+rule compress_output_folder:
+    input:
+        OUTPUT_DIR + "/{dataset}/{order}/batches/"
+    output:
+        directory(CPR_DIR + "/{dataset}/{order}/") 
+    shell:
+        """
+            bash_scripts/miniphy2_compress_files.sh {input} {output}
+        """
 
+# rule compress_output_accession_phylo:
+#     input:
+#         OUTPUT_DIR + "/{dataset}/accession_phylo/batches/"
+#     output:
+#         directory(CPR_DIR + "/{dataset}/accession_phylo/") 
+#     shell:
+#         """
+#             bash_scripts/miniphy2_compress_files.sh {input} {output}
+#         """
 
+# rule compress_output_random_phylo:
+#     input:
+#         OUTPUT_DIR + "/{dataset}/random_phylo/batches/"
+#     output:
+#         directory(CPR_DIR + "/{dataset}/random_phylo/") 
+#     shell:
+#         """
+#             bash_scripts/miniphy2_compress_files.sh {input} {output}
+#         """
+
+#### calculate size
+rule compute_compressed_size:
+    input:
+        CPR_DIR + "/{dataset}/{order}/"
+    output:
+        # old_output = OUTPUT_DIR + "/{dataset}/{order}/cpr_size.{order}.csv",
+        OUTPUT_DIR + "/{dataset}/{order}/cpr_size.{order}.csv"
+    # shell:
+    #     """
+    #     rm {output.old_output}
+    #     du -m {input} > {output.new_output}
+    #     """
+    shell:
+        """
+        find {input} -type f -exec du -m {{}} + | awk '{{print $2 "," $1}}' > {output}
+        """

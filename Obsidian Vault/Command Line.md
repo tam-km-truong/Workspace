@@ -26,3 +26,6 @@ pigz for gziping is super fast
 ```
  find data/661k/4602622/ -type f -name '*.fa' -exec pigz -v {} \;
 ```
+
+
+du -c -m  $(cat experiments/019_version_2_snakemake_workflow/tmp/datasets_prepend_genome_paths/Salmonella_enterica.full_path.txt) | tail -1 | awk '{print $1}'

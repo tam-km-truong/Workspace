@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily_log/2025-03-11.md",
+                "file": "Command Line.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-11"
+              "title": "Command Line"
             }
           }
         ],
@@ -180,9 +180,10 @@
   },
   "active": "c6176dd4d3d5c0eb",
   "lastOpenFiles": [
+    "daily_log/2025-03-23.md",
+    "daily_log/2025-03-11.md",
     "daily_log/2025-03-10.md",
     "daily_log/2025-02-26.md",
-    "daily_log/2025-03-11.md",
     "Command Line.md",
     "daily_log/2025-02-20.md",
     "daily_log/2025-02-18.md",
@@ -206,7 +207,6 @@
     "Kmers counter.md",
     "Math.md",
     "MinHash.md",
-    "Allthebacteria.md",
     "Untitled",
     "daily_log",
     "images/Pasted image 20241211105420.png",

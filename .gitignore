@@ -36,3 +36,4 @@ files/species_mix
 experiments/019_version_2_snakemake_workflow/input/*
 experiments/019_version_2_snakemake_workflow/output
 experiments/019_version_2_snakemake_workflow/tmp
+experiments/019_version_2_snakemake_workflow/cpr_output

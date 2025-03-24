@@ -1,0 +1,9 @@
+#tell the workflow whether to compress the output
+enable_compression: false
+#directory
+INPUT_DIR: "experiments/019_version_2_snakemake_workflow/input"
+OUTPUT_DIR: "experiments/019_version_2_snakemake_workflow/output"
+TMP_DIR: "experiments/019_version_2_snakemake_workflow/tmp"
+CPR_DIR: "experiments/019_version_2_snakemake_workflow/cpr_output"
+GENOME_DIR: "/Users/ktruong/data/661k/gziped_full/"
+SKETCH_DIR: "/Users/ktruong/data/661k/hll_sketches_661k"

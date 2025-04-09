@@ -37,3 +37,5 @@ experiments/019_version_2_snakemake_workflow/input/*
 experiments/019_version_2_snakemake_workflow/output
 experiments/019_version_2_snakemake_workflow/tmp
 experiments/019_version_2_snakemake_workflow/cpr_output
+experiments/021_20000_genomes_experiment
+experiments/022_predict_compression_sizes

@@ -36,7 +36,9 @@ rule all:
         *compression_targets,
         *compression_targets_accession_phylo,
         *compression_targets_random_phylo,
-        expand(OUTPUT_DIR + "/{dataset}/{order}/cpr_size.{order}.csv",dataset=datasets,order=orders)
+        expand(OUTPUT_DIR + "/{dataset}/{order}/cpr_size.{order}.csv",dataset=datasets,order=orders),
+        expand(OUTPUT_DIR + "/{dataset}/accession_phylo/cpr_size.accession_phylo.csv",dataset=datasets,order=orders),
+        expand(OUTPUT_DIR + "/{dataset}/random_phylo/cpr_size.random_phylo.csv",dataset=datasets,order=orders)
 
 ### Reordering via accession number
 rule reorder_accession:

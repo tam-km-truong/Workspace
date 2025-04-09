@@ -1,0 +1,4 @@
+Snakefile Directory: /Users/ktruong/anaconda3/lib/python3.12/site-packages/snakemake
+Input Directory: /Users/ktruong/anaconda3/lib/python3.12/site-packages/snakemake/input
+Output Directory: /Users/ktruong/anaconda3/lib/python3.12/site-packages/snakemake/output
+Temporary Directory: /Users/ktruong/anaconda3/lib/python3.12/site-packages/snakemake/tmp

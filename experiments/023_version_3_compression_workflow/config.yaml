@@ -1,0 +1,5 @@
+#directory
+INPUT_DIR: "experiments/023_version_3_compression_workflow/input"
+OUTPUT_DIR: "experiments/023_version_3_compression_workflow/output"
+TMP_DIR: "experiments/023_version_3_compression_workflow/tmp"
+TOOLS_DIR: "experiments/023_version_3_compression_workflow/tools"

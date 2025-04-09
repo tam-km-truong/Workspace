@@ -3,6 +3,22 @@
 library(tidyverse) 
 library(geomtextpath)
 
+compute_equation <- function(df, x, y) {
+  
+  lm_df <- lm(y ~ x, data = df)
+  slope_df <- coef(lm_df)[2]
+  intercept_df <- coef(lm_df)[1]
+  if (intercept_df<0) {
+    equation_df <- paste("y = ", round(slope_df,3), 
+                         "x -", round(intercept_df*-1, 3))
+  } else {
+    equation_df <- paste("y = ", round(slope_df,3), 
+                         "x +", round(intercept_df, 3))
+  }
+  
+  return(equation_df)
+}
+
 df_cpr <- read_tsv("./jupyter_notebook/data/csv/661k_compressed_size.csv",col_names = c("size_MB", "name"))
 df_cpr <- df_cpr %>% filter(name != "total") 
 df_cpr <- df_cpr %>% filter(name != "./_md5.txt") 
@@ -18,11 +34,35 @@ distinct_31mers_batches <- distinct_31mers_batches %>% filter(batches != "")
 # Merge datasets based on species names
 merged_df <- inner_join(df_cpr, distinct_31mers_batches, by = c("name" = "batches"))
 merged_df$distinct_31mers <- as.numeric(merged_df$distinct_31mers)
+merged_df$distinct_31mers <- merged_df$distinct_31mers/1e+6
 ecoli <- merged_df %>%filter(species == "dustbin")
 popular_species <- c("dustbin", "escherichia_coli",'mycobacterium_tuberculosis',
                      'salmonella_enterica','streptococcus_pneumoniae','staphylococcus_aureus')
 
 df_popular <- merged_df %>%filter(species %in% popular_species)
+df_dustbin <- merged_df %>%filter(species == "dustbin")
+df_escherichia_coli <- merged_df %>%filter(species == "escherichia_coli")
+df_mycobacterium_tuberculosis <- merged_df %>%filter(species == "mycobacterium_tuberculosis")
+df_salmonella_enterica<- merged_df %>%filter(species == "salmonella_enterica")
+df_staphylococcus_aureus<- merged_df %>%filter(species == "staphylococcus_aureus")
+df_streptococcus_pneumoniae <- merged_df %>%filter(species == "streptococcus_pneumoniae")
+
+eq_dustbin<-compute_equation(df_dustbin,df_dustbin$distinct_31mers,df_dustbin$size_MB)
+eq_escherichia_coli<-compute_equation(df_escherichia_coli,
+                                      df_escherichia_coli$distinct_31mers,df_escherichia_coli$size_MB)
+eq_mycobacterium_tuberculosis<-compute_equation(df_mycobacterium_tuberculosis,
+                                                df_mycobacterium_tuberculosis$distinct_31mers,df_mycobacterium_tuberculosis$size_MB)
+eq_salmonella_enterica<-compute_equation(df_salmonella_enterica,
+                             df_salmonella_enterica$distinct_31mers,df_salmonella_enterica$size_MB)
+eq_staphylococcus_aureus<-compute_equation(df_staphylococcus_aureus,
+                             df_staphylococcus_aureus$distinct_31mers,df_staphylococcus_aureus$size_MB)
+eq_streptococcus_pneumoniae<-compute_equation(df_streptococcus_pneumoniae,
+                                              df_streptococcus_pneumoniae$distinct_31mers,df_streptococcus_pneumoniae$size_MB)
+
+equations<- list(eq_dustbin,eq_escherichia_coli,eq_mycobacterium_tuberculosis,eq_salmonella_enterica,
+                 eq_staphylococcus_aureus,eq_streptococcus_pneumoniae)
+
+colors<- list("red","gold","green","cyan","blue","pink")
 
 correlations <- df_popular %>%
   group_by(species) %>%
@@ -34,7 +74,7 @@ plot1<-ggplot(df_popular, aes(x = distinct_31mers, y = size_MB, color = species)
   geom_labelsmooth(aes(label = species), fill = "white",
                    method = "lm", formula = y ~ x,
                    size = 3, linewidth = 1, boxlinewidth = 0.4) +
-  xlim(0, 2070000000) +
+  xlim(0, 2070) +
   ylim(0, 550) +
   theme_minimal(base_size = 14) +
   theme(
@@ -42,28 +82,38 @@ plot1<-ggplot(df_popular, aes(x = distinct_31mers, y = size_MB, color = species)
     axis.line = element_line(linewidth = 1.2)
   ) +
   labs(
-    x = "Distinct Kmers",
-    y = "Size(MB)",
+    x = "Distinct Kmers (M)",
+    y = "Size (MB)",
     title = "Compressed Size vs Distinct Kmers Count - 661k Collection",
     color = "Species"
   )+
   theme(legend.position = c(0.95, 0.05),  # Bottom right
         legend.justification = c(1, 0)) 
+
+# Add correlation and equation text at the top
+y_positions <- seq(50 * 1.9, 50 * 0.3, length.out = length(equations))
+for (i in seq_along(equations)) {
+  plot1 <- plot1 +
+    annotate("text", x = 1600, y = y_positions[i], 
+             label = paste0(equations[[i]]), 
+             color = colors[[i]], size = 5, hjust = 1, fontface = "bold")
+}
+
 plot1
 
-plot2<-ggplot(merged_df, aes(x = distinct_31mers, y = size_MB)) +
-  geom_point(shape = 20, size = 3) +  # Marker '2' (matches Python's '2' marker)
-  xlim(0, 2070000000) +
-  ylim(0, 550) +
-  theme_minimal(base_size = 14) +
-  theme(
-    panel.border = element_blank(),
-    axis.line = element_line(linewidth = 1.2)
-  ) +
-  labs(
-    x = "Distinct Kmers",
-    y = "Size(MB)",
-    title = "Compressed Size vs Distinct Kmers Count - 661k Collection",
-  )
-plot2
+# plot2<-ggplot(merged_df, aes(x = distinct_31mers, y = size_MB)) +
+#   geom_point(shape = 20, size = 3) +  # Marker '2' (matches Python's '2' marker)
+#   xlim(0, 2070000000) +
+#   ylim(0, 550) +
+#   theme_minimal(base_size = 14) +
+#   theme(
+#     panel.border = element_blank(),
+#     axis.line = element_line(linewidth = 1.2)
+#   ) +
+#   labs(
+#     x = "Distinct Kmers",
+#     y = "Size(MB)",
+#     title = "Compressed Size vs Distinct Kmers Count - 661k Collection",
+#   )
+# plot2
 

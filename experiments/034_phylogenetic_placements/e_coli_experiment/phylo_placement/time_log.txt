@@ -1,0 +1,1 @@
+43892.52s user 12483.29s system 1141% cpu 1:22:20.46 total

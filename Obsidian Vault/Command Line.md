@@ -29,3 +29,27 @@ pigz for gziping is super fast
 
 
 du -c -m  $(cat experiments/019_version_2_snakemake_workflow/tmp/datasets_prepend_genome_paths/Salmonella_enterica.full_path.txt) | tail -1 | awk '{print $1}'
+
+`split -n l/10 -d --additional-suffix=.txt input.txt part_`
+
+
+### This gives you the **outer difference of file1 minus file2** without needing to sort. 
+
+```bash
+grep -Fxv -f file2.txt file1.txt > file3.txt
+```
+
+### ✅ Explanation:
+
+- `-F`: fixed string match
+    
+- `-x`: match entire lines
+    
+- `-v`: invert match (i.e., select lines **not** in file2)
+    
+- `-f file2.txt`: use file2 as the pattern list
+
+python python_scripts/postprocess_tree.py --standardize --midpoint-outgroup --ladderize --name-internals -l ~/leave/leaves_order.txt -n ~/node/nodes_order.txt ~/tree/tree.nw ~/tree/tree.std.nw
+
+
+python experiments/034_phylogenetic_placements/compute_distance_matrix.py experiments/034_phylogenetic_placements/small_sample/reference_genomes/tree/leaves_order_with_path.txt.msh experiments/034_phylogenetic_placements/small_sample/query_genomes/s_enterica_queries_10.txt -l

@@ -1,0 +1,1412 @@
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00000666.fa.gz
+/Users/ktruong/data/661k/gziped_full/cronobacter_sakazakii__01/SAMD00000584.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__13/SAMD00000756.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__03/SAMD00000344.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_epidermidis__01/SAMD00000611.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__09/SAMD00000757.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__13/SAMD00000758.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_anthracis__01/SAMD00002588.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_anthracis__01/SAMD00002587.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_anthracis__01/SAMD00002589.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_anthracis__01/SAMD00002591.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__09/SAMD00002590.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00002680.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_anthracis__01/SAMD00002592.fa.gz
+/Users/ktruong/data/661k/gziped_full/erysipelothrix_rhusiopathiae__01/SAMD00002690.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_epidermidis__01/SAMD00003128.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_hirae__01/SAMD00003168.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_equi__01/SAMD00002788.fa.gz
+/Users/ktruong/data/661k/gziped_full/serratia_marcescens__01/SAMD00003354.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00003398.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__17/SAMD00003774.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00003510.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003785.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00000665.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_anthracis__01/SAMD00002586.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003788.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003789.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003790.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003787.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__06/SAMD00000759.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003784.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__04/SAMD00003801.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00003829.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003792.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00003831.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00003830.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__08/SAMD00003825.fa.gz
+/Users/ktruong/data/661k/gziped_full/shigella_dysenteriae__01/SAMD00004015.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00003348.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00004084.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004184.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004185.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004186.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00004061.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004189.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004190.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004188.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004193.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004192.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004194.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004191.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004196.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004197.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004195.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00004207.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00004208.fa.gz
+/Users/ktruong/data/661k/gziped_full/burkholderia_gladioli__01/SAMD00004209.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004198.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00004187.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006164.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00003791.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006167.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006169.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006168.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006170.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006174.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006175.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006171.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006173.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006177.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006176.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006180.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006181.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006182.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006184.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006185.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006186.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006187.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006191.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006188.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006193.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006195.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006194.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006196.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006197.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006198.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006192.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006199.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006201.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006200.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006203.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006202.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006205.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006204.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006207.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006206.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006183.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006210.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006213.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006209.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006208.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006216.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006214.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006217.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006215.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006218.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006220.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006225.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006219.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006221.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00006242.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00006244.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00006243.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00006245.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__21/SAMD00006305.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00006367.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00006246.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00008601.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00008607.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00008610.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00008619.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00008602.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006224.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00008621.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00008620.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00008622.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00008623.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00008652.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00008651.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__13/SAMD00008646.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00008654.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00008653.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00008655.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00008656.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__19/SAMD00008675.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacteroides_abscessus__01/SAMD00008660.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__22/SAMD00008729.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00008734.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00009115.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00009201.fa.gz
+/Users/ktruong/data/661k/gziped_full/vibrio_cholerae__01/SAMD00008852.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__17/SAMD00009251.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009253.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009255.fa.gz
+/Users/ktruong/data/661k/gziped_full/aeromonas_hydrophila__01/SAMD00009252.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009256.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009257.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009258.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009259.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009260.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009254.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_albertii__01/SAMD00006172.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009261.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009262.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009263.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009264.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009265.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009267.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009270.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009268.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009271.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009273.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009274.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009275.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009276.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009277.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009272.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009269.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009279.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009280.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009282.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009278.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009281.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009285.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009286.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009284.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009287.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009288.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009290.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009289.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009292.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009291.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009293.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009283.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009295.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009296.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009297.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__21/SAMD00009328.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009340.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009298.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009294.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__01/SAMD00009380.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009489.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__09/SAMD00009484.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009490.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009491.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009493.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009492.fa.gz
+/Users/ktruong/data/661k/gziped_full/vibrio_parahaemolyticus__01/SAMD00009556.fa.gz
+/Users/ktruong/data/661k/gziped_full/vibrio_parahaemolyticus__01/SAMD00009557.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009494.fa.gz
+/Users/ktruong/data/661k/gziped_full/vibrio_parahaemolyticus__01/SAMD00009558.fa.gz
+/Users/ktruong/data/661k/gziped_full/vibrio_parahaemolyticus__01/SAMD00009559.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__08/SAMD00009750.fa.gz
+/Users/ktruong/data/661k/gziped_full/vibrio_parahaemolyticus__01/SAMD00009560.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00009488.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00009906.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00009751.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00010117.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__20/SAMD00009966.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00010118.fa.gz
+/Users/ktruong/data/661k/gziped_full/staphylococcus_aureus__01/SAMD00010867.fa.gz
+/Users/ktruong/data/661k/gziped_full/burkholderia_cenocepacia__01/SAMD00010711.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__06/SAMD00011648.fa.gz
+/Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__01/SAMD00012244.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00012179.fa.gz
+/Users/ktruong/data/661k/gziped_full/aeromonas_salmonicida__01/SAMD00011627.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00009907.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00012322.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00012380.fa.gz
+/Users/ktruong/data/661k/gziped_full/campylobacter_jejuni__01/SAMD00012245.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__06/SAMD00012414.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__22/SAMD00012381.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00012440.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00012490.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__20/SAMD00012612.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__04/SAMD00012415.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__12/SAMD00012416.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012620.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012622.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012623.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012621.fa.gz
+/Users/ktruong/data/661k/gziped_full/morganella_morganii__01/SAMD00012489.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012624.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012627.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012625.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012626.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012629.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012628.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012633.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012634.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012635.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012632.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00012941.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013250.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013252.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013251.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013253.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00012636.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013255.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013256.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013258.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013257.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013259.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013260.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013254.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013261.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013266.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013267.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013268.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013271.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013269.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013270.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013272.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013274.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013275.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013273.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013277.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013279.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013276.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013280.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013281.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013282.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013278.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013284.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013283.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013285.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013294.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013293.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013290.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013296.fa.gz
+/Users/ktruong/data/661k/gziped_full/haemophilus_influenzae__01/SAMD00013303.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013304.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__14/SAMD00013305.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013286.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_avium__01/SAMD00013336.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00013333.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013338.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013339.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_avium__01/SAMD00013337.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013341.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013340.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013343.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013342.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013295.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013344.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013345.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_suis__01/SAMD00009266.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013347.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013349.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013351.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013353.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013352.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013348.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013355.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013356.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013357.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013346.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013358.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__07/SAMD00013658.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00013702.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00013770.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013350.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00013772.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00013773.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00013774.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00013775.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00013771.fa.gz
+/Users/ktruong/data/661k/gziped_full/haemophilus_influenzae__01/SAMD00013854.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00013803.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00015695.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__04/SAMD00013964.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013657.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__03/SAMD00015762.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00015696.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00015845.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00015846.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__20/SAMD00016558.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00016610.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00016702.fa.gz
+/Users/ktruong/data/661k/gziped_full/cronobacter_sakazakii__01/SAMD00016352.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00015847.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00016621.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00016730.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_fluorescens__01/SAMD00016706.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00016997.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00016996.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00016998.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00016999.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00017001.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00017002.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00017003.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00017004.fa.gz
+/Users/ktruong/data/661k/gziped_full/clostridium_botulinum__01/SAMD00017000.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017694.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00013354.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017695.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017696.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017697.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017698.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017700.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017699.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017693.fa.gz
+/Users/ktruong/data/661k/gziped_full/morganella_morganii__01/SAMD00016705.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018447.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018449.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018446.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00017701.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018451.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018453.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018448.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018454.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018450.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018456.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018458.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018455.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018457.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018459.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018460.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018463.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018461.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018478.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018480.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018481.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018482.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018462.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018479.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018499.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018483.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018500.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018503.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018501.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018504.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018506.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018505.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018507.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018502.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018508.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018509.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018510.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018512.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00018452.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018515.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018514.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018516.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018517.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018513.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018511.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018518.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018520.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018521.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018522.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018524.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018525.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018519.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018527.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018529.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018530.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018526.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018531.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018528.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018532.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018533.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018534.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018536.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018538.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018537.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018535.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018540.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018539.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018523.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018544.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018541.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018543.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018548.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018545.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018542.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018702.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018703.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018705.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018546.fa.gz
+/Users/ktruong/data/661k/gziped_full/porphyromonas_gingivalis__01/SAMD00018547.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018706.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018708.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018710.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018711.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018704.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018713.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018714.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018712.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018716.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018715.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018718.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018719.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018707.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018717.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018720.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018721.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018723.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018724.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018726.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018727.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018709.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018728.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018722.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018729.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018732.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018734.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018733.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018735.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018736.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018737.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018731.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018738.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018739.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018741.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018730.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__17/SAMD00018763.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018725.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00018740.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019005.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019006.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019009.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019008.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019011.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019012.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019010.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019014.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019016.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019018.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019017.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019007.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019019.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019020.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019013.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019022.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019021.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019025.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019023.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019028.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019029.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019030.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019032.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019024.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019033.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019031.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019036.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019037.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019035.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019039.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019040.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019034.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019042.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019038.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019043.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019045.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019046.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019044.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019041.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019047.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019050.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019051.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__06/SAMD00019048.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019049.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019052.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019053.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019055.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019054.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019056.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019058.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019057.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019060.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019061.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019059.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019063.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019064.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019062.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019065.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019066.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019069.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019067.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019071.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019070.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019073.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019074.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019072.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019075.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019076.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019584.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019585.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019586.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00019068.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019587.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019588.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019589.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019592.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019591.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019594.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019593.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019596.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019595.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019590.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019597.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019602.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019600.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019604.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019601.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019606.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019605.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019607.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019608.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019609.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019611.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019612.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019610.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019614.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019615.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019617.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019616.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019618.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019613.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019603.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019620.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019621.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019622.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019619.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019624.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019625.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019626.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019627.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019628.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019629.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019631.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019632.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019630.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019633.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019634.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019623.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019636.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019637.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019635.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019639.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019640.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019642.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019643.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019641.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019645.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019646.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019647.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019648.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019649.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019644.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019956.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019957.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019958.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019959.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019955.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019960.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019962.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019961.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019964.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019963.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019965.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__01/SAMD00019638.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019968.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019967.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019969.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019971.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019966.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019973.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019972.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019974.fa.gz
+/Users/ktruong/data/661k/gziped_full/helicobacter_pylori__01/SAMD00019970.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00020274.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019015.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00020275.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__01/SAMD00020390.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__01/SAMD00020392.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__01/SAMD00020393.fa.gz
+/Users/ktruong/data/661k/gziped_full/burkholderia_contaminans__01/SAMD00022934.fa.gz
+/Users/ktruong/data/661k/gziped_full/streptococcus_pyogenes__01/SAMD00020391.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__01/SAMD00020941.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022935.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022937.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022938.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022936.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022940.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022939.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022941.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022942.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022943.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022944.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022946.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022947.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022945.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__22/SAMD00020308.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022949.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022948.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00022950.fa.gz
+/Users/ktruong/data/661k/gziped_full/mycobacterium_tuberculosis__01/SAMD00023386.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_putida__01/SAMD00023457.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__13/SAMD00023459.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_fluorescens__01/SAMD00023455.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__10/SAMD00023460.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__20/SAMD00023461.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__20/SAMD00023458.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__01/SAMD00023456.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__20/SAMD00023462.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024983.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__04/SAMD00023464.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00019975.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_putida__01/SAMD00023463.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024984.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00003832.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024986.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024988.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024993.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024991.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024985.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024987.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024992.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024994.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024996.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024990.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024989.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00025001.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00025000.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00025006.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00025005.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00025011.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00025189.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00025191.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00025192.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00025190.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00025193.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00025194.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00025010.fa.gz
+/Users/ktruong/data/661k/gziped_full/bacillus_subtilis__01/SAMD00025195.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__11/SAMD00025410.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__11/SAMD00025409.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00025408.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00025413.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__13/SAMD00027161.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__11/SAMD00025411.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00025412.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__15/SAMD00025414.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__04/SAMD00027162.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__03/SAMD00027163.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024995.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027188.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027187.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027190.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027189.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027192.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027193.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027191.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027196.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027194.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027195.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027197.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027198.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__21/SAMD00027201.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__18/SAMD00024999.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__16/SAMD00027371.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027199.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027200.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028838.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028840.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028839.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028843.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028842.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028844.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028845.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028848.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028846.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028849.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028850.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028841.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__13/SAMD00027372.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028847.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028852.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028853.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00027186.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028854.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028858.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028856.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028851.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028859.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028857.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028864.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028863.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028862.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028866.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028865.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028867.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028870.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028869.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028871.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028872.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028874.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028855.fa.gz
+/Users/ktruong/data/661k/gziped_full/stenotrophomonas_maltophilia__01/SAMD00028877.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028873.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028878.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028879.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028875.fa.gz
+/Users/ktruong/data/661k/gziped_full/stenotrophomonas_maltophilia__01/SAMD00028880.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028881.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028882.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028868.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028884.fa.gz
+/Users/ktruong/data/661k/gziped_full/dustbin__05/SAMD00029048.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028885.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029119.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029118.fa.gz
+/Users/ktruong/data/661k/gziped_full/acinetobacter_baumannii__01/SAMD00028883.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029122.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029124.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029125.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029121.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029126.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029127.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029128.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029123.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029130.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029131.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029120.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029134.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029133.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029136.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029139.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029135.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029138.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029137.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029146.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029147.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029148.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029140.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029150.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029149.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029151.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029132.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029153.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029152.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029155.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029157.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029154.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029159.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029158.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029160.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029161.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029163.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029162.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029156.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029164.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029165.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029129.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029167.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029169.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029170.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029172.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029171.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029174.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029173.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029175.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029177.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029178.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029176.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029180.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029168.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029181.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029182.fa.gz
+/Users/ktruong/data/661k/gziped_full/enterococcus_faecium__01/SAMD00029166.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029183.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029184.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029186.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029188.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029185.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029190.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029189.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029191.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029187.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029194.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029195.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029193.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029192.fa.gz
+/Users/ktruong/data/661k/gziped_full/escherichia_coli__01/SAMD00029197.fa.gz
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND
+Invalid path (not found): NOT_FOUND

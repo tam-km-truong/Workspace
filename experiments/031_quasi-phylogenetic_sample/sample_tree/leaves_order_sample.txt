@@ -1,0 +1,10 @@
+experiments/031_quasi-phylogenetic/sample_fastas/SAMN05788062.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMN02194460.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMEA104719793.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMN07659470.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMEA3448369.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMEA2661022.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMN00728495.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMEA1317640.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMN05661072.fa.gz
+experiments/031_quasi-phylogenetic/sample_fastas/SAMN02194963.fa.gz

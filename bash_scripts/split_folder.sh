@@ -25,19 +25,28 @@ if [ "$NUM_FILES" -eq 0 ]; then
     exit 1
 fi
 
-# Calculate how many files per subdir (approximate)
-FILES_PER_SUBDIR=$(( (NUM_FILES + NUM_SUBDIRS - 1) / NUM_SUBDIRS ))  # Ceiling division
+# Calculate digits needed for padding
+DIGITS=${#NUM_SUBDIRS}
 
-# Create subdirectories and distribute files
+# Calculate base and extra counts
+BASE_COUNT=$((NUM_FILES / NUM_SUBDIRS))
+EXTRA_FILES=$((NUM_FILES % NUM_SUBDIRS))
+
+INDEX=0
 for ((i=0; i<NUM_SUBDIRS; i++)); do
-    SUBDIR="${FOLDER}/subdir_$((i+1))"
+    SUBDIR_NUM=$(printf "%0${DIGITS}d" $((i+1)))
+    SUBDIR="${FOLDER}/part_${SUBDIR_NUM}"
     mkdir -p "$SUBDIR"
     
-    # Move files to the subdir
-    for ((j=0; j<FILES_PER_SUBDIR && ${#FILES[@]}>0; j++)); do
-        mv "${FILES[0]}" "$SUBDIR/"
-        FILES=("${FILES[@]:1}")  # Remove moved file from array
+    FILE_COUNT=$BASE_COUNT
+    if [ "$i" -lt "$EXTRA_FILES" ]; then
+        FILE_COUNT=$((FILE_COUNT + 1))
+    fi
+
+    for ((j=0; j<FILE_COUNT; j++)); do
+        mv "${FILES[INDEX]}" "$SUBDIR/"
+        INDEX=$((INDEX + 1))
     done
 done
 
-echo "Files split into $NUM_SUBDIRS subdirectories."
+echo "Files split into $NUM_SUBDIRS subdirectories (named subdir_$(printf "%0${DIGITS}d" 1) to subdir_$(printf "%0${DIGITS}d" $NUM_SUBDIRS))."

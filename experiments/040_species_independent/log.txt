@@ -1,0 +1,22 @@
+time grep -Fxv -f experiments/040_species_independent/random_selection_strategy/random_64233.txt experiments/040_species_independent/all_genomes_661k.csv > experiments/040_species_independent/random_selection_strategy/queries.txt
+
+real	131m44.099s
+user	131m37.702s
+sys	0m5.623s
+
+time grep -Fxv -f experiments/040_species_independent/end_accession_selection_strategy/end_of_accession_range.txt experiments/040_species_independent/all_genomes_661k.csv > experiments/040_species_independent/end_accession_selection_strategy/queries.txt
+
+real	130m6.763s
+user	130m0.784s
+sys	0m5.211s
+
+time python experiments/034_phylogenetic_placements/compute_distance_matrix.py experiments/040_species_independent/end_accession_selection_strategy/references/ref_00.msh experiments/040_species_independent/end_accession_selection_strategy/queries.path.txt  -l -o experiments/040_species_independent/end_accession_selection_strategy/queries_00.csv -v -t 10
+
+real	2501m32.065s
+user	14701m32.506s
+sys	8782m35.688s
+
+sketch size 1k
+real	432m22.480s
+user	3912m32.002s
+sys	1174m3.545s

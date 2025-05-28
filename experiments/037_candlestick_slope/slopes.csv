@@ -1,0 +1,7 @@
+,random,accession,random_phylo,accession_phylo,phylo
+Staphylococus_aureus,0.963,0.78,0.49,0.52,0.33
+Escherichia_coli,1.885,1.422,0.952,0.813,0.699
+Mycobacterium_tuberculosis,0.337,0.348,0.296,0.294,0.283
+Campylobacter_D_jejuni,0.859,0.706,0.57,0.516,0.387
+Salmonella_enterica,1.426,1.067,0.651,0.545,0.368
+Streptococcus_pneumoniae,0.896,0.593,0.646,0.465,0.237

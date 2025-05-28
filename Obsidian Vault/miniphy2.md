@@ -55,3 +55,70 @@ vec!["/tmp/my_tmp_dir/file1.fa", "/tmp/my_tmp_dir/file2.fa"]
 );
 
 }
+
+
+error on the clusters 
+
+        ./miniphy2 compress -p 'batch_035/' -lfo /projects/reall/tam/data/661k/taxo_independent/batches_4000_compressed_result/batch_035.tar.xz /projects/reall/tam/data/661k/taxo_independent/batches_4000/subdir_1/batch_035.txt
+
+        (command exited with non-zero exit code)
+
+[Sun May 25 09:04:58 2025]
+
+Error in rule compress_batch:
+
+    message: None
+
+    jobid: 72
+
+    input: /projects/reall/tam/data/661k/taxo_independent/batches_4000/subdir_1/batch_021.txt
+
+    output: /projects/reall/tam/data/661k/taxo_independent/batches_4000_compressed_result/batch_021.tar.xz
+
+    shell:
+
+        ./miniphy2 compress -p 'batch_021/' -lfo /projects/reall/tam/data/661k/taxo_independent/batches_4000_compressed_result/batch_021.tar.xz /projects/reall/tam/data/661k/taxo_independent/batches_4000/subdir_1/batch_021.txt
+
+        (command exited with non-zero exit code)
+
+[Sun May 25 09:04:58 2025]
+
+Error in rule compress_batch:
+
+    message: None
+
+    jobid: 65
+
+    input: /projects/reall/tam/data/661k/taxo_independent/batches_4000/subdir_1/batch_037.txt
+
+    output: /projects/reall/tam/data/661k/taxo_independent/batches_4000_compressed_result/batch_037.tar.xz
+
+    shell:
+
+        ./miniphy2 compress -p 'batch_037/' -lfo /projects/reall/tam/data/661k/taxo_independent/batches_4000_compressed_result/batch_037.tar.xz /projects/reall/tam/data/661k/taxo_independent/batches_4000/subdir_1/batch_037.txt
+
+        (command exited with non-zero exit code)
+
+[Sun May 25 09:04:58 2025]
+
+Error in rule compress_batch:
+
+    message: None
+
+    jobid: 2
+
+    input: /projects/reall/tam/data/661k/taxo_independent/batches_4000/subdir_1/batch_057.txt
+
+    output: /projects/reall/tam/data/661k/taxo_independent/batches_4000_compressed_result/batch_057.tar.xz
+
+    shell:
+
+        ./miniphy2 compress -p 'batch_057/' -lfo /projects/reall/tam/data/661k/taxo_independent/batches_4000_compressed_result/batch_057.tar.xz /projects/reall/tam/data/661k/taxo_independent/batches_4000/subdir_1/batch_057.txt
+
+        (command exited with non-zero exit code)
+
+Complete log(s): /projects/reall/tam/tools/miniphy2/.snakemake/log/2025-05-25T090455.078179.snakemake.log
+
+WorkflowError:
+
+At least one job did not complete successfully.

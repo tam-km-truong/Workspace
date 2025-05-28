@@ -1,0 +1,6 @@
+/Users/ktruong/data/661k/mycobacterium_tuberculosis/SAMN02586091.fa
+/Users/ktruong/data/661k/mycobacterium_tuberculosis/SAMN09756160.fa
+/Users/ktruong/data/661k/mycobacterium_tuberculosis/SAMN07956556.fa
+/Users/ktruong/data/661k/mycobacterium_tuberculosis/SAMN05575957.fa
+/Users/ktruong/data/661k/mycobacterium_tuberculosis/SAMEA2682705.fa
+/Users/ktruong/data/661k/mycobacterium_tuberculosis/SAMN08613015.fa

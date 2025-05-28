@@ -63,9 +63,9 @@ compute_equation <- function(df, x, y) {
   return(equation_df)
 }
 
-species = "Staphylococcus_aureus"
+species = "Streptococcus_pneumoniae"
 replace_outliers = FALSE
-replace_outliers = TRUE
+# replace_outliers = TRUE
 
 adjust_annotation_x = 1
 adjust_annotation_y = 0.45
@@ -150,8 +150,8 @@ p <- ggplot()
 for (data in datasets) {
   p <- p +
     geom_point(data = data$df, aes(x = cardinality, y = size_MB), shape = 4, size = 2, color = data$color) +
-    # geom_text_repel(data = data$df, aes(x = cardinality, y = size_MB, label = filename), 
-    #                 size = 2, color = data$color) +
+    geom_text_repel(data = data$df, aes(x = cardinality, y = size_MB, label = filename),
+                    size = 2, color = data$color) +
     geom_labelsmooth(data = data$df, aes(x = cardinality, y = size_MB, label = ""), 
                      fill = "white", color = data$color, method = "lm", formula = y ~ x, 
                      size =3, linewidth = 0.5, boxlinewidth = 0.4)

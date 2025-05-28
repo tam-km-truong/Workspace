@@ -1,0 +1,10 @@
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__17/SAMN05013724.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__07/SAMN02314175.fa.gz
+/Users/ktruong/data/661k/gziped_full/pseudomonas_aeruginosa__02/SAMN07719073.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__38/SAMN09433715.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__11/SAMN03464507.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__18/SAMN05596813.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__38/SAMN09435059.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__33/SAMN08629956.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__26/SAMN07450804.fa.gz
+/Users/ktruong/data/661k/gziped_full/salmonella_enterica__44/SAMN10104852.fa.gz

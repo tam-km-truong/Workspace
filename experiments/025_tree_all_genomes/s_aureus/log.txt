@@ -1,0 +1,14 @@
+[attotree] 2025-04-17 14:59:07 Attotree starting
+[attotree] 2025-04-17 14:59:07 None
+[attotree] 2025-04-17 14:59:07 /var/folders/wc/cwdkw_2j08vd3c_wq6wzy68jjjljpb/T/tmpgpu93kce
+[attotree] 2025-04-17 14:59:07 Creating a temporary directory /var/folders/wc/cwdkw_2j08vd3c_wq6wzy68jjjljpb/T/tmpgpu93kce
+[attotree] 2025-04-17 14:59:07 Running Mash
+[attotree] 2025-04-17 14:59:07 Shell command: 'mash triangle -s 10000 -k 21 -p 10 -l /v...'
+Max p-value: 0
+[attotree] 2025-04-17 18:44:53 Finished: 'mash triangle -s 10000 -k 21 -p 10 -l /v...'
+[attotree] 2025-04-17 18:45:00 Running Quicktree
+[attotree] 2025-04-17 18:45:00 Shell command: 'quicktree -in m /var/folders/wc/cwdkw_2j...'
+[attotree] 2025-04-18 01:52:03 Finished: 'quicktree -in m /var/folders/wc/cwdkw_2j...'
+[attotree] 2025-04-18 01:52:03 Postprocessing tree
+[attotree] 2025-04-18 01:52:03 Deleting the temporary directory /var/folders/wc/cwdkw_2j08vd3c_wq6wzy68jjjljpb/T/tmpgpu93kce
+[attotree] 2025-04-18 01:52:03 Attotree finished

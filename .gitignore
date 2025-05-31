@@ -75,3 +75,9 @@ experiments/034_phylogenetic_placements/e_coli_experiment/distance_matrix_ecoli.
 experiments/034_phylogenetic_placements/e_coli_experiment/phylo_placement/dist_matrix.csv
 experiments/040_species_independent/end_accession_selection_strategy/queries_06_bis.csv
 experiments/040_species_independent/end_accession_selection_strategy/queries.csv
+experiments/041_salmonella_enterica_phylo_order/min_names/*.txt
+experiments/041_salmonella_enterica_phylo_order/min_values/*.txt
+experiments/041_salmonella_enterica_phylo_order/parts/*.txt
+experiments/041_salmonella_enterica_phylo_order/distances/*.csv
+.ipynb_checkpoints
+invalid_paths.txt

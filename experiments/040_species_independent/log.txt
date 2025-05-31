@@ -20,3 +20,5 @@ sketch size 1k
 real	432m22.480s
 user	3912m32.002s
 sys	1174m3.545s
+
+make snakemake args="--config input_dir=/projects/reall/tam/data/661k/taxo_independent/batches_2500/subdir_1/ output_dir=/projects/reall/tam/data/661k/taxo_independent/batches_2500_result_with_2nd_reordering/ --cores 50 -n"

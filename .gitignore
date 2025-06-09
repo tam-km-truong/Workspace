@@ -81,3 +81,17 @@ experiments/041_salmonella_enterica_phylo_order/parts/*.txt
 experiments/041_salmonella_enterica_phylo_order/distances/*.csv
 .ipynb_checkpoints
 invalid_paths.txt
+experiments/041_salmonella_enterica_phylo_order/leave_groups/*.txt
+experiments/040_species_independent/end_accession_selection_strategy/phylo_orders/batches_4000_hll_path/*.txt
+experiments/040_species_independent/end_accession_selection_strategy/phylo_orders/batches_4000_leaves/*.txt
+experiments/040_species_independent/end_accession_selection_strategy/phylo_orders/batches_4000_leaves_path/*.txt
+experiments/040_species_independent/end_accession_selection_strategy/phylo_orders/batches_4000_nodes/*.txt
+experiments/041_salmonella_enterica_phylo_order/leave_groups_path/*.txt
+experiments/042_661k_per_species_fully_phylo_compression/batches/*.txt
+*.txt
+*.hll
+*.csv
+!experiments/045_selection_strategy_experiments/queries/without_path/*.txt
+!experiments/045_selection_strategy_experiments/references/without_path/*.txt
+!experiments/045_selection_strategy_experiments/first_reordering/without_path/*.txt
+!experiments/041_salmonella_enterica_phylo_order/references.txt

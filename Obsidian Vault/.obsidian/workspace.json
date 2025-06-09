@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "outer difference of txt file 1 and file 2.md",
+                "file": "split and gsplit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "outer difference of txt file 1 and file 2"
+              "title": "split and gsplit"
             }
           }
         ],
@@ -183,21 +183,22 @@
   },
   "active": "8dc6c30eaae4cadd",
   "lastOpenFiles": [
+    "sed command.md",
+    "miniphy2.md",
+    "miniphy2 workflow requirements.md",
+    "split and gsplit.md",
     "Command Line.md",
+    "dasing and dashing2.md",
+    "outer difference of txt file 1 and file 2.md",
     "Mash.md",
     "Math.md",
     "Mean Squared Error (MSE) and Similar Techniques.md",
     "Misc.md",
-    "sed command.md",
-    "split and gsplit.md",
-    "miniphy2.md",
-    "miniphy2 workflow requirements.md",
     "Backpressure control.md",
     "daily_log/2025-05-19.md",
     "Issues miniphy2 workflow.md",
     "MapReduce.md",
     "Mashtree.md",
-    "outer difference of txt file 1 and file 2.md",
     "Online Courses.md",
     "Rust.md",
     "Vertical and horizontal inheritance.md",
@@ -208,7 +209,6 @@
     "awk command.md",
     "Attotree.md",
     "daily_log/2025-04-30.md",
-    "add sketches path.md",
     "images/Pasted image 20250328125212.png",
     "images/Pasted image 20250204182405.png",
     "Untitled",

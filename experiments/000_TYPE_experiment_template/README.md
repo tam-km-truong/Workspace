@@ -4,3 +4,4 @@
 2. PROG: a prototype program, or a general purpose scripts
 2. PLOT: designing plot
 4. EXPE: experiment, test a hypothesis or a tools
+5. WRKFLW: a snakemake workflow

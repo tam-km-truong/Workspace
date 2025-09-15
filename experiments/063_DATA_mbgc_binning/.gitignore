@@ -1,0 +1,3 @@
+!*.csv
+!batches_ecoli_50mb_100600050/bins/*.txt
+!results.txt

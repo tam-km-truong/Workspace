@@ -1,0 +1,1 @@
+./bash_scripts/psplit.sh experiments/056_selection_percentage_WORKFLOW/species_clusters/Escherichia_coli_661k.txt 10 experiments/056_selection_percentage_WORKFLOW/references_selection/e_coli/10

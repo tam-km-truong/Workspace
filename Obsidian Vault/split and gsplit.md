@@ -49,12 +49,13 @@ split [OPTION]... [INPUT [PREFIX]]
 - Split into files with numeric suffix and `.txt` extension:
     
     ```bash
-    split -n l/4 -d --additional-suffix=.txt input.txt chunk_
+	split -n l/4 -d --additional-suffix=.txt input.txt chunk_
     ```
 
  Split into files cut at 4000 line and 2 digits with numeric suffix and `.txt` extension:
     
-    ```bash
-    split -l 4000 -d -a 2 --additional-suffix=.txt input.txt part_
-    ```
+    
+```bash
+	gsplit -l 4000 -d -a 2 --additional-suffix=.txt input.txt batches/batch_
+```
     

@@ -17,23 +17,29 @@ def get_cardinality(sketch):
     result = result.stdout.strip().split('\t')[-1]
     return float(result)
 
-def merge_sketches(sketches):
+def merge_sketches(sketches, max_per_call=500):
     """
-    Merge multiple HLL sketches into a single sketch using a single `dashing union` command.
-
-    :param sketches: List of sketch file paths.
-    :return: Path to the final merged sketch.
+    Merge multiple HLL sketches into a single sketch using `dashing union`,
+    splitting into chunks if too many arguments.
     """
     if len(sketches) == 1:
-        return sketches[0]  # No merging needed
+        return sketches[0]
 
-    # Create a temporary file for merged sketch
-    merged_sketch = tempfile.NamedTemporaryFile(suffix=".hll", delete=False).name
+    def _run_union(sketch_list):
+        merged = tempfile.NamedTemporaryFile(suffix=".hll", delete=False).name
+        cmd = ["dashing", "union", "-o", merged] + sketch_list
+        subprocess.run(cmd, check=True)
+        return merged
 
-    # Run dashing union in one command
-    subprocess.run(["dashing", "union", "-o", merged_sketch] + sketches, check=True)
+    if len(sketches) <= max_per_call:
+        return _run_union(sketches)
 
-    return merged_sketch
+    # Split into chunks and merge recursively
+    intermediates = []
+    for i in range(0, len(sketches), max_per_call):
+        intermediates.append(_run_union(sketches[i:i + max_per_call]))
+
+    return merge_sketches(intermediates, max_per_call)
 
 def process_sketch_files(input_folder, output_csv):
     """

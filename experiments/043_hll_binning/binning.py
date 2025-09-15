@@ -79,7 +79,7 @@ def firstfit_hyperloglog(bin_capacity, sketch_files, output_dir):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python bin_hll.py <threshold> <hll_list.txt> <output_folder>")
+        print("Usage: python binning.py <threshold> <hll_list.txt> <output_folder>")
         sys.exit(1)
 
     bin_capacity = float(sys.argv[1])
@@ -99,7 +99,8 @@ if __name__ == "__main__":
     # Write each bin's genome names to output/bin/bin_{i}.txt
     bin_dir = os.path.join(output_folder, "bins")
     os.makedirs(bin_dir, exist_ok=True)
+    width = len(str(len(bins) - 1))
     for i, bin_content in enumerate(bins):
-        with open(os.path.join(bin_dir, f"batch_{i}.txt"), "w") as bf:
+        with open(os.path.join(bin_dir, f"batch_{i:0{width}d}.txt"), "w") as bf:
             for genome in bin_content:
                 bf.write(f"{genome}\n")

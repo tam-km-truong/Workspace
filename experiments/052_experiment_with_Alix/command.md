@@ -1,0 +1,1 @@
+while IFS= read -r line; do name=$(basename $line .fa.gz);  mash sketch $line -o experiments/052_experiment_with_Alix/sketches/$name -s 10000; done < experiments/052_experiment_with_Alix/batches/fof_tam.path.txt

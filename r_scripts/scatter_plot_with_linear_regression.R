@@ -9,11 +9,11 @@ compute_equation <- function(df, x, y) {
   slope_df <- coef(lm_df)[2]
   intercept_df <- coef(lm_df)[1]
   if (intercept_df<0) {
-    equation_df <- paste("y = ", round(slope_df,3), 
-                         "x -", round(intercept_df*-1, 3))
+    equation_df <- paste("y = ", round(slope_df,5), 
+                         "x -", round(intercept_df*-1, 5))
   } else {
-    equation_df <- paste("y = ", round(slope_df,3), 
-                         "x +", round(intercept_df, 3))
+    equation_df <- paste("y = ", round(slope_df,5), 
+                         "x +", round(intercept_df, 5))
   }
   
   return(equation_df)
@@ -73,7 +73,7 @@ plot1<-ggplot(df_popular, aes(x = distinct_31mers, y = size_MB, color = species)
   geom_point(shape = 18, size = 4)+
   geom_labelsmooth(aes(label = species), fill = "white",
                    method = "lm", formula = y ~ x,
-                   size = 3, linewidth = 1, boxlinewidth = 0.4) +
+                   size = 3, linewidth = 1, boxlinewidth = 0.2) +
   xlim(0, 2070) +
   ylim(0, 550) +
   theme_minimal(base_size = 14) +
@@ -91,10 +91,10 @@ plot1<-ggplot(df_popular, aes(x = distinct_31mers, y = size_MB, color = species)
         legend.justification = c(1, 0)) 
 
 # Add correlation and equation text at the top
-y_positions <- seq(50 * 1.9, 50 * 0.3, length.out = length(equations))
+y_positions <- seq(80 * 1.9, 50 * 0.3, length.out = length(equations))
 for (i in seq_along(equations)) {
   plot1 <- plot1 +
-    annotate("text", x = 1600, y = y_positions[i], 
+    annotate("text", x = 1500, y = y_positions[i], 
              label = paste0(equations[[i]]), 
              color = colors[[i]], size = 5, hjust = 1, fontface = "bold")
 }

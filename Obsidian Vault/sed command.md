@@ -85,3 +85,32 @@ This pipeline does the following:
 |Chain with `grep`/`tail`|Use `|
 
 Let me know if you want to wrap these in a shell script or apply them to folders/files dynamically.
+Sure! Here's a cleaner and more formal version of that expression:
+
+$$
+C(b_j) = \text{size}(\text{compress}(b_j))
+$$
+
+### Alternatives:
+
+* If you want a more mathematical look:
+
+  $$
+  C(b_j) = \left| \text{compress}(b_j) \right|
+  $$
+
+  where $|\cdot|$ denotes the size (e.g. in bytes or bits).
+
+* If you define `compress` as a function:
+
+  $$
+  \text{compress}: \mathcal{P}(G) \to \{0,1\}^*
+  $$
+
+  then:
+
+  $$
+  C(b_j) = \text{length}(\text{compress}(b_j))
+  $$
+
+for f in /projects/reall/tam/data/ATB_experiments/048_s_enterica_skeleton_strat/batches/subdir_*/*.txt; do sed -i 's|^|/projects/reall/tam/data/ATB/Uncompressed/s_enterica/original_batches|' $f; done

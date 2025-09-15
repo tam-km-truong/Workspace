@@ -1,0 +1,3 @@
+phylopack preorder experiments/062_nth_accession_preorder/input/escherichia_coli.txt --cut-point 0.999 -o experiments/062_nth_accession_preorder/preorder/e_coli_50th_accession.txt --statistic -v --splitting-scheme nth-accession --nth 50  
+phylopack preorder experiments/062_nth_accession_preorder/input/escherichia_coli.txt --cut-point 0.999 -o experiments/062_nth_accession_preorder/preorder/e_coli_25th_accession.txt --statistic -v --splitting-scheme nth-accession --nth 25
+phylopack preorder experiments/062_nth_accession_preorder/input/escherichia_coli.txt --cut-point 0.999 -o experiments/062_nth_accession_preorder/preorder/e_coli_10th_accession.txt --statistic -v --splitting-scheme nth-accession --nth 10    

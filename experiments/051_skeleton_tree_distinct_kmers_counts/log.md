@@ -1,0 +1,5 @@
+time python experiments/051_skeleton_tree_distinct_kmers_counts/estimate_cumulative_kmers.py experiments/051_skeleton_tree_distinct_kmers_counts/input/file.Salmonella_enterica_all.txt experiments/051_skeleton_tree_distinct_kmers_counts/output/661k_salmonella_enterica_cumul.txt
+
+real	383m55.609s
+user	87m58.684s
+sys	47m48.432s

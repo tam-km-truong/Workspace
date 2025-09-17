@@ -1,0 +1,4 @@
+/projects/reall/tam/data/661k/uncompressed_fastas/SAMN04562591.fa.gz
+/projects/reall/tam/data/661k/uncompressed_fastas/SAMN05660006.fa.gz
+/projects/reall/tam/data/661k/uncompressed_fastas/SAMEA4470416.fa.gz
+/projects/reall/tam/data/661k/uncompressed_fastas/SAMEA3641097.fa.gz

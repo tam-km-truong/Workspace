@@ -1,0 +1,13 @@
+Category,Key,Value
+parameter,input,/scratch/ktruong/data/661k/benchmark_attotree/fof/ecoli_15000.txt
+parameter,output,/scratch/ktruong/data/661k/benchmark_attotree/ecoli_15000/phylopack_tmp
+parameter,cut_point,0.9999
+parameter,seed,1757591626
+parameter,splitting_scheme,random
+parameter,nth,
+parameter,reference_count,14998
+parameter,remaining_count,2
+timing,total.wall_time,0.0384
+timing,total.user_time,0.01
+timing,total.system_time,0.01
+resource,max_rss_MB,44.07

@@ -1,6 +1,4 @@
-!data/
-!data/ecoli_/*
-!data/ecoli_/*/*
-!data/fof/*
-!results/
+!data/**
+*.msh
+!results/**
 remains_leaf_order_distance.tsv

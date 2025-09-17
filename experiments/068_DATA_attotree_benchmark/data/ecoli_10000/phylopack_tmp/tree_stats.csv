@@ -1,0 +1,13 @@
+Category,Key,Value
+parameter,input,/scratch/ktruong/data/661k/benchmark_attotree/ecoli_10000/phylopack_tmp/references.txt
+parameter,output,/scratch/ktruong/data/661k/benchmark_attotree/ecoli_10000/phylopack_tmp
+parameter,k,21
+parameter,sketch_size,10000
+parameter,threads,25
+parameter,method,nj
+timing,total.wall_time,1619.752
+timing,total.user_time,0.59
+timing,total.system_time,0.01
+timing,mash_triangle_time,735.0
+timing,quicktree_time,882.0
+resource,max_rss_MB,56.33

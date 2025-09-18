@@ -75,3 +75,10 @@ plot2
 
 model <- lm(size_MB ~ nb_genomes + distinct_31mers, data = merged_df)
 summary(model)
+
+w <- 20
+h <- 8
+u <- "cm"
+fn <- "my_file.pdf"
+ggsave(fn, width=w, heigh=h, units=u)
+getwd()

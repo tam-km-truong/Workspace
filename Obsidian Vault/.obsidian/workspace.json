@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MBGC.md",
+                "file": "AGC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MBGC"
+              "title": "AGC"
             }
           },
           {
@@ -254,8 +254,8 @@
   },
   "active": "233eceda6d7799a9",
   "lastOpenFiles": [
-    "AGC.md",
     "MBGC.md",
+    "AGC.md",
     "miniphy2.md",
     "sed command.md",
     "Untitled.base",

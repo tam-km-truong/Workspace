@@ -1,15 +1,25 @@
 #library(tidyverse)
 
 df_mbgc <- read_csv("data/mbgc_compression_sizes.csv",col_names = c("size_MB", "name"))
+df_mbgc <- df_mbgc %>%filter(!grepl("^dustbin", name) & !grepl("^unknown", name))
+dbin_uknw_mbgc <- read_csv("data/dustbin_unknown_mbgc.csv",col_names = c("size_MB", "name"))
+df_mbgc_concat <- bind_rows(df_mbgc,dbin_uknw_mbgc)
+df_mbgc_concat <- df_mbgc_concat %>% filter(name != "total")
+df_mbgc <- df_mbgc_concat
 df_mbgc$size_MB <- df_mbgc$size_MB/1e+6
-df_mbgc <- df_mbgc %>% filter(name != "total")
 
 df_xz_orig <- read_csv("data/xz_orig.csv",col_names = c("size_MB", "name"))
 df_xz_orig$size_MB <- df_xz_orig$size_MB/1e+6
 df_xz_orig <- df_xz_orig %>% filter(name != "total")
 
 df_agc <- read_csv("data/agc_sizes.csv",col_names = c("size_MB", "name"))
+df_agc <- df_agc %>%filter(!grepl("^dustbin", name) & !grepl("^unknown", name))
+dbin_uknw_agc <- read_csv("data/dustbin_unknown_agc.csv",col_names = c("size_MB", "name"))
+df_agc_concat <- bind_rows(df_agc,dbin_uknw_agc)
+df_agc_concat <- df_agc_concat %>% filter(name != "total")
+df_agc <- df_agc_concat
 df_agc$size_MB <- df_agc$size_MB/1e+6
+
 df_agc <- df_agc %>% filter(name != "total")
 
 sum_mbgc <- sum(df_mbgc$size_MB)

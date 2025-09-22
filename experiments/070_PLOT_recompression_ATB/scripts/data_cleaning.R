@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-#library(tidyverse)
+library(tidyverse)
 
 df_mbgc <- read_csv("data/mbgc_compression_sizes.csv",col_names = c("size_MB", "name"))
 df_mbgc <- df_mbgc %>%filter(!grepl("^dustbin", name) & !grepl("^unknown", name))

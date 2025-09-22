@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 #library(tidyverse)
 
 df_mbgc <- read_csv("data/mbgc_compression_sizes.csv",col_names = c("size_MB", "name"))

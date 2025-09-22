@@ -46,7 +46,7 @@ fn <- "results/compression_results_atb.pdf"
 ggsave(fn, plot = p, width=w, height=h, units=u)
 
 
-df_sep_plot <- read_csv('data/seperation_plot_data.csv')
+df_sep_plot <- read_csv('data/seperation_plot_data_1k_dbin_uknw.csv')
 
 flatten_df_sep <- df_sep_plot %>%
   pivot_longer(

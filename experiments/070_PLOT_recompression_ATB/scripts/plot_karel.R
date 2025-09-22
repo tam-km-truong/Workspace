@@ -1,13 +1,15 @@
 library(tidyverse)
 library(ggsci)
 library(tidyr)
+library(ggtext)
+
 
 w <- 16
 h <- 13
 u <- "cm"
 
 #caption <- "\n\n    PARAMETERS:\n    AGC with -a -b 500 -s 1500; the AGC reference genome is the first genomes in each batch.\n    MBGC with -m 3. All with 25 threads.\n    Batches of Species clusters have 4000 genomes.\n    Batches of dustbin and unknown have 1000 genomes for AGC and MBGC, 4000 genomes for XZ."
-caption <- "Parameters:    AGC: -a -b 500 -s 1500    |    MBGC: -m 3    |    XZ: -9 -T1"
+caption <- "**Parameters:**    *AGC:* -a -b 500 -s 1500    |    *MBGC:* -m 3    |    *XZ:* -9 -T1"
 #caption=""
 
 df_sep_plot <- read_csv('data/seperation_plot_data.csv') %>%
@@ -36,11 +38,11 @@ ggplot(flatten_df_sep,
        )) +
     geom_col(color = "black", linewidth = 0.5) +
     scale_alpha_manual(
-        name = "Collection parts",
+        name = "Divisions",
         labels = c(
-            "dustbin" = "Dustbin\n(n=85k)\n",
-            "unknown" = "Unknown sp.\n(n=73k)\n",
-            "rest" = "Regular batches\n(n=2,282k)\n"
+            "dustbin" = "Dustbin<br/><span style='font-size:9pt'>(n=85k)</span>",
+            "unknown" = "Unknown sp.<br/><span style='font-size:9pt'>(n=73k)</span>",
+            "rest" = "Regular batches<br/><span style='font-size:9pt'>(n=2,282k)</span>"
         ),
         values = c(0.6, 0.8, 1.0)
     ) +
@@ -55,17 +57,9 @@ ggplot(flatten_df_sep,
     scale_x_discrete(labels = c("V1+XZ\n(state of the art)", "V2+XZ", "V2+AGC", "V2+MBGC")) +
     theme_classic(base_size = 14) +
     theme(plot.subtitle = element_text(color = "gray30"),
-          plot.caption = element_text(hjust = 0.5)) +
-    # theme(
-    #     plot.caption = element_text(
-    #         hjust = 0,
-    #         vjust = 0.2,
-    #         size = 10
-    #     ),
-    #     plot.title   = element_text(hjust = 0.5, size = 16),
-    #
-    # ) +
-    #annotation
+          plot.caption = element_markdown(hjust = 0.5),
+          legend.text = element_markdown()
+    ) +
     geom_text(
         aes(label = paste0(round(value_GB, 1), "GB")),
         position = position_stack(vjust = 0.5),

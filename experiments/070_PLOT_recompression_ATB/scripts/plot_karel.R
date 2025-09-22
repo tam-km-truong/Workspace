@@ -35,6 +35,13 @@ flatten_df_sep$group <- factor(flatten_df_sep$group, levels = c("unknown", "dust
 
 flatten_df_sep$value_GB <- flatten_df_sep$size / 1000
 
+# Totals per bar for the top labels
+df_tot <- flatten_df_sep %>%
+    group_by(scheme) %>%
+    summarise(total_GB = sum(value_GB), .groups = "drop") %>%
+    mutate(label = paste0(round(total_GB, 1), "GB"))
+
+
 ggplot(flatten_df_sep,
        aes(
            x = scheme,
@@ -74,8 +81,8 @@ ggplot(flatten_df_sep,
         color = "white"
     ) +
     geom_text(
-        data = df_plot,
-        aes(x = group, y = value_GB, label = label),
+        data = df_tot,
+        aes(x = scheme, y = total_GB, label = label),
         inherit.aes = FALSE,
         vjust = -0.5,
         size = 4,

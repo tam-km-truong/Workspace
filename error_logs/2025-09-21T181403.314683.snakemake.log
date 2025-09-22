@@ -1,0 +1,3934 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: cl1n047
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 80
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count
+------------------  -------
+all                       1
+compress_batch           96
+compute_tree             96
+postprocess_tree         96
+prepend_batch_path       96
+total                   385
+
+Select jobs to execute...
+Execute 16 jobs...
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__020_2.txt
+    output: workflow/tmp/trees/dustbin__020_2.nw
+    jobid: 132
+    reason: Missing output files: workflow/tmp/trees/dustbin__020_2.nw
+    wildcards: batch=dustbin__020_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__014_2.txt
+    output: workflow/tmp/trees/unknown__014_2.nw
+    jobid: 256
+    reason: Missing output files: workflow/tmp/trees/unknown__014_2.nw
+    wildcards: batch=unknown__014_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__015_2.txt
+    output: workflow/tmp/trees/unknown__015_2.nw
+    jobid: 580
+    reason: Missing output files: workflow/tmp/trees/unknown__015_2.nw
+    wildcards: batch=unknown__015_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__003_0.txt
+    output: workflow/tmp/trees/unknown__003_0.nw
+    jobid: 16
+    reason: Missing output files: workflow/tmp/trees/unknown__003_0.nw
+    wildcards: batch=unknown__003_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__006_0.txt
+    output: workflow/tmp/trees/dustbin__006_0.nw
+    jobid: 540
+    reason: Missing output files: workflow/tmp/trees/dustbin__006_0.nw
+    wildcards: batch=dustbin__006_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_2.txt
+    output: workflow/tmp/trees/dustbin__013_2.nw
+    jobid: 316
+    reason: Missing output files: workflow/tmp/trees/dustbin__013_2.nw
+    wildcards: batch=dustbin__013_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__017_2.txt
+    output: workflow/tmp/trees/unknown__017_2.nw
+    jobid: 56
+    reason: Missing output files: workflow/tmp/trees/unknown__017_2.nw
+    wildcards: batch=unknown__017_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__013_0.txt
+    output: workflow/tmp/trees/unknown__013_0.nw
+    jobid: 280
+    reason: Missing output files: workflow/tmp/trees/unknown__013_0.nw
+    wildcards: batch=unknown__013_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__012_3.txt
+    output: workflow/tmp/trees/dustbin__012_3.nw
+    jobid: 504
+    reason: Missing output files: workflow/tmp/trees/dustbin__012_3.nw
+    wildcards: batch=dustbin__012_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__009_1.txt
+    output: workflow/tmp/trees/unknown__009_1.nw
+    jobid: 204
+    reason: Missing output files: workflow/tmp/trees/unknown__009_1.nw
+    wildcards: batch=unknown__009_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:06 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__013_2.txt
+    output: workflow/tmp/trees/unknown__013_2.nw
+    jobid: 168
+    reason: Missing output files: workflow/tmp/trees/unknown__013_2.nw
+    wildcards: batch=unknown__013_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:07 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__000_3.txt
+    output: workflow/tmp/trees/unknown__000_3.nw
+    jobid: 392
+    reason: Missing output files: workflow/tmp/trees/unknown__000_3.nw
+    wildcards: batch=unknown__000_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:07 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__005_0.txt
+    output: workflow/tmp/trees/dustbin__005_0.nw
+    jobid: 616
+    reason: Missing output files: workflow/tmp/trees/dustbin__005_0.nw
+    wildcards: batch=dustbin__005_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:07 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__015_2.txt
+    output: workflow/tmp/trees/dustbin__015_2.nw
+    jobid: 428
+    reason: Missing output files: workflow/tmp/trees/dustbin__015_2.nw
+    wildcards: batch=dustbin__015_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:07 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__000_1.txt
+    output: workflow/tmp/trees/unknown__000_1.nw
+    jobid: 356
+    reason: Missing output files: workflow/tmp/trees/unknown__000_1.nw
+    wildcards: batch=unknown__000_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:14:07 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__011_3.txt
+    output: workflow/tmp/trees/dustbin__011_3.nw
+    jobid: 92
+    reason: Missing output files: workflow/tmp/trees/dustbin__011_3.nw
+    wildcards: batch=dustbin__011_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:15:14 2025]
+Finished jobid: 132 (Rule: compute_tree)
+1 of 385 steps (0.3%) done
+Execute 1 jobs...
+[Sun Sep 21 18:15:15 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__012_0.txt
+    output: workflow/tmp/trees/unknown__012_0.nw
+    jobid: 492
+    reason: Missing output files: workflow/tmp/trees/unknown__012_0.nw
+    wildcards: batch=unknown__012_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:16:26 2025]
+Finished jobid: 616 (Rule: compute_tree)
+2 of 385 steps (1%) done
+Execute 1 jobs...
+[Sun Sep 21 18:16:27 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__003_2.txt
+    output: workflow/tmp/trees/dustbin__003_2.nw
+    jobid: 156
+    reason: Missing output files: workflow/tmp/trees/dustbin__003_2.nw
+    wildcards: batch=dustbin__003_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:16:41 2025]
+Finished jobid: 16 (Rule: compute_tree)
+3 of 385 steps (1%) done
+Execute 1 jobs...
+[Sun Sep 21 18:16:42 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__002_1.txt
+    output: workflow/tmp/trees/dustbin__002_1.nw
+    jobid: 380
+    reason: Missing output files: workflow/tmp/trees/dustbin__002_1.nw
+    wildcards: batch=dustbin__002_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:16:47 2025]
+Finished jobid: 504 (Rule: compute_tree)
+4 of 385 steps (1%) done
+Execute 1 jobs...
+[Sun Sep 21 18:16:47 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__017_0.txt
+    output: workflow/tmp/trees/dustbin__017_0.nw
+    jobid: 232
+    reason: Missing output files: workflow/tmp/trees/dustbin__017_0.nw
+    wildcards: batch=dustbin__017_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:16:52 2025]
+Finished jobid: 540 (Rule: compute_tree)
+5 of 385 steps (1%) done
+Execute 1 jobs...
+[Sun Sep 21 18:16:53 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_0.txt
+    output: workflow/tmp/trees/dustbin__013_0.nw
+    jobid: 456
+    reason: Missing output files: workflow/tmp/trees/dustbin__013_0.nw
+    wildcards: batch=dustbin__013_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:16:54 2025]
+Finished jobid: 56 (Rule: compute_tree)
+6 of 385 steps (2%) done
+Execute 5 jobs...
+[Sun Sep 21 18:16:54 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__020_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__020_2.phylo.txt
+    jobid: 131
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__020_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__020_2.nw
+    wildcards: batch=dustbin__020_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:16:55 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__003_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__003_0.phylo.txt
+    jobid: 15
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__003_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__003_0.nw
+    wildcards: batch=unknown__003_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:16:55 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__012_3.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__012_3.phylo.txt
+    jobid: 503
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__012_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__012_3.nw
+    wildcards: batch=dustbin__012_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:16:55 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__017_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__017_2.phylo.txt
+    jobid: 55
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__017_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__017_2.nw
+    wildcards: batch=unknown__017_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:16:55 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__005_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__005_0.phylo.txt
+    jobid: 615
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__005_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__005_0.nw
+    wildcards: batch=dustbin__005_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:17:40 2025]
+Finished jobid: 356 (Rule: compute_tree)
+7 of 385 steps (2%) done
+Execute 1 jobs...
+[Sun Sep 21 18:17:41 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__001_0.txt
+    output: workflow/tmp/trees/unknown__001_0.nw
+    jobid: 40
+    reason: Missing output files: workflow/tmp/trees/unknown__001_0.nw
+    wildcards: batch=unknown__001_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:17:44 2025]
+Finished jobid: 615 (Rule: postprocess_tree)
+8 of 385 steps (2%) done
+Execute 1 jobs...
+[Sun Sep 21 18:17:44 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__005_0.txt, workflow/tmp/leave_ordered_batches/dustbin__005_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__005_0.processed.txt
+    jobid: 614
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__005_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__005_0.phylo.txt
+    wildcards: batch=dustbin__005_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:17:45 2025]
+Finished jobid: 55 (Rule: postprocess_tree)
+9 of 385 steps (2%) done
+[Sun Sep 21 18:17:45 2025]
+Finished jobid: 503 (Rule: postprocess_tree)
+10 of 385 steps (3%) done
+[Sun Sep 21 18:17:45 2025]
+Finished jobid: 15 (Rule: postprocess_tree)
+11 of 385 steps (3%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Sun Sep 21 18:17:46 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__000_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__000_1.phylo.txt
+    jobid: 355
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__000_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__000_1.nw
+    wildcards: batch=unknown__000_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:17:46 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__003_0.txt, workflow/tmp/leave_ordered_batches/unknown__003_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__003_0.processed.txt
+    jobid: 14
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__003_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__003_0.phylo.txt
+    wildcards: batch=unknown__003_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:17:46 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__006_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__006_0.phylo.txt
+    jobid: 539
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__006_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__006_0.nw
+    wildcards: batch=dustbin__006_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:17:46 2025]
+Finished jobid: 131 (Rule: postprocess_tree)
+12 of 385 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:17:47 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__012_3.txt, workflow/tmp/leave_ordered_batches/dustbin__012_3.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__012_3.processed.txt
+    jobid: 502
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__012_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__012_3.phylo.txt
+    wildcards: batch=dustbin__012_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:17:51 2025]
+Finished jobid: 316 (Rule: compute_tree)
+13 of 385 steps (3%) done
+Execute 1 jobs...
+[Sun Sep 21 18:17:51 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__007_2.txt
+    output: workflow/tmp/trees/dustbin__007_2.nw
+    jobid: 192
+    reason: Missing output files: workflow/tmp/trees/dustbin__007_2.nw
+    wildcards: batch=dustbin__007_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:17:52 2025]
+Finished jobid: 92 (Rule: compute_tree)
+14 of 385 steps (4%) done
+Execute 1 jobs...
+[Sun Sep 21 18:17:53 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__011_0.txt
+    output: workflow/tmp/trees/dustbin__011_0.nw
+    jobid: 196
+    reason: Missing output files: workflow/tmp/trees/dustbin__011_0.nw
+    wildcards: batch=dustbin__011_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:17:59 2025]
+Finished jobid: 232 (Rule: compute_tree)
+15 of 385 steps (4%) done
+Execute 1 jobs...
+[Sun Sep 21 18:18:00 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__001_2.txt
+    output: workflow/tmp/trees/unknown__001_2.nw
+    jobid: 420
+    reason: Missing output files: workflow/tmp/trees/unknown__001_2.nw
+    wildcards: batch=unknown__001_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:18:02 2025]
+Finished jobid: 392 (Rule: compute_tree)
+16 of 385 steps (4%) done
+Execute 5 jobs...
+[Sun Sep 21 18:18:03 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__013_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__013_2.phylo.txt
+    jobid: 315
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__013_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__013_2.nw
+    wildcards: batch=dustbin__013_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:18:03 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__011_3.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__011_3.phylo.txt
+    jobid: 91
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__011_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__011_3.nw
+    wildcards: batch=dustbin__011_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:18:03 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__017_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__017_0.phylo.txt
+    jobid: 231
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__017_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__017_0.nw
+    wildcards: batch=dustbin__017_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:18:03 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__020_2.txt, workflow/tmp/leave_ordered_batches/dustbin__020_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__020_2.processed.txt
+    jobid: 130
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__020_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__020_2.phylo.txt
+    wildcards: batch=dustbin__020_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:18:04 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__000_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__000_3.phylo.txt
+    jobid: 391
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__000_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__000_3.nw
+    wildcards: batch=unknown__000_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:18:04 2025]
+Finished jobid: 280 (Rule: compute_tree)
+17 of 385 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:18:05 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__007_3.txt
+    output: workflow/tmp/trees/unknown__007_3.nw
+    jobid: 600
+    reason: Missing output files: workflow/tmp/trees/unknown__007_3.nw
+    wildcards: batch=unknown__007_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:18:09 2025]
+Finished jobid: 355 (Rule: postprocess_tree)
+18 of 385 steps (5%) done
+Execute 1 jobs...
+[Sun Sep 21 18:18:09 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__017_2.txt, workflow/tmp/leave_ordered_batches/unknown__017_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__017_2.processed.txt
+    jobid: 54
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__017_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__017_2.phylo.txt
+    wildcards: batch=unknown__017_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:18:11 2025]
+Finished jobid: 539 (Rule: postprocess_tree)
+19 of 385 steps (5%) done
+Execute 1 jobs...
+[Sun Sep 21 18:18:11 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__006_0.txt, workflow/tmp/leave_ordered_batches/dustbin__006_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__006_0.processed.txt
+    jobid: 538
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__006_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__006_0.phylo.txt
+    wildcards: batch=dustbin__006_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:18:24 2025]
+Finished jobid: 204 (Rule: compute_tree)
+20 of 385 steps (5%) done
+Execute 1 jobs...
+[Sun Sep 21 18:18:24 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__010_1.txt
+    output: workflow/tmp/trees/dustbin__010_1.nw
+    jobid: 544
+    reason: Missing output files: workflow/tmp/trees/dustbin__010_1.nw
+    wildcards: batch=dustbin__010_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:18:37 2025]
+Finished jobid: 256 (Rule: compute_tree)
+21 of 385 steps (5%) done
+Execute 1 jobs...
+[Sun Sep 21 18:18:38 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__021_0.txt
+    output: workflow/tmp/trees/dustbin__021_0.nw
+    jobid: 376
+    reason: Missing output files: workflow/tmp/trees/dustbin__021_0.nw
+    wildcards: batch=dustbin__021_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:18:41 2025]
+Finished jobid: 391 (Rule: postprocess_tree)
+22 of 385 steps (6%) done
+Execute 1 jobs...
+[Sun Sep 21 18:18:42 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__009_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__009_1.phylo.txt
+    jobid: 203
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__009_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__009_1.nw
+    wildcards: batch=unknown__009_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:18:42 2025]
+Finished jobid: 91 (Rule: postprocess_tree)
+23 of 385 steps (6%) done
+[Sun Sep 21 18:18:43 2025]
+Finished jobid: 315 (Rule: postprocess_tree)
+24 of 385 steps (6%) done
+Select jobs to execute...
+Execute 2 jobs...
+[Sun Sep 21 18:18:43 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__011_3.txt, workflow/tmp/leave_ordered_batches/dustbin__011_3.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__011_3.processed.txt
+    jobid: 90
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__011_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__011_3.phylo.txt
+    wildcards: batch=dustbin__011_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:18:43 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__013_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__013_0.phylo.txt
+    jobid: 279
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__013_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__013_0.nw
+    wildcards: batch=unknown__013_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:18:44 2025]
+Finished jobid: 231 (Rule: postprocess_tree)
+25 of 385 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:18:45 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__000_3.txt, workflow/tmp/leave_ordered_batches/unknown__000_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__000_3.processed.txt
+    jobid: 390
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__000_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__000_3.phylo.txt
+    wildcards: batch=unknown__000_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:19:16 2025]
+Finished jobid: 279 (Rule: postprocess_tree)
+26 of 385 steps (7%) done
+Execute 1 jobs...
+[Sun Sep 21 18:19:16 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__013_0.txt, workflow/tmp/leave_ordered_batches/unknown__013_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__013_0.processed.txt
+    jobid: 278
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__013_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__013_0.phylo.txt
+    wildcards: batch=unknown__013_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:19:17 2025]
+Finished jobid: 492 (Rule: compute_tree)
+27 of 385 steps (7%) done
+Execute 1 jobs...
+[Sun Sep 21 18:19:18 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__005_2.txt
+    output: workflow/tmp/trees/dustbin__005_2.nw
+    jobid: 284
+    reason: Missing output files: workflow/tmp/trees/dustbin__005_2.nw
+    wildcards: batch=dustbin__005_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:19:18 2025]
+Finished jobid: 203 (Rule: postprocess_tree)
+28 of 385 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:19:19 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__009_1.txt, workflow/tmp/leave_ordered_batches/unknown__009_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__009_1.processed.txt
+    jobid: 202
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__009_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__009_1.phylo.txt
+    wildcards: batch=unknown__009_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:19:37 2025]
+Finished jobid: 168 (Rule: compute_tree)
+29 of 385 steps (8%) done
+Execute 1 jobs...
+[Sun Sep 21 18:19:37 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__001_1.txt
+    output: workflow/tmp/trees/dustbin__001_1.nw
+    jobid: 508
+    reason: Missing output files: workflow/tmp/trees/dustbin__001_1.nw
+    wildcards: batch=dustbin__001_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:19:38 2025]
+Finished jobid: 614 (Rule: prepend_batch_path)
+30 of 385 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:19:38 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__005_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz
+    jobid: 613
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__005_0.processed.txt
+    wildcards: batch=dustbin__005_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:19:39 2025]
+Finished jobid: 14 (Rule: prepend_batch_path)
+31 of 385 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:19:39 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__014_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__014_2.phylo.txt
+    jobid: 255
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__014_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__014_2.nw
+    wildcards: batch=unknown__014_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:19:40 2025]
+Finished jobid: 502 (Rule: prepend_batch_path)
+32 of 385 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:19:40 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__013_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__013_2.phylo.txt
+    jobid: 167
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__013_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__013_2.nw
+    wildcards: batch=unknown__013_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:19:44 2025]
+Finished jobid: 580 (Rule: compute_tree)
+33 of 385 steps (9%) done
+Execute 5 jobs...
+[Sun Sep 21 18:19:44 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__012_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__012_3.tar.xz
+    jobid: 501
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__012_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__012_3.processed.txt
+    wildcards: batch=dustbin__012_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:19:45 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__015_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__015_2.phylo.txt
+    jobid: 579
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__015_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__015_2.nw
+    wildcards: batch=unknown__015_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:19:45 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__000_1.txt, workflow/tmp/leave_ordered_batches/unknown__000_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__000_1.processed.txt
+    jobid: 354
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__000_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__000_1.phylo.txt
+    wildcards: batch=unknown__000_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:19:45 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_2.txt, workflow/tmp/leave_ordered_batches/dustbin__013_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__013_2.processed.txt
+    jobid: 314
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__013_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__013_2.phylo.txt
+    wildcards: batch=dustbin__013_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:19:45 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__017_0.txt, workflow/tmp/leave_ordered_batches/dustbin__017_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__017_0.processed.txt
+    jobid: 230
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__017_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__017_0.phylo.txt
+    wildcards: batch=dustbin__017_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:19:50 2025]
+Finished jobid: 456 (Rule: compute_tree)
+34 of 385 steps (9%) done
+Execute 1 jobs...
+[Sun Sep 21 18:19:51 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_2.txt
+    output: workflow/tmp/trees/unknown__008_2.nw
+    jobid: 60
+    reason: Missing output files: workflow/tmp/trees/unknown__008_2.nw
+    wildcards: batch=unknown__008_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:19:51 2025]
+Finished jobid: 376 (Rule: compute_tree)
+35 of 385 steps (9%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:19:52 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__009_0.txt
+    output: workflow/tmp/trees/dustbin__009_0.nw
+    jobid: 200
+    reason: Missing output files: workflow/tmp/trees/dustbin__009_0.nw
+    wildcards: batch=dustbin__009_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:19:57 2025]
+Finished jobid: 130 (Rule: prepend_batch_path)
+36 of 385 steps (9%) done
+Execute 1 jobs...
+[Sun Sep 21 18:19:58 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__013_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__013_0.phylo.txt
+    jobid: 455
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__013_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__013_0.nw
+    wildcards: batch=dustbin__013_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:03 2025]
+Finished jobid: 54 (Rule: prepend_batch_path)
+37 of 385 steps (10%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:04 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__003_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__003_0.tar.xz
+    jobid: 13
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__003_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__003_0.processed.txt
+    wildcards: batch=unknown__003_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:06 2025]
+Finished jobid: 538 (Rule: prepend_batch_path)
+38 of 385 steps (10%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:06 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__006_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz
+    jobid: 537
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__006_0.processed.txt
+    wildcards: batch=dustbin__006_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:10 2025]
+Finished jobid: 428 (Rule: compute_tree)
+39 of 385 steps (10%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:11 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_1.txt
+    output: workflow/tmp/trees/unknown__008_1.nw
+    jobid: 596
+    reason: Missing output files: workflow/tmp/trees/unknown__008_1.nw
+    wildcards: batch=unknown__008_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:15 2025]
+Finished jobid: 579 (Rule: postprocess_tree)
+40 of 385 steps (10%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:16 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__015_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__015_2.phylo.txt
+    jobid: 427
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__015_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__015_2.nw
+    wildcards: batch=dustbin__015_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:20:16 2025]
+Finished jobid: 255 (Rule: postprocess_tree)
+41 of 385 steps (11%) done
+[Sun Sep 21 18:20:17 2025]
+Finished jobid: 167 (Rule: postprocess_tree)
+42 of 385 steps (11%) done
+Select jobs to execute...
+Execute 2 jobs...
+[Sun Sep 21 18:20:17 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__017_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__017_2.tar.xz
+    jobid: 53
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__017_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__017_2.processed.txt
+    wildcards: batch=unknown__017_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:20:17 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__020_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__020_2.tar.xz
+    jobid: 129
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__020_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__020_2.processed.txt
+    wildcards: batch=dustbin__020_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:19 2025]
+Finished jobid: 380 (Rule: compute_tree)
+43 of 385 steps (11%) done
+Execute 5 jobs...
+[Sun Sep 21 18:20:19 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__014_2.txt, workflow/tmp/leave_ordered_batches/unknown__014_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__014_2.processed.txt
+    jobid: 254
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__014_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__014_2.phylo.txt
+    wildcards: batch=unknown__014_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:20:19 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__021_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__021_0.phylo.txt
+    jobid: 375
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__021_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__021_0.nw
+    wildcards: batch=dustbin__021_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:20:20 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__012_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__012_0.phylo.txt
+    jobid: 491
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__012_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__012_0.nw
+    wildcards: batch=unknown__012_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:20:20 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__015_2.txt, workflow/tmp/leave_ordered_batches/unknown__015_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__015_2.processed.txt
+    jobid: 578
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__015_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__015_2.phylo.txt
+    wildcards: batch=unknown__015_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:20:20 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__002_1.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__002_1.phylo.txt
+    jobid: 379
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__002_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__002_1.nw
+    wildcards: batch=dustbin__002_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:24 2025]
+Finished jobid: 455 (Rule: postprocess_tree)
+44 of 385 steps (11%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:24 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_0.txt, workflow/tmp/leave_ordered_batches/dustbin__013_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__013_0.processed.txt
+    jobid: 454
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__013_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__013_0.phylo.txt
+    wildcards: batch=dustbin__013_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:27 2025]
+Finished jobid: 40 (Rule: compute_tree)
+45 of 385 steps (12%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:28 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__019_3.txt
+    output: workflow/tmp/trees/dustbin__019_3.nw
+    jobid: 148
+    reason: Missing output files: workflow/tmp/trees/dustbin__019_3.nw
+    wildcards: batch=dustbin__019_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:31 2025]
+Finished jobid: 156 (Rule: compute_tree)
+46 of 385 steps (12%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:32 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__000_2.txt
+    output: workflow/tmp/trees/dustbin__000_2.nw
+    jobid: 64
+    reason: Missing output files: workflow/tmp/trees/dustbin__000_2.nw
+    wildcards: batch=dustbin__000_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:33 2025]
+Finished jobid: 90 (Rule: prepend_batch_path)
+47 of 385 steps (12%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:34 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__013_2.txt, workflow/tmp/leave_ordered_batches/unknown__013_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__013_2.processed.txt
+    jobid: 166
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__013_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__013_2.phylo.txt
+    wildcards: batch=unknown__013_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:35 2025]
+Finished jobid: 390 (Rule: prepend_batch_path)
+48 of 385 steps (12%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:35 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__000_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__000_3.tar.xz
+    jobid: 389
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__000_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__000_3.processed.txt
+    wildcards: batch=unknown__000_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:20:36 2025]
+Finished jobid: 427 (Rule: postprocess_tree)
+49 of 385 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:20:37 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__015_2.txt, workflow/tmp/leave_ordered_batches/dustbin__015_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__015_2.processed.txt
+    jobid: 426
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__015_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__015_2.phylo.txt
+    wildcards: batch=dustbin__015_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:41 2025]
+Finished jobid: 375 (Rule: postprocess_tree)
+50 of 385 steps (13%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:42 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__021_0.txt, workflow/tmp/leave_ordered_batches/dustbin__021_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__021_0.processed.txt
+    jobid: 374
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__021_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__021_0.phylo.txt
+    wildcards: batch=dustbin__021_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:20:42 2025]
+Finished jobid: 491 (Rule: postprocess_tree)
+51 of 385 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:20:43 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__012_0.txt, workflow/tmp/leave_ordered_batches/unknown__012_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__012_0.processed.txt
+    jobid: 490
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__012_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__012_0.phylo.txt
+    wildcards: batch=unknown__012_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:20:43 2025]
+Finished jobid: 379 (Rule: postprocess_tree)
+52 of 385 steps (14%) done
+Execute 1 jobs...
+[Sun Sep 21 18:20:44 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__011_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__011_3.tar.xz
+    jobid: 89
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__011_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__011_3.processed.txt
+    wildcards: batch=dustbin__011_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:03 2025]
+Finished jobid: 278 (Rule: prepend_batch_path)
+53 of 385 steps (14%) done
+Execute 1 jobs...
+[Sun Sep 21 18:21:04 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__001_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__001_0.phylo.txt
+    jobid: 39
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__001_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__001_0.nw
+    wildcards: batch=unknown__001_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:06 2025]
+Finished jobid: 202 (Rule: prepend_batch_path)
+54 of 385 steps (14%) done
+Execute 1 jobs...
+[Sun Sep 21 18:21:07 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__002_1.txt, workflow/tmp/leave_ordered_batches/dustbin__002_1.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__002_1.processed.txt
+    jobid: 378
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__002_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__002_1.phylo.txt
+    wildcards: batch=dustbin__002_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:27 2025]
+Finished jobid: 192 (Rule: compute_tree)
+55 of 385 steps (14%) done
+Execute 1 jobs...
+[Sun Sep 21 18:21:28 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__002_2.txt
+    output: workflow/tmp/trees/dustbin__002_2.nw
+    jobid: 360
+    reason: Missing output files: workflow/tmp/trees/dustbin__002_2.nw
+    wildcards: batch=dustbin__002_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:31 2025]
+Finished jobid: 354 (Rule: prepend_batch_path)
+56 of 385 steps (15%) done
+Execute 1 jobs...
+[Sun Sep 21 18:21:31 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__003_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__003_2.phylo.txt
+    jobid: 155
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__003_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__003_2.nw
+    wildcards: batch=dustbin__003_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:21:32 2025]
+Finished jobid: 230 (Rule: prepend_batch_path)
+57 of 385 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:21:32 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__000_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__000_1.tar.xz
+    jobid: 353
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__000_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__000_1.processed.txt
+    wildcards: batch=unknown__000_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:21:33 2025]
+Finished jobid: 314 (Rule: prepend_batch_path)
+58 of 385 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:21:33 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__007_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__007_2.phylo.txt
+    jobid: 191
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__007_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__007_2.nw
+    wildcards: batch=dustbin__007_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:21:34 2025]
+Finished jobid: 420 (Rule: compute_tree)
+59 of 385 steps (15%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:21:34 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__016_1.txt
+    output: workflow/tmp/trees/dustbin__016_1.nw
+    jobid: 288
+    reason: Missing output files: workflow/tmp/trees/dustbin__016_1.nw
+    wildcards: batch=dustbin__016_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:37 2025]
+Finished jobid: 39 (Rule: postprocess_tree)
+60 of 385 steps (16%) done
+Execute 1 jobs...
+[Sun Sep 21 18:21:38 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__001_0.txt, workflow/tmp/leave_ordered_batches/unknown__001_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__001_0.processed.txt
+    jobid: 38
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__001_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__001_0.phylo.txt
+    wildcards: batch=unknown__001_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:52 2025]
+Finished jobid: 196 (Rule: compute_tree)
+61 of 385 steps (16%) done
+Execute 5 jobs...
+[Sun Sep 21 18:21:52 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__013_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__013_0.tar.xz
+    jobid: 277
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__013_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__013_0.processed.txt
+    wildcards: batch=unknown__013_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:21:52 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__013_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_2.tar.xz
+    jobid: 313
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__013_2.processed.txt
+    wildcards: batch=dustbin__013_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:21:52 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__017_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__017_0.tar.xz
+    jobid: 229
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__017_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__017_0.processed.txt
+    wildcards: batch=dustbin__017_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:21:52 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__009_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__009_1.tar.xz
+    jobid: 201
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__009_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__009_1.processed.txt
+    wildcards: batch=unknown__009_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:21:52 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__001_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__001_2.phylo.txt
+    jobid: 419
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__001_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__001_2.nw
+    wildcards: batch=unknown__001_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:21:52 2025]
+Finished jobid: 155 (Rule: postprocess_tree)
+62 of 385 steps (16%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:21:53 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__003_2.txt, workflow/tmp/leave_ordered_batches/dustbin__003_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__003_2.processed.txt
+    jobid: 154
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__003_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__003_2.phylo.txt
+    wildcards: batch=dustbin__003_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:21:53 2025]
+Finished jobid: 191 (Rule: postprocess_tree)
+63 of 385 steps (16%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:21:53 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__011_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__011_0.phylo.txt
+    jobid: 195
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__011_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__011_0.nw
+    wildcards: batch=dustbin__011_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:56 2025]
+Finished jobid: 544 (Rule: compute_tree)
+64 of 385 steps (17%) done
+Execute 1 jobs...
+[Sun Sep 21 18:21:56 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__016_3.txt
+    output: workflow/tmp/trees/dustbin__016_3.nw
+    jobid: 336
+    reason: Missing output files: workflow/tmp/trees/dustbin__016_3.nw
+    wildcards: batch=dustbin__016_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:21:59 2025]
+Finished jobid: 419 (Rule: postprocess_tree)
+65 of 385 steps (17%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:00 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__007_2.txt, workflow/tmp/leave_ordered_batches/dustbin__007_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__007_2.processed.txt
+    jobid: 190
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__007_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__007_2.phylo.txt
+    wildcards: batch=dustbin__007_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:01 2025]
+Finished jobid: 254 (Rule: prepend_batch_path)
+66 of 385 steps (17%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:01 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__010_1.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__010_1.phylo.txt
+    jobid: 543
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__010_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__010_1.nw
+    wildcards: batch=dustbin__010_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:22:01 2025]
+Finished jobid: 578 (Rule: prepend_batch_path)
+67 of 385 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:22:02 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__015_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__015_2.tar.xz
+    jobid: 577
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__015_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__015_2.processed.txt
+    wildcards: batch=unknown__015_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:22:02 2025]
+Finished jobid: 195 (Rule: postprocess_tree)
+68 of 385 steps (18%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:22:02 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__014_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__014_2.tar.xz
+    jobid: 253
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__014_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__014_2.processed.txt
+    wildcards: batch=unknown__014_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:05 2025]
+Finished jobid: 454 (Rule: prepend_batch_path)
+69 of 385 steps (18%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:06 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__011_0.txt, workflow/tmp/leave_ordered_batches/dustbin__011_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__011_0.processed.txt
+    jobid: 194
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__011_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__011_0.phylo.txt
+    wildcards: batch=dustbin__011_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:09 2025]
+Finished jobid: 600 (Rule: compute_tree)
+70 of 385 steps (18%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:09 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_0.txt
+    output: workflow/tmp/trees/unknown__008_0.nw
+    jobid: 308
+    reason: Missing output files: workflow/tmp/trees/unknown__008_0.nw
+    wildcards: batch=unknown__008_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:10 2025]
+Finished jobid: 284 (Rule: compute_tree)
+71 of 385 steps (18%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:10 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_3.txt
+    output: workflow/tmp/trees/dustbin__013_3.nw
+    jobid: 584
+    reason: Missing output files: workflow/tmp/trees/dustbin__013_3.nw
+    wildcards: batch=dustbin__013_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:12 2025]
+Finished jobid: 148 (Rule: compute_tree)
+72 of 385 steps (19%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:12 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__000_2.txt
+    output: workflow/tmp/trees/unknown__000_2.nw
+    jobid: 52
+    reason: Missing output files: workflow/tmp/trees/unknown__000_2.nw
+    wildcards: batch=unknown__000_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:14 2025]
+Finished jobid: 543 (Rule: postprocess_tree)
+73 of 385 steps (19%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:15 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__007_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__007_3.phylo.txt
+    jobid: 599
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__007_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__007_3.nw
+    wildcards: batch=unknown__007_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:22:15 2025]
+Finished jobid: 166 (Rule: prepend_batch_path)
+74 of 385 steps (19%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:22:16 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__013_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__013_2.tar.xz
+    jobid: 165
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__013_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__013_2.processed.txt
+    wildcards: batch=unknown__013_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:22:16 2025]
+Finished jobid: 426 (Rule: prepend_batch_path)
+75 of 385 steps (19%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:22:17 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__005_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__005_2.phylo.txt
+    jobid: 283
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__005_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__005_2.nw
+    wildcards: batch=dustbin__005_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:20 2025]
+Finished jobid: 374 (Rule: prepend_batch_path)
+76 of 385 steps (20%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:21 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__001_2.txt, workflow/tmp/leave_ordered_batches/unknown__001_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__001_2.processed.txt
+    jobid: 418
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__001_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__001_2.phylo.txt
+    wildcards: batch=unknown__001_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:22:22 2025]
+Finished jobid: 490 (Rule: prepend_batch_path)
+77 of 385 steps (20%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:22:22 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__012_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__012_0.tar.xz
+    jobid: 489
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__012_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__012_0.processed.txt
+    wildcards: batch=unknown__012_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:44 2025]
+Finished jobid: 378 (Rule: prepend_batch_path)
+78 of 385 steps (20%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:45 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__010_1.txt, workflow/tmp/leave_ordered_batches/dustbin__010_1.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__010_1.processed.txt
+    jobid: 542
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__010_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__010_1.phylo.txt
+    wildcards: batch=dustbin__010_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:22:46 2025]
+Finished jobid: 283 (Rule: postprocess_tree)
+79 of 385 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:22:46 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__013_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_0.tar.xz
+    jobid: 453
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__013_0.processed.txt
+    wildcards: batch=dustbin__013_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:47 2025]
+Finished jobid: 599 (Rule: postprocess_tree)
+80 of 385 steps (21%) done
+Execute 1 jobs...
+[Sun Sep 21 18:22:47 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__005_2.txt, workflow/tmp/leave_ordered_batches/dustbin__005_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__005_2.processed.txt
+    jobid: 282
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__005_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__005_2.phylo.txt
+    wildcards: batch=dustbin__005_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:22:56 2025]
+Finished jobid: 60 (Rule: compute_tree)
+81 of 385 steps (21%) done
+Execute 5 jobs...
+[Sun Sep 21 18:22:56 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__002_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__002_1.tar.xz
+    jobid: 377
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__002_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__002_1.processed.txt
+    wildcards: batch=dustbin__002_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:22:56 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__015_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__015_2.tar.xz
+    jobid: 425
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__015_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__015_2.processed.txt
+    wildcards: batch=dustbin__015_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:22:56 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__008_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__008_2.phylo.txt
+    jobid: 59
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__008_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__008_2.nw
+    wildcards: batch=unknown__008_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:22:57 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__019_3.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__019_3.phylo.txt
+    jobid: 147
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__019_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__019_3.nw
+    wildcards: batch=dustbin__019_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:22:57 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__021_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__021_0.tar.xz
+    jobid: 373
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__021_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__021_0.processed.txt
+    wildcards: batch=dustbin__021_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:01 2025]
+Finished jobid: 200 (Rule: compute_tree)
+82 of 385 steps (21%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:01 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_3.txt
+    output: workflow/tmp/trees/unknown__016_3.nw
+    jobid: 532
+    reason: Missing output files: workflow/tmp/trees/unknown__016_3.nw
+    wildcards: batch=unknown__016_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:06 2025]
+Finished jobid: 147 (Rule: postprocess_tree)
+83 of 385 steps (22%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:06 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__019_3.txt, workflow/tmp/leave_ordered_batches/dustbin__019_3.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__019_3.processed.txt
+    jobid: 146
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__019_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__019_3.phylo.txt
+    wildcards: batch=dustbin__019_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:07 2025]
+Finished jobid: 59 (Rule: postprocess_tree)
+84 of 385 steps (22%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:07 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_2.txt, workflow/tmp/leave_ordered_batches/unknown__008_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__008_2.processed.txt
+    jobid: 58
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__008_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__008_2.phylo.txt
+    wildcards: batch=unknown__008_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:10 2025]
+Finished jobid: 38 (Rule: prepend_batch_path)
+85 of 385 steps (22%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:11 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__001_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__001_0.tar.xz
+    jobid: 37
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__001_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__001_0.processed.txt
+    wildcards: batch=unknown__001_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:22 2025]
+Finished jobid: 336 (Rule: compute_tree)
+86 of 385 steps (22%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:22 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_0.txt
+    output: workflow/tmp/trees/unknown__016_0.nw
+    jobid: 136
+    reason: Missing output files: workflow/tmp/trees/unknown__016_0.nw
+    wildcards: batch=unknown__016_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:24 2025]
+Finished jobid: 154 (Rule: prepend_batch_path)
+87 of 385 steps (23%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:25 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__009_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__009_0.phylo.txt
+    jobid: 199
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__009_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__009_0.nw
+    wildcards: batch=dustbin__009_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:35 2025]
+Finished jobid: 190 (Rule: prepend_batch_path)
+88 of 385 steps (23%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:36 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__003_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__003_2.tar.xz
+    jobid: 153
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__003_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__003_2.processed.txt
+    wildcards: batch=dustbin__003_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:41 2025]
+Finished jobid: 194 (Rule: prepend_batch_path)
+89 of 385 steps (23%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:41 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__007_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__007_2.tar.xz
+    jobid: 189
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__007_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__007_2.processed.txt
+    wildcards: batch=dustbin__007_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:43 2025]
+Finished jobid: 199 (Rule: postprocess_tree)
+90 of 385 steps (23%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:43 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__009_0.txt, workflow/tmp/leave_ordered_batches/dustbin__009_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__009_0.processed.txt
+    jobid: 198
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__009_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__009_0.phylo.txt
+    wildcards: batch=dustbin__009_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:52 2025]
+Finished jobid: 508 (Rule: compute_tree)
+91 of 385 steps (24%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:52 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__001_2.txt
+    output: workflow/tmp/trees/dustbin__001_2.nw
+    jobid: 620
+    reason: Missing output files: workflow/tmp/trees/dustbin__001_2.nw
+    wildcards: batch=dustbin__001_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:23:54 2025]
+Finished jobid: 418 (Rule: prepend_batch_path)
+92 of 385 steps (24%) done
+Execute 1 jobs...
+[Sun Sep 21 18:23:55 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__011_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__011_0.tar.xz
+    jobid: 193
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__011_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__011_0.processed.txt
+    wildcards: batch=dustbin__011_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:13 2025]
+Finished jobid: 542 (Rule: prepend_batch_path)
+93 of 385 steps (24%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:13 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__001_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__001_2.tar.xz
+    jobid: 417
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__001_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__001_2.processed.txt
+    wildcards: batch=unknown__001_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:16 2025]
+Finished jobid: 282 (Rule: prepend_batch_path)
+94 of 385 steps (24%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:16 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__001_1.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__001_1.phylo.txt
+    jobid: 507
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__001_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__001_1.nw
+    wildcards: batch=dustbin__001_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:17 2025]
+Finished jobid: 360 (Rule: compute_tree)
+95 of 385 steps (25%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:17 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__006_3.txt
+    output: workflow/tmp/trees/unknown__006_3.nw
+    jobid: 276
+    reason: Missing output files: workflow/tmp/trees/unknown__006_3.nw
+    wildcards: batch=unknown__006_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:23 2025]
+Finished jobid: 507 (Rule: postprocess_tree)
+96 of 385 steps (25%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:24 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__005_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_2.tar.xz
+    jobid: 281
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__005_2.processed.txt
+    wildcards: batch=dustbin__005_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:25 2025]
+Finished jobid: 584 (Rule: compute_tree)
+97 of 385 steps (25%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:25 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__015_1.txt
+    output: workflow/tmp/trees/unknown__015_1.nw
+    jobid: 536
+    reason: Missing output files: workflow/tmp/trees/unknown__015_1.nw
+    wildcards: batch=unknown__015_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:30 2025]
+Finished jobid: 58 (Rule: prepend_batch_path)
+98 of 385 steps (25%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:31 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__007_3.txt, workflow/tmp/leave_ordered_batches/unknown__007_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__007_3.processed.txt
+    jobid: 598
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__007_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__007_3.phylo.txt
+    wildcards: batch=unknown__007_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:24:31 2025]
+Finished jobid: 146 (Rule: prepend_batch_path)
+99 of 385 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:24:32 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__001_1.txt, workflow/tmp/leave_ordered_batches/dustbin__001_1.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__001_1.processed.txt
+    jobid: 506
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__001_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__001_1.phylo.txt
+    wildcards: batch=dustbin__001_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:35 2025]
+Finished jobid: 596 (Rule: compute_tree)
+100 of 385 steps (26%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:35 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__014_0.txt
+    output: workflow/tmp/trees/unknown__014_0.nw
+    jobid: 500
+    reason: Missing output files: workflow/tmp/trees/unknown__014_0.nw
+    wildcards: batch=unknown__014_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:46 2025]
+Finished jobid: 64 (Rule: compute_tree)
+101 of 385 steps (26%) done
+Execute 1 jobs...
+[Sun Sep 21 18:24:47 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_2.txt
+    output: workflow/tmp/trees/unknown__016_2.nw
+    jobid: 108
+    reason: Missing output files: workflow/tmp/trees/unknown__016_2.nw
+    wildcards: batch=unknown__016_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:24:52 2025]
+Finished jobid: 288 (Rule: compute_tree)
+102 of 385 steps (26%) done
+Execute 5 jobs...
+[Sun Sep 21 18:24:52 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__016_1.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__016_1.phylo.txt
+    jobid: 287
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__016_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__016_1.nw
+    wildcards: batch=dustbin__016_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:24:52 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__008_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__008_1.phylo.txt
+    jobid: 595
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__008_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__008_1.nw
+    wildcards: batch=unknown__008_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:24:52 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__008_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_2.tar.xz
+    jobid: 57
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__008_2.processed.txt
+    wildcards: batch=unknown__008_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:24:52 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__010_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__010_1.tar.xz
+    jobid: 541
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__010_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__010_1.processed.txt
+    wildcards: batch=dustbin__010_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:24:52 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__002_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__002_2.phylo.txt
+    jobid: 359
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__002_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__002_2.nw
+    wildcards: batch=dustbin__002_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:25:00 2025]
+Finished jobid: 52 (Rule: compute_tree)
+103 of 385 steps (27%) done
+Execute 1 jobs...
+[Sun Sep 21 18:25:01 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_3.txt
+    output: workflow/tmp/trees/unknown__008_3.nw
+    jobid: 88
+    reason: Missing output files: workflow/tmp/trees/unknown__008_3.nw
+    wildcards: batch=unknown__008_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:25:02 2025]
+Finished jobid: 359 (Rule: postprocess_tree)
+104 of 385 steps (27%) done
+Execute 1 jobs...
+[Sun Sep 21 18:25:02 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__000_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__000_2.phylo.txt
+    jobid: 63
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__000_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__000_2.nw
+    wildcards: batch=dustbin__000_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:25:03 2025]
+Finished jobid: 595 (Rule: postprocess_tree)
+105 of 385 steps (27%) done
+[Sun Sep 21 18:25:03 2025]
+Finished jobid: 198 (Rule: prepend_batch_path)
+106 of 385 steps (28%) done
+Select jobs to execute...
+Execute 2 jobs...
+[Sun Sep 21 18:25:03 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__000_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__000_2.phylo.txt
+    jobid: 51
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__000_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__000_2.nw
+    wildcards: batch=unknown__000_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:25:03 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__013_3.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__013_3.phylo.txt
+    jobid: 583
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__013_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__013_3.nw
+    wildcards: batch=dustbin__013_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:25:04 2025]
+Finished jobid: 287 (Rule: postprocess_tree)
+107 of 385 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:25:04 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__009_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__009_0.tar.xz
+    jobid: 197
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__009_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__009_0.processed.txt
+    wildcards: batch=dustbin__009_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:25:19 2025]
+Finished jobid: 63 (Rule: postprocess_tree)
+108 of 385 steps (28%) done
+Execute 1 jobs...
+[Sun Sep 21 18:25:19 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__019_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__019_3.tar.xz
+    jobid: 145
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__019_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__019_3.processed.txt
+    wildcards: batch=dustbin__019_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:25:20 2025]
+Finished jobid: 51 (Rule: postprocess_tree)
+109 of 385 steps (28%) done
+Execute 1 jobs...
+[Sun Sep 21 18:25:21 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__016_3.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__016_3.phylo.txt
+    jobid: 335
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__016_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__016_3.nw
+    wildcards: batch=dustbin__016_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:25:22 2025]
+Finished jobid: 583 (Rule: postprocess_tree)
+110 of 385 steps (29%) done
+Execute 1 jobs...
+[Sun Sep 21 18:25:22 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_1.txt, workflow/tmp/leave_ordered_batches/unknown__008_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__008_1.processed.txt
+    jobid: 594
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__008_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__008_1.phylo.txt
+    wildcards: batch=unknown__008_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:25:39 2025]
+Finished jobid: 335 (Rule: postprocess_tree)
+111 of 385 steps (29%) done
+Execute 1 jobs...
+[Sun Sep 21 18:25:39 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_3.txt, workflow/tmp/leave_ordered_batches/dustbin__013_3.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__013_3.processed.txt
+    jobid: 582
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__013_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__013_3.phylo.txt
+    wildcards: batch=dustbin__013_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:01 2025]
+Finished jobid: 506 (Rule: prepend_batch_path)
+112 of 385 steps (29%) done
+Execute 1 jobs...
+[Sun Sep 21 18:26:01 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__001_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__001_1.tar.xz
+    jobid: 505
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__001_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__001_1.processed.txt
+    wildcards: batch=dustbin__001_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:02 2025]
+Finished jobid: 598 (Rule: prepend_batch_path)
+113 of 385 steps (29%) done
+Execute 1 jobs...
+[Sun Sep 21 18:26:02 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__016_3.txt, workflow/tmp/leave_ordered_batches/dustbin__016_3.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__016_3.processed.txt
+    jobid: 334
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__016_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__016_3.phylo.txt
+    wildcards: batch=dustbin__016_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:32 2025]
+Finished jobid: 532 (Rule: compute_tree)
+114 of 385 steps (30%) done
+Execute 1 jobs...
+[Sun Sep 21 18:26:32 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__003_3.txt
+    output: workflow/tmp/trees/unknown__003_3.nw
+    jobid: 592
+    reason: Missing output files: workflow/tmp/trees/unknown__003_3.nw
+    wildcards: batch=unknown__003_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:39 2025]
+Finished jobid: 136 (Rule: compute_tree)
+115 of 385 steps (30%) done
+Execute 5 jobs...
+[Sun Sep 21 18:26:39 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__016_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__016_3.phylo.txt
+    jobid: 531
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__016_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__016_3.nw
+    wildcards: batch=unknown__016_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:26:39 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__002_2.txt, workflow/tmp/leave_ordered_batches/dustbin__002_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__002_2.processed.txt
+    jobid: 358
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__002_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__002_2.phylo.txt
+    wildcards: batch=dustbin__002_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:26:39 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__000_2.txt, workflow/tmp/leave_ordered_batches/unknown__000_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__000_2.processed.txt
+    jobid: 50
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__000_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__000_2.phylo.txt
+    wildcards: batch=unknown__000_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:26:39 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__007_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__007_3.tar.xz
+    jobid: 597
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__007_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__007_3.processed.txt
+    wildcards: batch=unknown__007_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:26:39 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__016_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__016_0.phylo.txt
+    jobid: 135
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__016_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__016_0.nw
+    wildcards: batch=unknown__016_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:43 2025]
+Finished jobid: 308 (Rule: compute_tree)
+116 of 385 steps (30%) done
+Execute 1 jobs...
+[Sun Sep 21 18:26:43 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__017_0.txt
+    output: workflow/tmp/trees/unknown__017_0.nw
+    jobid: 48
+    reason: Missing output files: workflow/tmp/trees/unknown__017_0.nw
+    wildcards: batch=unknown__017_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:47 2025]
+Finished jobid: 531 (Rule: postprocess_tree)
+117 of 385 steps (30%) done
+Execute 1 jobs...
+[Sun Sep 21 18:26:47 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_3.txt, workflow/tmp/leave_ordered_batches/unknown__016_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__016_3.processed.txt
+    jobid: 530
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__016_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__016_3.phylo.txt
+    wildcards: batch=unknown__016_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:48 2025]
+Finished jobid: 594 (Rule: prepend_batch_path)
+118 of 385 steps (31%) done
+Execute 1 jobs...
+[Sun Sep 21 18:26:48 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__008_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_1.tar.xz
+    jobid: 593
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__008_1.processed.txt
+    wildcards: batch=unknown__008_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:26:56 2025]
+Finished jobid: 135 (Rule: postprocess_tree)
+119 of 385 steps (31%) done
+Execute 1 jobs...
+[Sun Sep 21 18:26:56 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_0.txt, workflow/tmp/leave_ordered_batches/unknown__016_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__016_0.processed.txt
+    jobid: 134
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__016_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__016_0.phylo.txt
+    wildcards: batch=unknown__016_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:03 2025]
+Finished jobid: 582 (Rule: prepend_batch_path)
+120 of 385 steps (31%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:04 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__008_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__008_0.phylo.txt
+    jobid: 307
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__008_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__008_0.nw
+    wildcards: batch=unknown__008_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:27:04 2025]
+Finished jobid: 88 (Rule: compute_tree)
+121 of 385 steps (31%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:27:05 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__004_3.txt
+    output: workflow/tmp/trees/unknown__004_3.nw
+    jobid: 556
+    reason: Missing output files: workflow/tmp/trees/unknown__004_3.nw
+    wildcards: batch=unknown__004_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:12 2025]
+Finished jobid: 307 (Rule: postprocess_tree)
+122 of 385 steps (32%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:12 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__008_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__008_3.phylo.txt
+    jobid: 87
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__008_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__008_3.nw
+    wildcards: batch=unknown__008_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:17 2025]
+Finished jobid: 87 (Rule: postprocess_tree)
+123 of 385 steps (32%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:17 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_0.txt, workflow/tmp/leave_ordered_batches/unknown__008_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__008_0.processed.txt
+    jobid: 306
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__008_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__008_0.phylo.txt
+    wildcards: batch=unknown__008_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:19 2025]
+Finished jobid: 620 (Rule: compute_tree)
+124 of 385 steps (32%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:19 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_1.txt
+    output: workflow/tmp/trees/unknown__016_1.nw
+    jobid: 412
+    reason: Missing output files: workflow/tmp/trees/unknown__016_1.nw
+    wildcards: batch=unknown__016_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:21 2025]
+Finished jobid: 334 (Rule: prepend_batch_path)
+125 of 385 steps (32%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:21 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__001_2.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__001_2.phylo.txt
+    jobid: 619
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__001_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__001_2.nw
+    wildcards: batch=dustbin__001_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:24 2025]
+Finished jobid: 276 (Rule: compute_tree)
+126 of 385 steps (33%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:24 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__015_1.txt
+    output: workflow/tmp/trees/dustbin__015_1.nw
+    jobid: 248
+    reason: Missing output files: workflow/tmp/trees/dustbin__015_1.nw
+    wildcards: batch=dustbin__015_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:26 2025]
+Finished jobid: 619 (Rule: postprocess_tree)
+127 of 385 steps (33%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:27 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__006_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__006_3.phylo.txt
+    jobid: 275
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__006_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__006_3.nw
+    wildcards: batch=unknown__006_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:34 2025]
+Finished jobid: 275 (Rule: postprocess_tree)
+128 of 385 steps (33%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:34 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__006_3.txt, workflow/tmp/leave_ordered_batches/unknown__006_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__006_3.processed.txt
+    jobid: 274
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__006_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__006_3.phylo.txt
+    wildcards: batch=unknown__006_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:52 2025]
+Finished jobid: 358 (Rule: prepend_batch_path)
+129 of 385 steps (34%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:52 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__008_3.txt, workflow/tmp/leave_ordered_batches/unknown__008_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__008_3.processed.txt
+    jobid: 86
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__008_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__008_3.phylo.txt
+    wildcards: batch=unknown__008_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:27:52 2025]
+Finished jobid: 50 (Rule: prepend_batch_path)
+130 of 385 steps (34%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:27:53 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__002_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__002_2.tar.xz
+    jobid: 357
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__002_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__002_2.processed.txt
+    wildcards: batch=dustbin__002_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:27:58 2025]
+Finished jobid: 530 (Rule: prepend_batch_path)
+131 of 385 steps (34%) done
+Execute 1 jobs...
+[Sun Sep 21 18:27:58 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__013_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_3.tar.xz
+    jobid: 581
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__013_3.processed.txt
+    wildcards: batch=dustbin__013_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:02 2025]
+Finished jobid: 536 (Rule: compute_tree)
+132 of 385 steps (34%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:03 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__006_0.txt
+    output: workflow/tmp/trees/unknown__006_0.nw
+    jobid: 4
+    reason: Missing output files: workflow/tmp/trees/unknown__006_0.nw
+    wildcards: batch=unknown__006_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:04 2025]
+Finished jobid: 134 (Rule: prepend_batch_path)
+133 of 385 steps (35%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:04 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__001_2.txt, workflow/tmp/leave_ordered_batches/dustbin__001_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__001_2.processed.txt
+    jobid: 618
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__001_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__001_2.phylo.txt
+    wildcards: batch=dustbin__001_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:14 2025]
+Finished jobid: 500 (Rule: compute_tree)
+134 of 385 steps (35%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:14 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__010_3.txt
+    output: workflow/tmp/trees/unknown__010_3.nw
+    jobid: 228
+    reason: Missing output files: workflow/tmp/trees/unknown__010_3.nw
+    wildcards: batch=unknown__010_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:25 2025]
+Finished jobid: 306 (Rule: prepend_batch_path)
+135 of 385 steps (35%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:26 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__016_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_3.tar.xz
+    jobid: 529
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__016_3.processed.txt
+    wildcards: batch=unknown__016_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:29 2025]
+Finished jobid: 108 (Rule: compute_tree)
+136 of 385 steps (35%) done
+Execute 5 jobs...
+[Sun Sep 21 18:28:30 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__016_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__016_2.phylo.txt
+    jobid: 107
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__016_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__016_2.nw
+    wildcards: batch=unknown__016_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:28:30 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__000_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__000_2.tar.xz
+    jobid: 49
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__000_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__000_2.processed.txt
+    wildcards: batch=unknown__000_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:28:30 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__000_2.txt, workflow/tmp/leave_ordered_batches/dustbin__000_2.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__000_2.processed.txt
+    jobid: 62
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__000_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__000_2.phylo.txt
+    wildcards: batch=dustbin__000_2
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:28:30 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__016_1.txt, workflow/tmp/leave_ordered_batches/dustbin__016_1.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__016_1.processed.txt
+    jobid: 286
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__016_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__016_1.phylo.txt
+    wildcards: batch=dustbin__016_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:28:30 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__016_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__016_3.tar.xz
+    jobid: 333
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__016_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__016_3.processed.txt
+    wildcards: batch=dustbin__016_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:35 2025]
+Finished jobid: 107 (Rule: postprocess_tree)
+137 of 385 steps (36%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:35 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__014_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__014_0.phylo.txt
+    jobid: 499
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__014_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__014_0.nw
+    wildcards: batch=unknown__014_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:39 2025]
+Finished jobid: 499 (Rule: postprocess_tree)
+138 of 385 steps (36%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:40 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__015_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__015_1.phylo.txt
+    jobid: 535
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__015_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__015_1.nw
+    wildcards: batch=unknown__015_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:28:40 2025]
+Finished jobid: 274 (Rule: prepend_batch_path)
+139 of 385 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:28:40 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__008_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_0.tar.xz
+    jobid: 305
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__008_0.processed.txt
+    wildcards: batch=unknown__008_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:44 2025]
+Finished jobid: 535 (Rule: postprocess_tree)
+140 of 385 steps (36%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:44 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_2.txt, workflow/tmp/leave_ordered_batches/unknown__016_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__016_2.processed.txt
+    jobid: 106
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__016_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__016_2.phylo.txt
+    wildcards: batch=unknown__016_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:49 2025]
+Finished jobid: 556 (Rule: compute_tree)
+141 of 385 steps (37%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:49 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__007_1.txt
+    output: workflow/tmp/trees/unknown__007_1.nw
+    jobid: 588
+    reason: Missing output files: workflow/tmp/trees/unknown__007_1.nw
+    wildcards: batch=unknown__007_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:52 2025]
+Finished jobid: 412 (Rule: compute_tree)
+142 of 385 steps (37%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:53 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__010_3.txt
+    output: workflow/tmp/trees/dustbin__010_3.nw
+    jobid: 388
+    reason: Missing output files: workflow/tmp/trees/dustbin__010_3.nw
+    wildcards: batch=dustbin__010_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:28:55 2025]
+Finished jobid: 86 (Rule: prepend_batch_path)
+143 of 385 steps (37%) done
+Execute 1 jobs...
+[Sun Sep 21 18:28:55 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__004_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__004_3.phylo.txt
+    jobid: 555
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__004_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__004_3.nw
+    wildcards: batch=unknown__004_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:29:00 2025]
+Finished jobid: 555 (Rule: postprocess_tree)
+144 of 385 steps (37%) done
+Execute 1 jobs...
+[Sun Sep 21 18:29:00 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__015_1.txt, workflow/tmp/leave_ordered_batches/unknown__015_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__015_1.processed.txt
+    jobid: 534
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__015_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__015_1.phylo.txt
+    wildcards: batch=unknown__015_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:29:04 2025]
+Finished jobid: 592 (Rule: compute_tree)
+145 of 385 steps (38%) done
+Execute 1 jobs...
+[Sun Sep 21 18:29:04 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__004_0.txt
+    output: workflow/tmp/trees/dustbin__004_0.nw
+    jobid: 260
+    reason: Missing output files: workflow/tmp/trees/dustbin__004_0.nw
+    wildcards: batch=dustbin__004_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:29:07 2025]
+Finished jobid: 618 (Rule: prepend_batch_path)
+146 of 385 steps (38%) done
+Execute 1 jobs...
+[Sun Sep 21 18:29:07 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__006_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__006_3.tar.xz
+    jobid: 273
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__006_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__006_3.processed.txt
+    wildcards: batch=unknown__006_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:29:20 2025]
+Finished jobid: 248 (Rule: compute_tree)
+147 of 385 steps (38%) done
+Execute 1 jobs...
+[Sun Sep 21 18:29:21 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__011_1.txt
+    output: workflow/tmp/trees/unknown__011_1.nw
+    jobid: 612
+    reason: Missing output files: workflow/tmp/trees/unknown__011_1.nw
+    wildcards: batch=unknown__011_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:29:31 2025]
+Finished jobid: 62 (Rule: prepend_batch_path)
+148 of 385 steps (38%) done
+Execute 1 jobs...
+[Sun Sep 21 18:29:31 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__008_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_3.tar.xz
+    jobid: 85
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__008_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__008_3.processed.txt
+    wildcards: batch=unknown__008_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:29:32 2025]
+Finished jobid: 286 (Rule: prepend_batch_path)
+149 of 385 steps (39%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:29:33 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__016_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_0.tar.xz
+    jobid: 133
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__016_0.processed.txt
+    wildcards: batch=unknown__016_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:29:47 2025]
+Finished jobid: 106 (Rule: prepend_batch_path)
+150 of 385 steps (39%) done
+Execute 1 jobs...
+[Sun Sep 21 18:29:47 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__016_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_2.tar.xz
+    jobid: 105
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__016_2.processed.txt
+    wildcards: batch=unknown__016_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:30:09 2025]
+Finished jobid: 534 (Rule: prepend_batch_path)
+151 of 385 steps (39%) done
+Execute 1 jobs...
+[Sun Sep 21 18:30:09 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__000_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__000_2.tar.xz
+    jobid: 61
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__000_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__000_2.processed.txt
+    wildcards: batch=dustbin__000_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:30:51 2025]
+Finished jobid: 4 (Rule: compute_tree)
+152 of 385 steps (39%) done
+Execute 1 jobs...
+[Sun Sep 21 18:30:51 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__002_1.txt
+    output: workflow/tmp/trees/unknown__002_1.nw
+    jobid: 164
+    reason: Missing output files: workflow/tmp/trees/unknown__002_1.nw
+    wildcards: batch=unknown__002_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:30:53 2025]
+Finished jobid: 48 (Rule: compute_tree)
+153 of 385 steps (40%) done
+Execute 1 jobs...
+[Sun Sep 21 18:30:53 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__010_2.txt
+    output: workflow/tmp/trees/unknown__010_2.nw
+    jobid: 312
+    reason: Missing output files: workflow/tmp/trees/unknown__010_2.nw
+    wildcards: batch=unknown__010_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:31:05 2025]
+Finished jobid: 588 (Rule: compute_tree)
+154 of 385 steps (40%) done
+Execute 1 jobs...
+[Sun Sep 21 18:31:05 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_1.txt
+    output: workflow/tmp/trees/dustbin__013_1.nw
+    jobid: 12
+    reason: Missing output files: workflow/tmp/trees/dustbin__013_1.nw
+    wildcards: batch=dustbin__013_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:31:11 2025]
+Finished jobid: 228 (Rule: compute_tree)
+155 of 385 steps (40%) done
+Execute 1 jobs...
+[Sun Sep 21 18:31:11 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__007_0.txt
+    output: workflow/tmp/trees/unknown__007_0.nw
+    jobid: 320
+    reason: Missing output files: workflow/tmp/trees/unknown__007_0.nw
+    wildcards: batch=unknown__007_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:31:19 2025]
+Finished jobid: 388 (Rule: compute_tree)
+156 of 385 steps (41%) done
+Execute 5 jobs...
+[Sun Sep 21 18:31:19 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__016_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__016_1.tar.xz
+    jobid: 285
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__016_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__016_1.processed.txt
+    wildcards: batch=dustbin__016_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:31:19 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__015_1.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__015_1.phylo.txt
+    jobid: 247
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__015_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__015_1.nw
+    wildcards: batch=dustbin__015_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:31:19 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__010_3.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__010_3.phylo.txt
+    jobid: 387
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__010_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__010_3.nw
+    wildcards: batch=dustbin__010_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:31:19 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__017_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__017_0.phylo.txt
+    jobid: 47
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__017_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__017_0.nw
+    wildcards: batch=unknown__017_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:31:19 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__003_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__003_3.phylo.txt
+    jobid: 591
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__003_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__003_3.nw
+    wildcards: batch=unknown__003_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:31:25 2025]
+Finished jobid: 387 (Rule: postprocess_tree)
+157 of 385 steps (41%) done
+Execute 1 jobs...
+[Sun Sep 21 18:31:25 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__007_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__007_1.phylo.txt
+    jobid: 587
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__007_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__007_1.nw
+    wildcards: batch=unknown__007_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:31:25 2025]
+Finished jobid: 47 (Rule: postprocess_tree)
+158 of 385 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:31:26 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__001_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__001_2.tar.xz
+    jobid: 617
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__001_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__001_2.processed.txt
+    wildcards: batch=dustbin__001_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:31:29 2025]
+Finished jobid: 591 (Rule: postprocess_tree)
+159 of 385 steps (41%) done
+Execute 1 jobs...
+[Sun Sep 21 18:31:29 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__010_3.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__010_3.phylo.txt
+    jobid: 227
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__010_3.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__010_3.nw
+    wildcards: batch=unknown__010_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:31:29 2025]
+Finished jobid: 587 (Rule: postprocess_tree)
+160 of 385 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:31:30 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__015_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__015_1.tar.xz
+    jobid: 533
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__015_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__015_1.processed.txt
+    wildcards: batch=unknown__015_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:31:34 2025]
+Finished jobid: 227 (Rule: postprocess_tree)
+161 of 385 steps (42%) done
+Execute 1 jobs...
+[Sun Sep 21 18:31:34 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__014_0.txt, workflow/tmp/leave_ordered_batches/unknown__014_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__014_0.processed.txt
+    jobid: 498
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__014_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__014_0.phylo.txt
+    wildcards: batch=unknown__014_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:31:39 2025]
+Finished jobid: 247 (Rule: postprocess_tree)
+162 of 385 steps (42%) done
+Execute 1 jobs...
+[Sun Sep 21 18:31:39 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__010_3.txt, workflow/tmp/leave_ordered_batches/unknown__010_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__010_3.processed.txt
+    jobid: 226
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__010_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__010_3.phylo.txt
+    wildcards: batch=unknown__010_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:13 2025]
+Finished jobid: 260 (Rule: compute_tree)
+163 of 385 steps (42%) done
+Execute 5 jobs...
+[Sun Sep 21 18:32:13 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__007_1.txt, workflow/tmp/leave_ordered_batches/unknown__007_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__007_1.processed.txt
+    jobid: 586
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__007_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__007_1.phylo.txt
+    wildcards: batch=unknown__007_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:13 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__003_3.txt, workflow/tmp/leave_ordered_batches/unknown__003_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__003_3.processed.txt
+    jobid: 590
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__003_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__003_3.phylo.txt
+    wildcards: batch=unknown__003_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:13 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__016_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__016_1.phylo.txt
+    jobid: 411
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__016_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__016_1.nw
+    wildcards: batch=unknown__016_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:13 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__004_3.txt, workflow/tmp/leave_ordered_batches/unknown__004_3.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__004_3.processed.txt
+    jobid: 554
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__004_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__004_3.phylo.txt
+    wildcards: batch=unknown__004_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:13 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__015_1.txt, workflow/tmp/leave_ordered_batches/dustbin__015_1.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__015_1.processed.txt
+    jobid: 246
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__015_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__015_1.phylo.txt
+    wildcards: batch=dustbin__015_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:18 2025]
+Finished jobid: 411 (Rule: postprocess_tree)
+164 of 385 steps (43%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:18 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__016_1.txt, workflow/tmp/leave_ordered_batches/unknown__016_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__016_1.processed.txt
+    jobid: 410
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__016_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__016_1.phylo.txt
+    wildcards: batch=unknown__016_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:22 2025]
+Finished jobid: 612 (Rule: compute_tree)
+165 of 385 steps (43%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:22 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__009_2.txt
+    output: workflow/tmp/trees/unknown__009_2.nw
+    jobid: 328
+    reason: Missing output files: workflow/tmp/trees/unknown__009_2.nw
+    wildcards: batch=unknown__009_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:32 2025]
+Finished jobid: 498 (Rule: prepend_batch_path)
+166 of 385 steps (43%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:32 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__011_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__011_1.phylo.txt
+    jobid: 611
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__011_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__011_1.nw
+    wildcards: batch=unknown__011_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:36 2025]
+Finished jobid: 312 (Rule: compute_tree)
+167 of 385 steps (43%) done
+Execute 5 jobs...
+[Sun Sep 21 18:32:36 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__004_0.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__004_0.phylo.txt
+    jobid: 259
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__004_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__004_0.nw
+    wildcards: batch=dustbin__004_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:36 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__017_0.txt, workflow/tmp/leave_ordered_batches/unknown__017_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__017_0.processed.txt
+    jobid: 46
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__017_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__017_0.phylo.txt
+    wildcards: batch=unknown__017_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:36 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__014_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__014_0.tar.xz
+    jobid: 497
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__014_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__014_0.processed.txt
+    wildcards: batch=unknown__014_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:36 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__010_3.txt, workflow/tmp/leave_ordered_batches/dustbin__010_3.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__010_3.processed.txt
+    jobid: 386
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__010_3.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__010_3.phylo.txt
+    wildcards: batch=dustbin__010_3
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:32:36 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__006_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__006_0.phylo.txt
+    jobid: 3
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__006_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__006_0.nw
+    wildcards: batch=unknown__006_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:32:36 2025]
+Finished jobid: 226 (Rule: prepend_batch_path)
+168 of 385 steps (44%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:32:37 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__010_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__010_3.tar.xz
+    jobid: 225
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__010_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__010_3.processed.txt
+    wildcards: batch=unknown__010_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:38 2025]
+Finished jobid: 611 (Rule: postprocess_tree)
+169 of 385 steps (44%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:38 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__011_1.txt, workflow/tmp/leave_ordered_batches/unknown__011_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__011_1.processed.txt
+    jobid: 610
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__011_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__011_1.phylo.txt
+    wildcards: batch=unknown__011_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:40 2025]
+Finished jobid: 259 (Rule: postprocess_tree)
+170 of 385 steps (44%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:41 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__010_2.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__010_2.phylo.txt
+    jobid: 311
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__010_2.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__010_2.nw
+    wildcards: batch=unknown__010_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:41 2025]
+Finished jobid: 3 (Rule: postprocess_tree)
+171 of 385 steps (44%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:41 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__006_0.txt, workflow/tmp/leave_ordered_batches/unknown__006_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__006_0.processed.txt
+    jobid: 2
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__006_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__006_0.phylo.txt
+    wildcards: batch=unknown__006_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:46 2025]
+Finished jobid: 311 (Rule: postprocess_tree)
+172 of 385 steps (45%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:47 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__010_2.txt, workflow/tmp/leave_ordered_batches/unknown__010_2.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__010_2.processed.txt
+    jobid: 310
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__010_2.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__010_2.phylo.txt
+    wildcards: batch=unknown__010_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:32:47 2025]
+Finished jobid: 12 (Rule: compute_tree)
+173 of 385 steps (45%) done
+Execute 1 jobs...
+[Sun Sep 21 18:32:47 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__005_1.txt
+    output: workflow/tmp/trees/unknown__005_1.nw
+    jobid: 104
+    reason: Missing output files: workflow/tmp/trees/unknown__005_1.nw
+    wildcards: batch=unknown__005_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:06 2025]
+Finished jobid: 246 (Rule: prepend_batch_path)
+174 of 385 steps (45%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:07 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__004_0.txt, workflow/tmp/leave_ordered_batches/dustbin__004_0.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__004_0.processed.txt
+    jobid: 258
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__004_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__004_0.phylo.txt
+    wildcards: batch=dustbin__004_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:33:07 2025]
+Finished jobid: 554 (Rule: prepend_batch_path)
+175 of 385 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:33:07 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/dustbin__013_1.nw
+    output: workflow/tmp/leave_ordered_batches/dustbin__013_1.phylo.txt
+    jobid: 11
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/dustbin__013_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/dustbin__013_1.nw
+    wildcards: batch=dustbin__013_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:33:07 2025]
+Finished jobid: 586 (Rule: prepend_batch_path)
+176 of 385 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:33:07 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__007_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__007_1.tar.xz
+    jobid: 585
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__007_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__007_1.processed.txt
+    wildcards: batch=unknown__007_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:33:07 2025]
+Finished jobid: 590 (Rule: prepend_batch_path)
+177 of 385 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:33:07 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__003_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__003_3.tar.xz
+    jobid: 589
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__003_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__003_3.processed.txt
+    wildcards: batch=unknown__003_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:11 2025]
+Finished jobid: 11 (Rule: postprocess_tree)
+178 of 385 steps (46%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:11 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__013_1.txt, workflow/tmp/leave_ordered_batches/dustbin__013_1.phylo.txt
+    output: workflow/tmp/processed_batches/dustbin__013_1.processed.txt
+    jobid: 10
+    reason: Missing output files: workflow/tmp/processed_batches/dustbin__013_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/dustbin__013_1.phylo.txt
+    wildcards: batch=dustbin__013_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:12 2025]
+Finished jobid: 410 (Rule: prepend_batch_path)
+179 of 385 steps (46%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:13 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__015_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__015_1.tar.xz
+    jobid: 245
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__015_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__015_1.processed.txt
+    wildcards: batch=dustbin__015_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:30 2025]
+Finished jobid: 46 (Rule: prepend_batch_path)
+180 of 385 steps (47%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:30 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__017_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__017_0.tar.xz
+    jobid: 45
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__017_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__017_0.processed.txt
+    wildcards: batch=unknown__017_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:33:30 2025]
+Finished jobid: 386 (Rule: prepend_batch_path)
+181 of 385 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:33:31 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__010_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__010_3.tar.xz
+    jobid: 385
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__010_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__010_3.processed.txt
+    wildcards: batch=dustbin__010_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:31 2025]
+Finished jobid: 610 (Rule: prepend_batch_path)
+182 of 385 steps (47%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:32 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__011_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__011_1.tar.xz
+    jobid: 609
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__011_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__011_1.processed.txt
+    wildcards: batch=unknown__011_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:34 2025]
+Finished jobid: 2 (Rule: prepend_batch_path)
+183 of 385 steps (48%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:35 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__006_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__006_0.tar.xz
+    jobid: 1
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__006_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__006_0.processed.txt
+    wildcards: batch=unknown__006_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:40 2025]
+Finished jobid: 310 (Rule: prepend_batch_path)
+184 of 385 steps (48%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:40 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__010_2.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__010_2.tar.xz
+    jobid: 309
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__010_2.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__010_2.processed.txt
+    wildcards: batch=unknown__010_2
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:42 2025]
+Finished jobid: 164 (Rule: compute_tree)
+185 of 385 steps (48%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:42 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__018_1.txt
+    output: workflow/tmp/trees/unknown__018_1.nw
+    jobid: 432
+    reason: Missing output files: workflow/tmp/trees/unknown__018_1.nw
+    wildcards: batch=unknown__018_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:33:57 2025]
+Finished jobid: 432 (Rule: compute_tree)
+186 of 385 steps (48%) done
+Execute 1 jobs...
+[Sun Sep 21 18:33:57 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__009_2.txt
+    output: workflow/tmp/trees/dustbin__009_2.nw
+    jobid: 208
+    reason: Missing output files: workflow/tmp/trees/dustbin__009_2.nw
+    wildcards: batch=dustbin__009_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+[Sun Sep 21 18:33:57 2025]
+Finished jobid: 258 (Rule: prepend_batch_path)
+187 of 385 steps (49%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Sun Sep 21 18:33:57 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__002_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__002_1.phylo.txt
+    jobid: 163
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__002_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__002_1.nw
+    wildcards: batch=unknown__002_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:34:02 2025]
+Finished jobid: 10 (Rule: prepend_batch_path)
+188 of 385 steps (49%) done
+Execute 1 jobs...
+[Sun Sep 21 18:34:03 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__004_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__004_0.tar.xz
+    jobid: 257
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__004_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__004_0.processed.txt
+    wildcards: batch=dustbin__004_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:34:04 2025]
+Finished jobid: 163 (Rule: postprocess_tree)
+189 of 385 steps (49%) done
+Execute 1 jobs...
+[Sun Sep 21 18:34:04 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__018_1.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__018_1.phylo.txt
+    jobid: 431
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__018_1.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__018_1.nw
+    wildcards: batch=unknown__018_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:34:09 2025]
+Finished jobid: 431 (Rule: postprocess_tree)
+190 of 385 steps (49%) done
+Execute 1 jobs...
+[Sun Sep 21 18:34:09 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__004_3.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__004_3.tar.xz
+    jobid: 553
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__004_3.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__004_3.processed.txt
+    wildcards: batch=unknown__004_3
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:34:11 2025]
+Finished jobid: 320 (Rule: compute_tree)
+191 of 385 steps (50%) done
+Execute 1 jobs...
+[Sun Sep 21 18:34:11 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/dustbin__019_2.txt
+    output: workflow/tmp/trees/dustbin__019_2.nw
+    jobid: 460
+    reason: Missing output files: workflow/tmp/trees/dustbin__019_2.nw
+    wildcards: batch=dustbin__019_2
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:34:47 2025]
+Finished jobid: 104 (Rule: compute_tree)
+192 of 385 steps (50%) done
+Execute 5 jobs...
+[Sun Sep 21 18:34:47 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__016_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_1.tar.xz
+    jobid: 409
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__016_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__016_1.processed.txt
+    wildcards: batch=unknown__016_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:34:47 2025]
+localrule postprocess_tree:
+    input: workflow/tmp/trees/unknown__007_0.nw
+    output: workflow/tmp/leave_ordered_batches/unknown__007_0.phylo.txt
+    jobid: 319
+    reason: Missing output files: workflow/tmp/leave_ordered_batches/unknown__007_0.phylo.txt; Input files updated by another job: workflow/tmp/trees/unknown__007_0.nw
+    wildcards: batch=unknown__007_0
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:34:47 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__018_1.txt, workflow/tmp/leave_ordered_batches/unknown__018_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__018_1.processed.txt
+    jobid: 430
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__018_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__018_1.phylo.txt
+    wildcards: batch=unknown__018_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:34:47 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__002_1.txt, workflow/tmp/leave_ordered_batches/unknown__002_1.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__002_1.processed.txt
+    jobid: 162
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__002_1.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__002_1.phylo.txt
+    wildcards: batch=unknown__002_1
+    resources: tmpdir=/tmp
+
+[Sun Sep 21 18:34:47 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/dustbin__013_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_1.tar.xz
+    jobid: 9
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__013_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/dustbin__013_1.processed.txt
+    wildcards: batch=dustbin__013_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:34:51 2025]
+Finished jobid: 319 (Rule: postprocess_tree)
+193 of 385 steps (50%) done
+Execute 1 jobs...
+[Sun Sep 21 18:34:52 2025]
+localrule prepend_batch_path:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__007_0.txt, workflow/tmp/leave_ordered_batches/unknown__007_0.phylo.txt
+    output: workflow/tmp/processed_batches/unknown__007_0.processed.txt
+    jobid: 318
+    reason: Missing output files: workflow/tmp/processed_batches/unknown__007_0.processed.txt; Input files updated by another job: workflow/tmp/leave_ordered_batches/unknown__007_0.phylo.txt
+    wildcards: batch=unknown__007_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:34:55 2025]
+Finished jobid: 430 (Rule: prepend_batch_path)
+194 of 385 steps (50%) done
+Execute 1 jobs...
+[Sun Sep 21 18:34:56 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__018_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__018_1.tar.xz
+    jobid: 429
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__018_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__018_1.processed.txt
+    wildcards: batch=unknown__018_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:35:25 2025]
+Finished jobid: 328 (Rule: compute_tree)
+195 of 385 steps (51%) done
+Execute 1 jobs...
+[Sun Sep 21 18:35:26 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__004_1.txt
+    output: workflow/tmp/trees/unknown__004_1.nw
+    jobid: 96
+    reason: Missing output files: workflow/tmp/trees/unknown__004_1.nw
+    wildcards: batch=unknown__004_1
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:35:39 2025]
+Finished jobid: 162 (Rule: prepend_batch_path)
+196 of 385 steps (51%) done
+Execute 1 jobs...
+[Sun Sep 21 18:35:40 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__002_1.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__002_1.tar.xz
+    jobid: 161
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__002_1.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__002_1.processed.txt
+    wildcards: batch=unknown__002_1
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:35:44 2025]
+Finished jobid: 318 (Rule: prepend_batch_path)
+197 of 385 steps (51%) done
+Execute 1 jobs...
+[Sun Sep 21 18:35:45 2025]
+localrule compress_batch:
+    input: workflow/tmp/processed_batches/unknown__007_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__007_0.tar.xz
+    jobid: 317
+    reason: Missing output files: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/unknown__007_0.tar.xz; Input files updated by another job: workflow/tmp/processed_batches/unknown__007_0.processed.txt
+    wildcards: batch=unknown__007_0
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:36:17 2025]
+Finished jobid: 208 (Rule: compute_tree)
+198 of 385 steps (51%) done
+Execute 1 jobs...
+[Sun Sep 21 18:36:18 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__009_0.txt
+    output: workflow/tmp/trees/unknown__009_0.nw
+    jobid: 404
+    reason: Missing output files: workflow/tmp/trees/unknown__009_0.nw
+    wildcards: batch=unknown__009_0
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+[Sun Sep 21 18:37:13 2025]
+Finished jobid: 460 (Rule: compute_tree)
+199 of 385 steps (52%) done
+Execute 1 jobs...
+[Sun Sep 21 18:37:14 2025]
+localrule compute_tree:
+    input: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/data/batches_1000/unknown__005_3.txt
+    output: workflow/tmp/trees/unknown__005_3.nw
+    jobid: 624
+    reason: Missing output files: workflow/tmp/trees/unknown__005_3.nw
+    wildcards: batch=unknown__005_3
+    threads: 5
+    resources: tmpdir=/tmp
+
+Waiting for more resources.
+Select jobs to execute...
+RuleException:
+CalledProcessError in file "/projects/reall/tam/tools/miniphy2/workflow/Snakefile", line 86:
+Command 'set -euo pipefail;  
+        ./miniphy2 compress -p 'dustbin__005_0/' -lfo /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz workflow/tmp/processed_batches/dustbin__005_0.processed.txt' died with <Signals.SIGKILL: 9>.
+[Sun Sep 21 18:37:35 2025]
+Error in rule compress_batch:
+    message: None
+    jobid: 613
+    input: workflow/tmp/processed_batches/dustbin__005_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz
+    shell:
+        
+        ./miniphy2 compress -p 'dustbin__005_0/' -lfo /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz workflow/tmp/processed_batches/dustbin__005_0.processed.txt
+        
+        (command exited with non-zero exit code)
+Removing output files of failed job compress_batch since they might be corrupted:
+/scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz
+[Sun Sep 21 18:38:08 2025]
+Finished jobid: 404 (Rule: compute_tree)
+200 of 385 steps (52%) done
+[Sun Sep 21 18:38:23 2025]
+Finished jobid: 96 (Rule: compute_tree)
+201 of 385 steps (52%) done
+[Sun Sep 21 18:39:51 2025]
+Finished jobid: 624 (Rule: compute_tree)
+202 of 385 steps (52%) done
+RuleException:
+CalledProcessError in file "/projects/reall/tam/tools/miniphy2/workflow/Snakefile", line 86:
+Command 'set -euo pipefail;  
+        ./miniphy2 compress -p 'dustbin__006_0/' -lfo /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz workflow/tmp/processed_batches/dustbin__006_0.processed.txt' died with <Signals.SIGKILL: 9>.
+[Sun Sep 21 19:02:49 2025]
+Error in rule compress_batch:
+    message: None
+    jobid: 537
+    input: workflow/tmp/processed_batches/dustbin__006_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz
+    shell:
+        
+        ./miniphy2 compress -p 'dustbin__006_0/' -lfo /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz workflow/tmp/processed_batches/dustbin__006_0.processed.txt
+        
+        (command exited with non-zero exit code)
+Removing output files of failed job compress_batch since they might be corrupted:
+/scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz
+[Sun Sep 21 19:05:45 2025]
+Finished jobid: 429 (Rule: compress_batch)
+203 of 385 steps (53%) done
+[Sun Sep 21 19:08:37 2025]
+Finished jobid: 501 (Rule: compress_batch)
+204 of 385 steps (53%) done
+[Sun Sep 21 19:09:27 2025]
+Finished jobid: 13 (Rule: compress_batch)
+205 of 385 steps (53%) done
+[Sun Sep 21 19:38:43 2025]
+Finished jobid: 453 (Rule: compress_batch)
+206 of 385 steps (54%) done
+[Sun Sep 21 19:41:10 2025]
+Finished jobid: 85 (Rule: compress_batch)
+207 of 385 steps (54%) done
+[Sun Sep 21 19:43:05 2025]
+Finished jobid: 309 (Rule: compress_batch)
+208 of 385 steps (54%) done
+[Sun Sep 21 19:43:07 2025]
+Finished jobid: 553 (Rule: compress_batch)
+209 of 385 steps (54%) done
+[Sun Sep 21 19:43:23 2025]
+Finished jobid: 9 (Rule: compress_batch)
+210 of 385 steps (55%) done
+[Sun Sep 21 19:43:30 2025]
+Finished jobid: 581 (Rule: compress_batch)
+211 of 385 steps (55%) done
+[Sun Sep 21 19:45:40 2025]
+Finished jobid: 313 (Rule: compress_batch)
+212 of 385 steps (55%) done
+[Sun Sep 21 19:46:59 2025]
+Finished jobid: 245 (Rule: compress_batch)
+213 of 385 steps (55%) done
+[Sun Sep 21 19:47:21 2025]
+Finished jobid: 37 (Rule: compress_batch)
+214 of 385 steps (56%) done
+[Sun Sep 21 20:00:55 2025]
+Finished jobid: 229 (Rule: compress_batch)
+215 of 385 steps (56%) done
+[Sun Sep 21 20:09:55 2025]
+Finished jobid: 129 (Rule: compress_batch)
+216 of 385 steps (56%) done
+[Sun Sep 21 20:15:02 2025]
+Finished jobid: 353 (Rule: compress_batch)
+217 of 385 steps (56%) done
+[Sun Sep 21 20:16:33 2025]
+Finished jobid: 585 (Rule: compress_batch)
+218 of 385 steps (57%) done
+[Sun Sep 21 20:20:50 2025]
+Finished jobid: 333 (Rule: compress_batch)
+219 of 385 steps (57%) done
+[Sun Sep 21 20:23:34 2025]
+Finished jobid: 145 (Rule: compress_batch)
+220 of 385 steps (57%) done
+[Sun Sep 21 20:24:35 2025]
+Finished jobid: 281 (Rule: compress_batch)
+221 of 385 steps (57%) done
+[Sun Sep 21 20:27:05 2025]
+Finished jobid: 89 (Rule: compress_batch)
+222 of 385 steps (58%) done
+[Sun Sep 21 20:27:09 2025]
+Finished jobid: 277 (Rule: compress_batch)
+223 of 385 steps (58%) done
+[Sun Sep 21 20:32:18 2025]
+Finished jobid: 425 (Rule: compress_batch)
+224 of 385 steps (58%) done
+[Sun Sep 21 20:36:58 2025]
+Finished jobid: 389 (Rule: compress_batch)
+225 of 385 steps (58%) done
+[Sun Sep 21 20:39:07 2025]
+Finished jobid: 489 (Rule: compress_batch)
+226 of 385 steps (59%) done
+[Sun Sep 21 20:41:29 2025]
+Finished jobid: 49 (Rule: compress_batch)
+227 of 385 steps (59%) done
+[Sun Sep 21 20:47:45 2025]
+Finished jobid: 541 (Rule: compress_batch)
+228 of 385 steps (59%) done
+[Sun Sep 21 20:48:52 2025]
+Finished jobid: 373 (Rule: compress_batch)
+229 of 385 steps (59%) done
+[Sun Sep 21 20:51:32 2025]
+Finished jobid: 189 (Rule: compress_batch)
+230 of 385 steps (60%) done
+[Sun Sep 21 20:52:48 2025]
+Finished jobid: 53 (Rule: compress_batch)
+231 of 385 steps (60%) done
+[Sun Sep 21 20:53:06 2025]
+Finished jobid: 385 (Rule: compress_batch)
+232 of 385 steps (60%) done
+[Sun Sep 21 20:55:06 2025]
+Finished jobid: 197 (Rule: compress_batch)
+233 of 385 steps (61%) done
+[Sun Sep 21 20:55:11 2025]
+Finished jobid: 357 (Rule: compress_batch)
+234 of 385 steps (61%) done
+[Sun Sep 21 20:57:10 2025]
+Finished jobid: 273 (Rule: compress_batch)
+235 of 385 steps (61%) done
+[Sun Sep 21 20:57:37 2025]
+Finished jobid: 133 (Rule: compress_batch)
+236 of 385 steps (61%) done
+[Sun Sep 21 20:58:02 2025]
+Finished jobid: 377 (Rule: compress_batch)
+237 of 385 steps (62%) done
+[Sun Sep 21 20:58:28 2025]
+Finished jobid: 57 (Rule: compress_batch)
+238 of 385 steps (62%) done
+[Sun Sep 21 21:01:55 2025]
+Finished jobid: 417 (Rule: compress_batch)
+239 of 385 steps (62%) done
+[Sun Sep 21 21:03:25 2025]
+Finished jobid: 285 (Rule: compress_batch)
+240 of 385 steps (62%) done
+[Sun Sep 21 21:06:36 2025]
+Finished jobid: 589 (Rule: compress_batch)
+241 of 385 steps (63%) done
+[Sun Sep 21 21:07:00 2025]
+Finished jobid: 201 (Rule: compress_batch)
+242 of 385 steps (63%) done
+[Sun Sep 21 21:08:32 2025]
+Finished jobid: 1 (Rule: compress_batch)
+243 of 385 steps (63%) done
+[Sun Sep 21 21:08:43 2025]
+Finished jobid: 193 (Rule: compress_batch)
+244 of 385 steps (63%) done
+[Sun Sep 21 21:13:13 2025]
+Finished jobid: 253 (Rule: compress_batch)
+245 of 385 steps (64%) done
+[Sun Sep 21 21:13:24 2025]
+Finished jobid: 153 (Rule: compress_batch)
+246 of 385 steps (64%) done
+[Sun Sep 21 21:22:22 2025]
+Finished jobid: 609 (Rule: compress_batch)
+247 of 385 steps (64%) done
+[Sun Sep 21 21:22:33 2025]
+Finished jobid: 409 (Rule: compress_batch)
+248 of 385 steps (64%) done
+[Sun Sep 21 21:23:14 2025]
+Finished jobid: 45 (Rule: compress_batch)
+249 of 385 steps (65%) done
+[Sun Sep 21 21:27:27 2025]
+Finished jobid: 225 (Rule: compress_batch)
+250 of 385 steps (65%) done
+[Sun Sep 21 21:28:17 2025]
+Finished jobid: 497 (Rule: compress_batch)
+251 of 385 steps (65%) done
+[Sun Sep 21 21:29:01 2025]
+Finished jobid: 617 (Rule: compress_batch)
+252 of 385 steps (65%) done
+[Sun Sep 21 21:30:24 2025]
+Finished jobid: 105 (Rule: compress_batch)
+253 of 385 steps (66%) done
+[Sun Sep 21 21:32:58 2025]
+Finished jobid: 597 (Rule: compress_batch)
+254 of 385 steps (66%) done
+[Sun Sep 21 21:37:26 2025]
+Finished jobid: 317 (Rule: compress_batch)
+255 of 385 steps (66%) done
+[Sun Sep 21 21:40:35 2025]
+Finished jobid: 257 (Rule: compress_batch)
+256 of 385 steps (66%) done
+[Sun Sep 21 21:40:47 2025]
+Finished jobid: 533 (Rule: compress_batch)
+257 of 385 steps (67%) done
+[Sun Sep 21 21:44:43 2025]
+Finished jobid: 529 (Rule: compress_batch)
+258 of 385 steps (67%) done
+[Sun Sep 21 21:45:14 2025]
+Finished jobid: 593 (Rule: compress_batch)
+259 of 385 steps (67%) done
+[Sun Sep 21 21:47:21 2025]
+Finished jobid: 61 (Rule: compress_batch)
+260 of 385 steps (68%) done
+[Sun Sep 21 21:51:18 2025]
+Finished jobid: 505 (Rule: compress_batch)
+261 of 385 steps (68%) done
+[Sun Sep 21 21:52:32 2025]
+Finished jobid: 577 (Rule: compress_batch)
+262 of 385 steps (68%) done
+[Sun Sep 21 21:52:51 2025]
+Finished jobid: 165 (Rule: compress_batch)
+263 of 385 steps (68%) done
+[Sun Sep 21 21:55:28 2025]
+Finished jobid: 161 (Rule: compress_batch)
+264 of 385 steps (69%) done
+[Sun Sep 21 22:07:22 2025]
+Finished jobid: 305 (Rule: compress_batch)
+265 of 385 steps (69%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Sun Sep 21 22:07:22 2025]
+Error in rule compress_batch:
+    message: None
+    jobid: 613
+    input: workflow/tmp/processed_batches/dustbin__005_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz
+    shell:
+        
+        ./miniphy2 compress -p 'dustbin__005_0/' -lfo /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__005_0.tar.xz workflow/tmp/processed_batches/dustbin__005_0.processed.txt
+        
+        (command exited with non-zero exit code)
+[Sun Sep 21 22:07:22 2025]
+Error in rule compress_batch:
+    message: None
+    jobid: 537
+    input: workflow/tmp/processed_batches/dustbin__006_0.processed.txt
+    output: /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz
+    shell:
+        
+        ./miniphy2 compress -p 'dustbin__006_0/' -lfo /scratch/ktruong/Workspace/experiments/069_DATA_recompression_atb/results/dustbin_unknown/xz/dustbin__006_0.tar.xz workflow/tmp/processed_batches/dustbin__006_0.processed.txt
+        
+        (command exited with non-zero exit code)
+Complete log(s): /projects/reall/tam/tools/miniphy2/.snakemake/log/2025-09-21T181403.314683.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

@@ -12,7 +12,7 @@ u <- "cm"
 caption <- "**Parameters:**    AGC: *-a -b 500 -s 1500*    |    MBGC: *-m 3*    |    XZ: *-9 -T1*"
 #caption=""
 
-df_sep_plot <- read_csv('data/seperation_plot_data.csv') %>%
+df_sep_plot <- read_csv('data/seperation_plot_data_1k_dbin_uknw.csv') %>%
     mutate(compressor = toupper(sub("_.*", "", scheme)))
 
 flatten_df_sep <- df_sep_plot %>%
@@ -82,3 +82,4 @@ ggsave(fn2,
        width = w,
        height = h,
        units = u)
+

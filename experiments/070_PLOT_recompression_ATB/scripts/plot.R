@@ -9,8 +9,11 @@ df_plot$label <- paste0(round(df_plot$value / 1000, 1), "GB")
 df_plot$value_GB <- df_plot$value / 1000
 
 caption <- "\n
-    PARAMETERS: AGC with -a -b 500 -s 1500; MBGC with -m 3. All with 25 threads.
-    Batches of Species clusters have 4000 genomes, of dustbin and unknown batches have 1000 genomes."
+    PARAMETERS: 
+    AGC with -a -b 500 -s 1500; the AGC reference genome is the first genomes in each batch. 
+    MBGC with -m 3. All with 25 threads.
+    Batches of Species clusters have 4000 genomes. 
+    Batches of dustbin and unknown have 1000 genomes for AGC and MBGC, 4000 genomes for XZ."
 
 # principal bar plot
 p <- ggplot(df_plot, aes(x = group, y = value_GB, fill = group)) +
@@ -23,7 +26,7 @@ p <- ggplot(df_plot, aes(x = group, y = value_GB, fill = group)) +
     y = "Total Size (GB)" ,
     caption = str_wrap(caption, width = 100)
   ) +
-  scale_x_discrete(labels = c("MiniPhy-xz (original)", "MiniPhy2-AGC", "MiniPhy2-MBGC")) +
+  scale_x_discrete(labels = c("MiniPhy-xz (original)", "MiniPhy2-XZ", "MiniPhy2-AGC", "MiniPhy2-MBGC")) +
   theme_minimal(base_size = 14) + 
   theme(
     legend.position = "none",
@@ -35,7 +38,7 @@ p <- ggplot(df_plot, aes(x = group, y = value_GB, fill = group)) +
 
 p
 
-w <- 20
+w <- 23
 h <- 20
 u <- "cm"
 
@@ -52,7 +55,7 @@ flatten_df_sep <- df_sep_plot %>%
     values_to = "size"
   )
 
-flatten_df_sep$scheme <- factor(flatten_df_sep$scheme, levels = c("xz_orig", "agc", "mbgc"))
+flatten_df_sep$scheme <- factor(flatten_df_sep$scheme, levels = c("xz_orig","xz_mnphy2", "agc", "mbgc"))
 flatten_df_sep$group <- factor(flatten_df_sep$group, levels = c("dustbin", "unknown", "rest"))
 
 flatten_df_sep$value_GB <- flatten_df_sep$size / 1000
@@ -60,18 +63,18 @@ flatten_df_sep$value_GB <- flatten_df_sep$size / 1000
 p2 <- ggplot(flatten_df_sep, aes(x = scheme, y = value_GB, fill = group)) +
   geom_col(color = "black", linewidth = 0.5) +
   scale_fill_npg(
-    labels = c("dustbin" = "Dustbin", 
-               "unknown" = "Unknown", 
-               "rest" = "Species"),
+    labels = c("dustbin" = "Dustbin (n = 85k)", 
+               "unknown" = "Unknown (n = 73K)", 
+               "rest" = "Species (n = 2282k)"),
     name = "Batch types"
   ) +
   labs(
-    title = "Compression results - ATB",                  
+    title = "Compression results - ATB v0.3 - 2,440,377 genomes",                  
     x = "Compression Scheme",                              
     y = "Size (GB)" ,
     caption = str_wrap(caption, width = 90)
   ) +
-  scale_x_discrete(labels = c("MiniPhy-xz (original)", "MiniPhy2-AGC", "MiniPhy2-MBGC")) +
+  scale_x_discrete(labels = c("MiniPhy-xz (original)", "MiniPhy2-XZ", "MiniPhy2-AGC", "MiniPhy2-MBGC")) +
   theme_minimal(base_size = 14) +
   theme(
     plot.caption = element_text(hjust = 0, vjust=0.2, size = 10),
@@ -90,3 +93,4 @@ p2
 
 fn2 <- "results/compression_results_atb_separated.pdf"
 ggsave(fn2, plot = p2, width=w, height=h, units=u)
+

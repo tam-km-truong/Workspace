@@ -22,13 +22,18 @@ df_agc$size_MB <- df_agc$size_MB/1e+6
 
 df_agc <- df_agc %>% filter(name != "total")
 
+df_xz_mnphy2 <- read_csv("data/xz_mnphy2.csv",col_names = c("size_MB", "name"))
+df_xz_mnphy2$size_MB <- df_xz_mnphy2$size_MB/1e+6
+df_xz_mnphy2 <- df_xz_mnphy2 %>% filter(name != "total")
+
 sum_mbgc <- sum(df_mbgc$size_MB)
 sum_xz_orig <- sum(df_xz_orig$size_MB)
 sum_agc <- sum(df_agc$size_MB)
+sum_xz_mnphy2 <- sum(df_xz_mnphy2$size_MB)
 
 df_plot <- data.frame(
-  group = c( "xz_orig", "agc","mbgc"),
-  value = c( sum_xz_orig, sum_agc, sum_mbgc)
+  group = c( "xz_orig", "xz_mnphy2", "agc","mbgc"),
+  value = c( sum_xz_orig, sum_xz_mnphy2, sum_agc, sum_mbgc)
 )
 
 write.csv(df_plot, "data/merged_plot_data.csv", row.names = FALSE)
@@ -37,10 +42,12 @@ write.csv(df_plot, "data/merged_plot_data.csv", row.names = FALSE)
 sum_dustbin_agc <- sum(df_agc$size_MB[grepl("^dustbin", df_agc$name)])
 sum_dustbin_mbgc <- sum(df_mbgc$size_MB[grepl("^dustbin", df_mbgc$name)])
 sum_dustbin_xz_orig <- sum(df_xz_orig$size_MB[grepl("^dustbin", df_xz_orig$name)])
+sum_dustbin_xz_mnphy2 <- sum(df_xz_mnphy2$size_MB[grepl("^dustbin", df_xz_mnphy2$name)])
 
 sum_unknown_agc <- sum(df_agc$size_MB[grepl("^unknown", df_agc$name)])
 sum_unknown_mbgc <- sum(df_mbgc$size_MB[grepl("^unknown", df_mbgc$name)])
 sum_unknown_xz_orig <- sum(df_xz_orig$size_MB[grepl("^unknown", df_xz_orig$name)])
+sum_unknown_xz_mnphy2 <- sum(df_xz_mnphy2$size_MB[grepl("^unknown", df_xz_mnphy2$name)])
 
 sum_rest_agc <- sum(
   df_agc$size_MB[
@@ -60,12 +67,18 @@ sum_rest_xz_orig <- sum(
   ],
   na.rm = TRUE
 )
+sum_rest_xz_mnphy2 <- sum(
+  df_xz_mnphy2$size_MB[
+    !grepl("^dustbin", df_xz_mnphy2$name) & !grepl("^unknown", df_xz_mnphy2$name)
+  ],
+  na.rm = TRUE
+)
 
 separation_df <- data.frame(
-  scheme = c("agc", "mbgc", "xz_orig"),
-  dustbin = c(sum_dustbin_agc, sum_dustbin_mbgc, sum_dustbin_xz_orig),
-  unknown = c(sum_unknown_agc, sum_unknown_mbgc, sum_unknown_xz_orig),
-  rest    = c(sum_rest_agc, sum_rest_mbgc, sum_rest_xz_orig)
+  scheme = c("agc", "mbgc", "xz_orig", "xz_mnphy2"),
+  dustbin = c(sum_dustbin_agc, sum_dustbin_mbgc, sum_dustbin_xz_orig, sum_dustbin_xz_mnphy2),
+  unknown = c(sum_unknown_agc, sum_unknown_mbgc, sum_unknown_xz_orig, sum_unknown_xz_mnphy2),
+  rest    = c(sum_rest_agc, sum_rest_mbgc, sum_rest_xz_orig, sum_rest_xz_mnphy2)
 )
 
 write.csv(separation_df, "data/seperation_plot_data.csv", row.names = FALSE)

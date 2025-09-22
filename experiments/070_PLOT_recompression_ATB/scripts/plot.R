@@ -64,7 +64,7 @@ p2 <- ggplot(flatten_df_sep, aes(x = scheme, y = value_GB, fill = group)) +
   geom_col(color = "black", linewidth = 0.5) +
   scale_fill_npg(
     labels = c("dustbin" = "Dustbin (n = 85k)", 
-               "unknown" = "Unknown (n = 73K)", 
+               "unknown" = "Unknown (n = 73k)", 
                "rest" = "Species (n = 2282k)"),
     name = "Batch types"
   ) +

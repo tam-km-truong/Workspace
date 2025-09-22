@@ -10,7 +10,7 @@ df_plot$value_GB <- df_plot$value / 1000
 
 caption <- "\n
     PARAMETERS: 
-    AGC with -a -b 500 -s 1500; the AGC reference genome is the first genomes in each batch. 
+    AGC with -a -b 500 -s 1500; the AGC reference genome is the first genome in each batch. 
     MBGC with -m 3. All with 25 threads.
     Batches of Species clusters have 4000 genomes. 
     Batches of dustbin and unknown have 1000 genomes for AGC and MBGC, 4000 genomes for XZ."

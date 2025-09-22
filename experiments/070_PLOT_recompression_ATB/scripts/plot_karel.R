@@ -40,9 +40,9 @@ ggplot(flatten_df_sep,
     scale_alpha_manual(
         name = "Divisions",
         labels = c(
-            "dustbin" = "Dustbin<br/><span style='font-size:9pt'>(n=85k)</span>",
+            "dustbin" = "Minor sp.<br/><span style='font-size:9pt'>(n=85k)</span>",
             "unknown" = "Unknown sp.<br/><span style='font-size:9pt'>(n=73k)</span>",
-            "rest" = "Regular batches<br/><span style='font-size:9pt'>(n=2,282k)</span>"
+            "rest" = "Major sp.<br/><span style='font-size:9pt'>(n=2,282k)</span>"
         ),
         values = c(0.6, 0.8, 1.0)
     ) +

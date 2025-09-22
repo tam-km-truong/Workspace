@@ -9,11 +9,11 @@ h <- 13
 u <- "cm"
 
 #caption <- "\n\n    PARAMETERS:\n    AGC with -a -b 500 -s 1500; the AGC reference genome is the first genomes in each batch.\n    MBGC with -m 3. All with 25 threads.\n    Batches of Species clusters have 4000 genomes.\n    Batches of dustbin and unknown have 1000 genomes for AGC and MBGC, 4000 genomes for XZ."
-caption <- "**Parameters:**    *AGC:* -a -b 500 -s 1500    |    *MBGC:* -m 3    |    *XZ:* -9 -T1"
+caption <- "**Parameters:**    AGC: *-a -b 500 -s 1500*    |    MBGC: *-m 3*    |    XZ: *-9 -T1*"
 #caption=""
 
 df_sep_plot <- read_csv('data/seperation_plot_data.csv') %>%
-    mutate(compressor = sub("_.*", "", scheme))
+    mutate(compressor = toupper(sub("_.*", "", scheme)))
 
 flatten_df_sep <- df_sep_plot %>%
     pivot_longer(
@@ -24,7 +24,7 @@ flatten_df_sep <- df_sep_plot %>%
 
 flatten_df_sep$scheme <- factor(flatten_df_sep$scheme,
                                 levels = c("xz_orig", "xz_mnphy2", "agc", "mbgc"))
-flatten_df_sep$compressor <- factor(flatten_df_sep$compressor, levels = c("xz", "agc", "mbgc"))
+flatten_df_sep$compressor <- factor(flatten_df_sep$compressor, levels = c("XZ", "AGC", "MBGC"))
 flatten_df_sep$group <- factor(flatten_df_sep$group, levels = c("dustbin", "unknown", "rest"))
 
 flatten_df_sep$value_GB <- flatten_df_sep$size / 1000
@@ -56,9 +56,10 @@ ggplot(flatten_df_sep,
     ) +
     scale_x_discrete(labels = c("V1+XZ\n(state of the art)", "V2+XZ", "V2+AGC", "V2+MBGC")) +
     theme_classic(base_size = 14) +
-    theme(plot.subtitle = element_text(color = "gray30"),
-          plot.caption = element_markdown(hjust = 0.5),
-          legend.text = element_markdown()
+    theme(
+        plot.subtitle = element_text(color = "gray30"),
+        plot.caption = element_markdown(hjust = 0.5),
+        legend.text = element_markdown()
     ) +
     geom_text(
         aes(label = paste0(round(value_GB, 1), "GB")),

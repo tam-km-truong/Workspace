@@ -97,3 +97,4 @@ experiments/042_661k_per_species_fully_phylo_compression/batches/*.txt
 !experiments/041_salmonella_enterica_phylo_order/references.txt
 *.mbgc
 .snakemake_timestamp
+.Rproj.user

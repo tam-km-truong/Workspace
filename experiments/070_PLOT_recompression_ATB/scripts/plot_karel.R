@@ -1,5 +1,5 @@
 library(tidyverse)
-library("ggsci")
+library(ggsci)
 library(tidyr)
 
 w <- 16
@@ -10,7 +10,8 @@ u <- "cm"
 caption <- "Parameters:    AGC: -a -b 500 -s 1500    |    MBGC: -m 3    |    XZ: -9 -T1"
 #caption=""
 
-df_sep_plot <- read_csv('data/seperation_plot_data.csv')
+df_sep_plot <- read_csv('data/seperation_plot_data.csv') %>%
+    mutate(compressor = sub("_.*", "", scheme))
 
 flatten_df_sep <- df_sep_plot %>%
     pivot_longer(
@@ -21,6 +22,7 @@ flatten_df_sep <- df_sep_plot %>%
 
 flatten_df_sep$scheme <- factor(flatten_df_sep$scheme,
                                 levels = c("xz_orig", "xz_mnphy2", "agc", "mbgc"))
+flatten_df_sep$compressor <- factor(flatten_df_sep$compressor, levels = c("xz", "agc", "mbgc"))
 flatten_df_sep$group <- factor(flatten_df_sep$group, levels = c("dustbin", "unknown", "rest"))
 
 flatten_df_sep$value_GB <- flatten_df_sep$size / 1000
@@ -29,19 +31,20 @@ ggplot(flatten_df_sep,
        aes(
            x = scheme,
            y = value_GB,
-           fill = scheme,
+           fill = compressor,
            alpha = group
        )) +
     geom_col(color = "black", linewidth = 0.5) +
     scale_alpha_manual(
+        name = "Collection parts",
         labels = c(
-            "dustbin" = "dustbin\n(n=85k)\n",
-            "unknown" = "unknown\n(n=73k)\n",
-            "rest" = "regular batches\n(n=2,282k)\n"
+            "dustbin" = "Dustbin\n(n=85k)\n",
+            "unknown" = "Unknown sp.\n(n=73k)\n",
+            "rest" = "Regular batches\n(n=2,282k)\n"
         ),
         values = c(0.6, 0.8, 1.0)
     ) +
-    scale_fill_npg(name = "Batch types") +
+    scale_fill_npg(name = "Low-level\ncompressor") +
     labs(
         title = "MiniPhy V1 vs. V2",
         subtitle = "(dataset: ATB v0.3, n=2,440,377)",
@@ -49,14 +52,7 @@ ggplot(flatten_df_sep,
         y = "Size (GB)" ,
         caption = caption
     ) +
-    scale_x_discrete(
-        labels = c(
-            "V1+XZ\n(state of the art)",
-            "V2+XZ",
-            "V2+AGC",
-            "V2+MBGC"
-        )
-    ) +
+    scale_x_discrete(labels = c("V1+XZ\n(state of the art)", "V2+XZ", "V2+AGC", "V2+MBGC")) +
     theme_classic(base_size = 14) +
     theme(plot.subtitle = element_text(color = "gray30"),
           plot.caption = element_text(hjust = 0.5)) +

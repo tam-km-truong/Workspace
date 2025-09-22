@@ -16,6 +16,7 @@ def add_args(parser):
     parser.add_argument('-o', '--output', help='Output bash file (default: current folder)', default='experiments/072_EXPE_random_access_genomes/scripts')
     parser.add_argument('-n', '--nb-gen-per-batch', help='Number of genomes per batch to query', default=60, type=int)
     parser.add_argument('-e','--extract-folder', help='Path to the folder storing the extracted files', default='experiments/072_EXPE_random_access_genomes/results')
+    parser.add_argument('-t','--threads', help='Number of thread to be used', default=25)
 
 
 
@@ -46,8 +47,8 @@ def run_(args):
         current_queries = [ os.path.basename(genome).split('.')[0] for genome in lines[idx+1:idx+n+1]]
         idx += (n + 1)
         bash_script_xz = bash_script_xz + [f'tar -xvf {args.archives}/xz/{current_batch}.tar.xz -C {args.extract_folder}/xz/ {current_batch}/{genome}.fa' for genome in current_queries]
-        bash_script_mbgc = bash_script_mbgc + [f'mbgc d -f {genome}.fa {args.archives}/mbgc/{current_batch}.mbgc {args.extract_folder}/mbgc/{genome}.fa' for genome in current_queries]
-        bash_script_agc = bash_script_agc + [f'agc getset {args.archives}/agc/{current_batch}.agc {genome} > {args.extract_folder}/agc/{genome}.fa.fa' for genome in current_queries]
+        bash_script_mbgc = bash_script_mbgc + [f'mbgc d -t {args.threads} -f {genome}.fa {args.archives}/mbgc/{current_batch}.mbgc {args.extract_folder}/mbgc/{genome}.fa' for genome in current_queries]
+        bash_script_agc = bash_script_agc + [f'agc getset -t {args.threads} {args.archives}/agc/{current_batch}.agc {genome} > {args.extract_folder}/agc/{genome}.fa.fa' for genome in current_queries]
 
         # print(current_batch)
         # print(current_queries)

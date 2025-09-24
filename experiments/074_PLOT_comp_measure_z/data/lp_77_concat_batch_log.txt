@@ -1,0 +1,490 @@
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_0.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 236519020
+Found 136765 distinct words
+Parsing took: 17 wall clock seconds
+Sum of lenghts of dictionary words: 17101623
+Total number of words: 2345785
+Writing plain dictionary and occ file
+Dictionary construction took: 1 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 1 wall clock seconds
+==== Elapsed time: 19 wall clock seconds
+malloc_count ### exiting, total: 310 014 434, peak: 29 902 689, current: 8 192
+[INFO] 19:31:58 - Message: Window size set to:  10
+[INFO] 19:31:58 - Message: Computing LZ77
+[INFO] 19:31:59 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 19:32:04 - Message: Elapsed time (s):  5.09101
+[INFO] 19:32:04 - Message: Computing ISA of dictionary
+[INFO] 19:32:04 - Message: Elapsed time (s):  0.513063
+[INFO] 19:32:04 - Message: Computing RMQ over LCP of dictionary
+[INFO] 19:32:05 - Message: Elapsed time (s):  0.521483
+[INFO] 19:32:05 - Message: Computing co-lex DA of dictionary
+[INFO] 19:32:07 - Message: Elapsed time (s):  2.54875
+[INFO] 19:32:07 - Message: Computing SA of the parsing
+[INFO] 19:32:08 - Message: Elapsed time (s):  0.538662
+[INFO] 19:32:08 - Message: Computing ISA of the parsing
+[INFO] 19:32:08 - Message: Elapsed time (s):  0.0313067
+[INFO] 19:32:08 - Message: Computing LCP of the parsing
+[INFO] 19:32:08 - Message: Elapsed time (s):  0.0875738
+[INFO] 19:32:08 - Message: Computing RMQ over LCP of the parsing
+[INFO] 19:32:08 - Message: Elapsed time (s):  0.0707856
+[INFO] 19:32:08 - Message: Computing b_p
+[INFO] 19:32:09 - Message: Elapsed time (s):  0.341246
+[INFO] 19:32:09 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 19:32:18 - Message: Elapsed time (s):  8.93722
+[INFO] 19:32:18 - Message: Computing S_LCP_T
+[INFO] 19:32:19 - Message: Elapsed time (s):  1.44061
+[INFO] 19:32:19 - Message: create lz77
+[INFO] 19:32:20 - Message: tree size:  2345785
+[INFO] 19:32:20 - Message: after all the support data structures, RAM:  1360164690
+[INFO] 19:33:50 - Message: LZ77 construction:  1260513694
+[INFO] 19:33:50 - Message: phrase number:  1072473
+[INFO] 19:33:50 - Message: LZ77 construction time (s):  89.7635
+[INFO] 19:33:50 - Message: Elapsed time (s):  90.7706
+[INFO] 19:33:50 - Message: LZ77 construction complete
+[INFO] 19:33:50 - Message: Elapsed time (s):  111.527
+malloc_count ### exiting, total: 5 088 723 558, peak: 1 260 514 123, current: 557 228
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_1.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 372430907
+Found 125827 distinct words
+Parsing took: 27 wall clock seconds
+Sum of lenghts of dictionary words: 16039228
+Total number of words: 3699393
+Writing plain dictionary and occ file
+Dictionary construction took: 1 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 2 wall clock seconds
+==== Elapsed time: 30 wall clock seconds
+malloc_count ### exiting, total: 456 751 049, peak: 27 816 911, current: 8 192
+[INFO] 19:34:20 - Message: Window size set to:  10
+[INFO] 19:34:20 - Message: Computing LZ77
+[INFO] 19:34:20 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 19:34:25 - Message: Elapsed time (s):  4.74133
+[INFO] 19:34:25 - Message: Computing ISA of dictionary
+[INFO] 19:34:26 - Message: Elapsed time (s):  0.367701
+[INFO] 19:34:26 - Message: Computing RMQ over LCP of dictionary
+[INFO] 19:34:26 - Message: Elapsed time (s):  0.490494
+[INFO] 19:34:26 - Message: Computing co-lex DA of dictionary
+[INFO] 19:34:28 - Message: Elapsed time (s):  2.37132
+[INFO] 19:34:29 - Message: Computing SA of the parsing
+[INFO] 19:34:29 - Message: Elapsed time (s):  0.618525
+[INFO] 19:34:29 - Message: Computing ISA of the parsing
+[INFO] 19:34:29 - Message: Elapsed time (s):  0.0276964
+[INFO] 19:34:29 - Message: Computing LCP of the parsing
+[INFO] 19:34:29 - Message: Elapsed time (s):  0.100239
+[INFO] 19:34:29 - Message: Computing RMQ over LCP of the parsing
+[INFO] 19:34:29 - Message: Elapsed time (s):  0.114035
+[INFO] 19:34:30 - Message: Computing b_p
+[INFO] 19:34:30 - Message: Elapsed time (s):  0.545309
+[INFO] 19:34:30 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 19:34:39 - Message: Elapsed time (s):  8.37555
+[INFO] 19:34:39 - Message: Computing S_LCP_T
+[INFO] 19:34:41 - Message: Elapsed time (s):  2.40965
+[INFO] 19:34:41 - Message: create lz77
+[INFO] 19:34:43 - Message: tree size:  3699393
+[INFO] 19:34:43 - Message: after all the support data structures, RAM:  1470601056
+[INFO] 19:36:36 - Message: LZ77 construction:  1382378632
+[INFO] 19:36:36 - Message: phrase number:  972603
+[INFO] 19:36:36 - Message: LZ77 construction time (s):  113.713
+[INFO] 19:36:36 - Message: Elapsed time (s):  115.306
+[INFO] 19:36:36 - Message: LZ77 construction complete
+[INFO] 19:36:36 - Message: Elapsed time (s):  136.201
+malloc_count ### exiting, total: 5 109 908 427, peak: 1 382 379 061, current: 513 476
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_2.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 132776509
+Found 93909 distinct words
+Parsing took: 10 wall clock seconds
+Sum of lenghts of dictionary words: 10916823
+Total number of words: 1317986
+Writing plain dictionary and occ file
+Dictionary construction took: 1 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 1 wall clock seconds
+==== Elapsed time: 12 wall clock seconds
+malloc_count ### exiting, total: 179 248 397, peak: 19 717 562, current: 8 192
+[INFO] 19:36:48 - Message: Window size set to:  10
+[INFO] 19:36:48 - Message: Computing LZ77
+[INFO] 19:36:48 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 19:36:50 - Message: Elapsed time (s):  2.72125
+[INFO] 19:36:50 - Message: Computing ISA of dictionary
+[INFO] 19:36:51 - Message: Elapsed time (s):  0.304648
+[INFO] 19:36:51 - Message: Computing RMQ over LCP of dictionary
+[INFO] 19:36:51 - Message: Elapsed time (s):  0.33229
+[INFO] 19:36:51 - Message: Computing co-lex DA of dictionary
+[INFO] 19:36:52 - Message: Elapsed time (s):  1.12204
+[INFO] 19:36:52 - Message: Computing SA of the parsing
+[INFO] 19:36:52 - Message: Elapsed time (s):  0.252977
+[INFO] 19:36:52 - Message: Computing ISA of the parsing
+[INFO] 19:36:52 - Message: Elapsed time (s):  0.0138326
+[INFO] 19:36:53 - Message: Computing LCP of the parsing
+[INFO] 19:36:53 - Message: Elapsed time (s):  0.0293437
+[INFO] 19:36:53 - Message: Computing RMQ over LCP of the parsing
+[INFO] 19:36:53 - Message: Elapsed time (s):  0.0400043
+[INFO] 19:36:53 - Message: Computing b_p
+[INFO] 19:36:53 - Message: Elapsed time (s):  0.178485
+[INFO] 19:36:53 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 19:36:59 - Message: Elapsed time (s):  6.30361
+[INFO] 19:36:59 - Message: Computing S_LCP_T
+[INFO] 19:37:00 - Message: Elapsed time (s):  0.715359
+[INFO] 19:37:00 - Message: create lz77
+[INFO] 19:37:01 - Message: tree size:  1317986
+[INFO] 19:37:01 - Message: after all the support data structures, RAM:  1118012990
+[INFO] 19:37:28 - Message: LZ77 construction:  915409166
+[INFO] 19:37:28 - Message: phrase number:  830304
+[INFO] 19:37:28 - Message: LZ77 construction time (s):  27.2687
+[INFO] 19:37:28 - Message: Elapsed time (s):  27.9306
+[INFO] 19:37:28 - Message: LZ77 construction complete
+[INFO] 19:37:28 - Message: Elapsed time (s):  40.236
+malloc_count ### exiting, total: 2 560 969 578, peak: 915 409 595, current: 385 804
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_3.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 282616746
+Found 118966 distinct words
+Parsing took: 20 wall clock seconds
+Sum of lenghts of dictionary words: 15049886
+Total number of words: 2805680
+Writing plain dictionary and occ file
+Dictionary construction took: 1 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 1 wall clock seconds
+==== Elapsed time: 22 wall clock seconds
+malloc_count ### exiting, total: 355 086 678, peak: 26 186 512, current: 8 192
+[INFO] 19:37:50 - Message: Window size set to:  10
+[INFO] 19:37:50 - Message: Computing LZ77
+[INFO] 19:37:51 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 19:37:55 - Message: Elapsed time (s):  4.22891
+[INFO] 19:37:55 - Message: Computing ISA of dictionary
+[INFO] 19:37:55 - Message: Elapsed time (s):  0.382562
+[INFO] 19:37:55 - Message: Computing RMQ over LCP of dictionary
+[INFO] 19:37:56 - Message: Elapsed time (s):  0.473734
+[INFO] 19:37:56 - Message: Computing co-lex DA of dictionary
+[INFO] 19:37:58 - Message: Elapsed time (s):  2.02599
+[INFO] 19:37:58 - Message: Computing SA of the parsing
+[INFO] 19:37:58 - Message: Elapsed time (s):  0.445154
+[INFO] 19:37:58 - Message: Computing ISA of the parsing
+[INFO] 19:37:58 - Message: Elapsed time (s):  0.0232092
+[INFO] 19:37:58 - Message: Computing LCP of the parsing
+[INFO] 19:37:58 - Message: Elapsed time (s):  0.076337
+[INFO] 19:37:58 - Message: Computing RMQ over LCP of the parsing
+[INFO] 19:37:58 - Message: Elapsed time (s):  0.086604
+[INFO] 19:37:59 - Message: Computing b_p
+[INFO] 19:37:59 - Message: Elapsed time (s):  0.399377
+[INFO] 19:37:59 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 19:38:07 - Message: Elapsed time (s):  8.09209
+[INFO] 19:38:07 - Message: Computing S_LCP_T
+[INFO] 19:38:09 - Message: Elapsed time (s):  1.78815
+[INFO] 19:38:09 - Message: create lz77
+[INFO] 19:38:10 - Message: tree size:  2805680
+[INFO] 19:38:10 - Message: after all the support data structures, RAM:  1305301758
+[INFO] 19:38:54 - Message: LZ77 construction:  1238555890
+[INFO] 19:38:54 - Message: phrase number:  919999
+[INFO] 19:38:54 - Message: LZ77 construction time (s):  44.1118
+[INFO] 19:38:54 - Message: Elapsed time (s):  45.306
+[INFO] 19:38:54 - Message: LZ77 construction complete
+[INFO] 19:38:54 - Message: Elapsed time (s):  63.9639
+malloc_count ### exiting, total: 4 446 992 874, peak: 1 238 556 319, current: 486 032
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_4.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 442024936
+Found 475163 distinct words
+Parsing took: 33 wall clock seconds
+Sum of lenghts of dictionary words: 65104887
+Total number of words: 4382780
+Writing plain dictionary and occ file
+Dictionary construction took: 3 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 4 wall clock seconds
+==== Elapsed time: 40 wall clock seconds
+malloc_count ### exiting, total: 666 522 654, peak: 109 499 194, current: 8 192
+[INFO] 19:39:35 - Message: Window size set to:  10
+[INFO] 19:39:35 - Message: Computing LZ77
+[INFO] 19:39:36 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 19:40:11 - Message: Elapsed time (s):  35.118
+[INFO] 19:40:11 - Message: Computing ISA of dictionary
+[INFO] 19:40:12 - Message: Elapsed time (s):  1.29021
+[INFO] 19:40:12 - Message: Computing RMQ over LCP of dictionary
+[INFO] 19:40:14 - Message: Elapsed time (s):  2.01102
+[INFO] 19:40:14 - Message: Computing co-lex DA of dictionary
+[INFO] 19:40:27 - Message: Elapsed time (s):  12.5832
+[INFO] 19:40:27 - Message: Computing SA of the parsing
+[INFO] 19:40:28 - Message: Elapsed time (s):  0.85221
+[INFO] 19:40:28 - Message: Computing ISA of the parsing
+[INFO] 19:40:28 - Message: Elapsed time (s):  0.0426273
+[INFO] 19:40:28 - Message: Computing LCP of the parsing
+[INFO] 19:40:28 - Message: Elapsed time (s):  0.141842
+[INFO] 19:40:28 - Message: Computing RMQ over LCP of the parsing
+[INFO] 19:40:28 - Message: Elapsed time (s):  0.133811
+[INFO] 19:40:28 - Message: Computing b_p
+[INFO] 19:40:29 - Message: Elapsed time (s):  0.648835
+[INFO] 19:40:29 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 19:41:03 - Message: Elapsed time (s):  33.4417
+[INFO] 19:41:03 - Message: Computing S_LCP_T
+[INFO] 19:41:06 - Message: Elapsed time (s):  2.93942
+[INFO] 19:41:06 - Message: create lz77
+[INFO] 19:41:07 - Message: tree size:  4382780
+[INFO] 19:41:07 - Message: after all the support data structures, RAM:  5118647250
+[INFO] 19:56:12 - Message: LZ77 construction:  4215391834
+[INFO] 19:56:12 - Message: phrase number:  2893231
+[INFO] 19:56:12 - Message: LZ77 construction time (s):  904.513
+[INFO] 19:56:12 - Message: Elapsed time (s):  906.439
+[INFO] 19:56:12 - Message: LZ77 construction complete
+[INFO] 19:56:12 - Message: Elapsed time (s):  997.192
+malloc_count ### exiting, total: 22 290 070 060, peak: 4 215 392 263, current: 1 910 820
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_5.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 198435734
+Found 331835 distinct words
+Parsing took: 15 wall clock seconds
+Sum of lenghts of dictionary words: 42759633
+Total number of words: 1969837
+Writing plain dictionary and occ file
+Dictionary construction took: 2 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 1 wall clock seconds
+==== Elapsed time: 18 wall clock seconds
+malloc_count ### exiting, total: 337 727 811, peak: 73 784 788, current: 8 192
+[INFO] 19:56:30 - Message: Window size set to:  10
+[INFO] 19:56:30 - Message: Computing LZ77
+[INFO] 19:56:31 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 19:56:53 - Message: Elapsed time (s):  21.5783
+[INFO] 19:56:53 - Message: Computing ISA of dictionary
+[INFO] 19:56:54 - Message: Elapsed time (s):  0.845311
+[INFO] 19:56:54 - Message: Computing RMQ over LCP of dictionary
+[INFO] 19:56:55 - Message: Elapsed time (s):  1.31534
+[INFO] 19:56:55 - Message: Computing co-lex DA of dictionary
+[INFO] 19:57:02 - Message: Elapsed time (s):  6.83344
+[INFO] 19:57:02 - Message: Computing SA of the parsing
+[INFO] 19:57:02 - Message: Elapsed time (s):  0.311743
+[INFO] 19:57:02 - Message: Computing ISA of the parsing
+[INFO] 19:57:02 - Message: Elapsed time (s):  0.0139394
+[INFO] 19:57:02 - Message: Computing LCP of the parsing
+[INFO] 19:57:02 - Message: Elapsed time (s):  0.0390432
+[INFO] 19:57:02 - Message: Computing RMQ over LCP of the parsing
+[INFO] 19:57:02 - Message: Elapsed time (s):  0.0587004
+[INFO] 19:57:03 - Message: Computing b_p
+[INFO] 19:57:03 - Message: Elapsed time (s):  0.262825
+[INFO] 19:57:03 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 19:57:25 - Message: Elapsed time (s):  21.7334
+[INFO] 19:57:25 - Message: Computing S_LCP_T
+[INFO] 19:57:26 - Message: Elapsed time (s):  1.16068
+[INFO] 19:57:26 - Message: create lz77
+[INFO] 19:57:27 - Message: tree size:  1969837
+[INFO] 19:57:27 - Message: after all the support data structures, RAM:  2955414434
+[INFO] 20:04:26 - Message: LZ77 construction:  2481715550
+[INFO] 20:04:26 - Message: phrase number:  2304678
+[INFO] 20:04:26 - Message: LZ77 construction time (s):  419.013
+[INFO] 20:04:26 - Message: Elapsed time (s):  419.841
+[INFO] 20:04:26 - Message: LZ77 construction complete
+[INFO] 20:04:26 - Message: Elapsed time (s):  475.23
+malloc_count ### exiting, total: 12 246 918 350, peak: 2 481 715 979, current: 1 337 508
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_6.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 368321891
+Found 411936 distinct words
+Parsing took: 27 wall clock seconds
+Sum of lenghts of dictionary words: 56244043
+Total number of words: 3650657
+Writing plain dictionary and occ file
+Dictionary construction took: 2 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 4 wall clock seconds
+==== Elapsed time: 33 wall clock seconds
+malloc_count ### exiting, total: 559 486 023, peak: 94 732 993, current: 8 192
+[INFO] 20:04:59 - Message: Window size set to:  10
+[INFO] 20:04:59 - Message: Computing LZ77
+[INFO] 20:05:00 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 20:05:35 - Message: Elapsed time (s):  35.5428
+[INFO] 20:05:35 - Message: Computing ISA of dictionary
+[INFO] 20:05:37 - Message: Elapsed time (s):  1.15407
+[INFO] 20:05:37 - Message: Computing RMQ over LCP of dictionary
+[INFO] 20:05:38 - Message: Elapsed time (s):  1.73791
+[INFO] 20:05:38 - Message: Computing co-lex DA of dictionary
+[INFO] 20:05:49 - Message: Elapsed time (s):  10.7589
+[INFO] 20:05:49 - Message: Computing SA of the parsing
+[INFO] 20:05:50 - Message: Elapsed time (s):  0.638409
+[INFO] 20:05:50 - Message: Computing ISA of the parsing
+[INFO] 20:05:50 - Message: Elapsed time (s):  0.0315833
+[INFO] 20:05:50 - Message: Computing LCP of the parsing
+[INFO] 20:05:50 - Message: Elapsed time (s):  0.112289
+[INFO] 20:05:50 - Message: Computing RMQ over LCP of the parsing
+[INFO] 20:05:50 - Message: Elapsed time (s):  0.110404
+[INFO] 20:05:50 - Message: Computing b_p
+[INFO] 20:05:51 - Message: Elapsed time (s):  0.505033
+[INFO] 20:05:51 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 20:06:20 - Message: Elapsed time (s):  29.3347
+[INFO] 20:06:20 - Message: Computing S_LCP_T
+[INFO] 20:06:23 - Message: Elapsed time (s):  2.40263
+[INFO] 20:06:23 - Message: create lz77
+[INFO] 20:06:24 - Message: tree size:  3650657
+[INFO] 20:06:24 - Message: after all the support data structures, RAM:  4788149588
+[INFO] 20:17:26 - Message: LZ77 construction:  3811684612
+[INFO] 20:17:26 - Message: phrase number:  2540239
+[INFO] 20:17:26 - Message: LZ77 construction time (s):  661.442
+[INFO] 20:17:26 - Message: Elapsed time (s):  663.033
+[INFO] 20:17:26 - Message: LZ77 construction complete
+[INFO] 20:17:26 - Message: Elapsed time (s):  746.557
+malloc_count ### exiting, total: 19 964 879 647, peak: 3 811 685 041, current: 1 657 912
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_7.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 246844308
+Found 266127 distinct words
+Parsing took: 19 wall clock seconds
+Sum of lenghts of dictionary words: 34812383
+Total number of words: 2448630
+Writing plain dictionary and occ file
+Dictionary construction took: 1 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 2 wall clock seconds
+==== Elapsed time: 22 wall clock seconds
+malloc_count ### exiting, total: 367 951 763, peak: 59 690 838, current: 8 192
+[INFO] 20:17:48 - Message: Window size set to:  10
+[INFO] 20:17:48 - Message: Computing LZ77
+[INFO] 20:17:49 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 20:18:07 - Message: Elapsed time (s):  17.8765
+[INFO] 20:18:07 - Message: Computing ISA of dictionary
+[INFO] 20:18:08 - Message: Elapsed time (s):  1.09709
+[INFO] 20:18:08 - Message: Computing RMQ over LCP of dictionary
+[INFO] 20:18:09 - Message: Elapsed time (s):  1.09288
+[INFO] 20:18:09 - Message: Computing co-lex DA of dictionary
+[INFO] 20:18:15 - Message: Elapsed time (s):  5.77058
+[INFO] 20:18:15 - Message: Computing SA of the parsing
+[INFO] 20:18:16 - Message: Elapsed time (s):  0.596884
+[INFO] 20:18:16 - Message: Computing ISA of the parsing
+[INFO] 20:18:16 - Message: Elapsed time (s):  0.0327267
+[INFO] 20:18:16 - Message: Computing LCP of the parsing
+[INFO] 20:18:16 - Message: Elapsed time (s):  0.096324
+[INFO] 20:18:16 - Message: Computing RMQ over LCP of the parsing
+[INFO] 20:18:16 - Message: Elapsed time (s):  0.0744162
+[INFO] 20:18:16 - Message: Computing b_p
+[INFO] 20:18:17 - Message: Elapsed time (s):  0.337524
+[INFO] 20:18:17 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 20:18:35 - Message: Elapsed time (s):  18.8512
+[INFO] 20:18:35 - Message: Computing S_LCP_T
+[INFO] 20:18:37 - Message: Elapsed time (s):  1.69117
+[INFO] 20:18:37 - Message: create lz77
+[INFO] 20:18:38 - Message: tree size:  2448630
+[INFO] 20:18:38 - Message: after all the support data structures, RAM:  2670120674
+[INFO] 20:23:09 - Message: LZ77 construction:  2244726570
+[INFO] 20:23:09 - Message: phrase number:  1829813
+[INFO] 20:23:09 - Message: LZ77 construction time (s):  271.06
+[INFO] 20:23:09 - Message: Elapsed time (s):  272.101
+[INFO] 20:23:09 - Message: LZ77 construction complete
+[INFO] 20:23:09 - Message: Elapsed time (s):  320.771
+malloc_count ### exiting, total: 11 067 873 423, peak: 2 244 726 998, current: 1 074 676
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_8.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 483607686
+Found 312775 distinct words
+Parsing took: 36 wall clock seconds
+Sum of lenghts of dictionary words: 41568573
+Total number of words: 4805786
+Writing plain dictionary and occ file
+Dictionary construction took: 1 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 4 wall clock seconds
+==== Elapsed time: 41 wall clock seconds
+malloc_count ### exiting, total: 648 004 901, peak: 70 802 269, current: 8 192
+[INFO] 20:23:51 - Message: Window size set to:  10
+[INFO] 20:23:51 - Message: Computing LZ77
+[INFO] 20:23:52 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 20:24:16 - Message: Elapsed time (s):  24.4365
+[INFO] 20:24:16 - Message: Computing ISA of dictionary
+[INFO] 20:24:17 - Message: Elapsed time (s):  0.819167
+[INFO] 20:24:17 - Message: Computing RMQ over LCP of dictionary
+[INFO] 20:24:18 - Message: Elapsed time (s):  1.27501
+[INFO] 20:24:18 - Message: Computing co-lex DA of dictionary
+[INFO] 20:24:26 - Message: Elapsed time (s):  7.14881
+[INFO] 20:24:26 - Message: Computing SA of the parsing
+[INFO] 20:24:27 - Message: Elapsed time (s):  0.930688
+[INFO] 20:24:27 - Message: Computing ISA of the parsing
+[INFO] 20:24:27 - Message: Elapsed time (s):  0.0462011
+[INFO] 20:24:27 - Message: Computing LCP of the parsing
+[INFO] 20:24:27 - Message: Elapsed time (s):  0.152351
+[INFO] 20:24:27 - Message: Computing RMQ over LCP of the parsing
+[INFO] 20:24:27 - Message: Elapsed time (s):  0.147144
+[INFO] 20:24:28 - Message: Computing b_p
+[INFO] 20:24:28 - Message: Elapsed time (s):  0.670162
+[INFO] 20:24:28 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 20:24:49 - Message: Elapsed time (s):  20.7129
+[INFO] 20:24:49 - Message: Computing S_LCP_T
+[INFO] 20:24:52 - Message: Elapsed time (s):  3.23031
+[INFO] 20:24:52 - Message: create lz77
+[INFO] 20:24:54 - Message: tree size:  4805786
+[INFO] 20:24:54 - Message: after all the support data structures, RAM:  2960586870
+[INFO] 20:34:08 - Message: LZ77 construction:  2771510334
+[INFO] 20:34:08 - Message: phrase number:  2079711
+[INFO] 20:34:08 - Message: LZ77 construction time (s):  553.818
+[INFO] 20:34:08 - Message: Elapsed time (s):  555.922
+[INFO] 20:34:08 - Message: LZ77 construction complete
+[INFO] 20:34:08 - Message: Elapsed time (s):  616.792
+malloc_count ### exiting, total: 13 047 029 562, peak: 2 771 510 763, current: 1 261 268
+==== Command line:
+ ./_deps/bigbwt-build/newscanNT.x /scratch/ktruong/Workspace/experiments/071_EXPE_compressibility_measures_test/data/concat_batches/batch_9.fa -w 10 -p 100 -f
+Windows size: 10
+Stop word modulus: 100
+Total input symbols: 127944816
+Found 243393 distinct words
+Parsing took: 10 wall clock seconds
+Sum of lenghts of dictionary words: 31398511
+Total number of words: 1270505
+Writing plain dictionary and occ file
+Dictionary construction took: 1 wall clock seconds
+Generating remapped parse file
+Remapping parse file took: 1 wall clock seconds
+==== Elapsed time: 12 wall clock seconds
+malloc_count ### exiting, total: 228 959 382, peak: 54 155 204, current: 8 192
+[INFO] 20:34:20 - Message: Window size set to:  10
+[INFO] 20:34:20 - Message: Computing LZ77
+[INFO] 20:34:21 - Message: Computing SA, LCP, and DA of dictionary
+[INFO] 20:34:37 - Message: Elapsed time (s):  16.2813
+[INFO] 20:34:37 - Message: Computing ISA of dictionary
+[INFO] 20:34:38 - Message: Elapsed time (s):  0.615251
+[INFO] 20:34:38 - Message: Computing RMQ over LCP of dictionary
+[INFO] 20:34:38 - Message: Elapsed time (s):  0.965037
+[INFO] 20:34:38 - Message: Computing co-lex DA of dictionary
+[INFO] 20:34:44 - Message: Elapsed time (s):  5.46594
+[INFO] 20:34:44 - Message: Computing SA of the parsing
+[INFO] 20:34:44 - Message: Elapsed time (s):  0.197319
+[INFO] 20:34:44 - Message: Computing ISA of the parsing
+[INFO] 20:34:44 - Message: Elapsed time (s):  0.00860686
+[INFO] 20:34:44 - Message: Computing LCP of the parsing
+[INFO] 20:34:44 - Message: Elapsed time (s):  0.0183237
+[INFO] 20:34:44 - Message: Computing RMQ over LCP of the parsing
+[INFO] 20:34:44 - Message: Elapsed time (s):  0.0371192
+[INFO] 20:34:44 - Message: Computing b_p
+[INFO] 20:34:45 - Message: Elapsed time (s):  0.174529
+[INFO] 20:34:45 - Message: Computing b_bwt, b_pps, and M of the parsing
+[INFO] 20:35:01 - Message: Elapsed time (s):  16.0392
+[INFO] 20:35:01 - Message: Computing S_LCP_T
+[INFO] 20:35:01 - Message: Elapsed time (s):  0.701919
+[INFO] 20:35:01 - Message: create lz77
+[INFO] 20:35:02 - Message: tree size:  1270505
+[INFO] 20:35:02 - Message: after all the support data structures, RAM:  2517887234
+[INFO] 20:37:38 - Message: LZ77 construction:  1974377478
+[INFO] 20:37:38 - Message: phrase number:  1695482
+[INFO] 20:37:38 - Message: LZ77 construction time (s):  156.17
+[INFO] 20:37:38 - Message: Elapsed time (s):  156.694
+[INFO] 20:37:38 - Message: LZ77 construction complete
+[INFO] 20:37:38 - Message: Elapsed time (s):  197.765
+malloc_count ### exiting, total: 10 426 356 369, peak: 1 974 377 906, current: 983 740

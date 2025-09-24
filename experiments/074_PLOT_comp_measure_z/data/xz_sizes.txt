@@ -1,0 +1,11 @@
+ 3453248 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_0.tar.xz
+ 3174160 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_1.tar.xz
+ 2478396 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_2.tar.xz
+ 3065824 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_3.tar.xz
+ 9890384 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_4.tar.xz
+ 7011784 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_5.tar.xz
+ 8843772 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_6.tar.xz
+ 5717784 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_7.tar.xz
+ 7971136 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_8.tar.xz
+ 4915120 experiments/071_EXPE_compressibility_measures_test/results/xz/batch_9.tar.xz
+56521608 total

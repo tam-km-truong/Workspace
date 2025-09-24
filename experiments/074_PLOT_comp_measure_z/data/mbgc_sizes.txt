@@ -1,0 +1,11 @@
+ 1831649 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_0.mbgc
+ 1645856 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_1.mbgc
+ 1193724 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_2.mbgc
+ 1655595 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_3.mbgc
+ 5787472 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_4.mbgc
+ 4423832 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_5.mbgc
+ 4739943 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_6.mbgc
+ 3219623 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_7.mbgc
+ 3739091 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_8.mbgc
+ 2940433 experiments/071_EXPE_compressibility_measures_test/results/mbgc/batch_9.mbgc
+31177218 total

@@ -1,0 +1,298 @@
+{
+  "main": {
+    "id": "4100762fb7dc6232",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c1615547d05ac32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "525245fe166faace",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command Line.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Command Line"
+            }
+          },
+          {
+            "id": "e3760c65fa05d057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "split and gsplit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "split and gsplit"
+            }
+          },
+          {
+            "id": "c560d589d70a73d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allthebacteria.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Allthebacteria"
+            }
+          },
+          {
+            "id": "955d9d08b756cb93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "miniphy2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "miniphy2"
+            }
+          },
+          {
+            "id": "6c98b6e614b7a19b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AGC"
+            }
+          },
+          {
+            "id": "233eceda6d7799a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AGC"
+            }
+          },
+          {
+            "id": "fc5bd9643faeb08f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "xargs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "xargs"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e39818e6f51e669",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a4ff0977d492115",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff6b619f569a98e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6f9066bb35e4e1e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2acb041520e8e0ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 412.5
+  },
+  "right": {
+    "id": "808a5ae4248d6e5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "265b20c28c12ff7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91f2ce00a77e0fea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JellyFish paper.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for JellyFish paper"
+            }
+          },
+          {
+            "id": "34f50e88fc8307b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4002f20e5572f9c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f7092da2aa6ea67d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mining of massive dataset book.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mining of massive dataset book"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "233eceda6d7799a9",
+  "lastOpenFiles": [
+    "MBGC.md",
+    "AGC.md",
+    "miniphy2.md",
+    "sed command.md",
+    "Untitled.base",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "split and gsplit.md",
+    "Command Line.md",
+    "My pending jobs.md",
+    "Kmers counter.md",
+    "JellyFish2.md",
+    "download from refseq.md",
+    "daily_log/2025-09-04.md",
+    "download from zenodo single line.md",
+    "Note 01 09 2025.md",
+    "daily_log/2025-08-16.md",
+    "daily_log/2025-08-29.md",
+    "daily_log/2025-07-18.md",
+    "daily_log/2025-07-03.md",
+    "daily_log/2025-06-10.md",
+    "Count basepair.md",
+    "Pasted image 20250825145502.png",
+    "Allthebacteria.md",
+    "xargs.md",
+    "Untitled",
+    "Vertical and horizontal inheritance.md",
+    "Rust.md",
+    "Raptor.md",
+    "QuickTree.md",
+    "pseudo code bin packing.md",
+    "images/Pasted image 20250618140312.png",
+    "images/Pasted image 20250328125212.png",
+    "images/Pasted image 20250204182405.png",
+    "daily_log",
+    "images/Pasted image 20241211105420.png",
+    "Command Line note",
+    "images/Pasted image 20241203141443.png",
+    "images/Pasted image 20241203141226.png",
+    "images"
+  ]
+}

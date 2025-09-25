@@ -99,3 +99,4 @@ experiments/042_661k_per_species_fully_phylo_compression/batches/*.txt
 *.agc
 .snakemake_timestamp
 .Rproj.user
+.Rhistory

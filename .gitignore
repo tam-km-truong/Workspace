@@ -100,3 +100,5 @@ experiments/042_661k_per_species_fully_phylo_compression/batches/*.txt
 .snakemake_timestamp
 .Rproj.user
 .Rhistory
+scripts_jupyter/data/bakrep-export_18112024.tsv
+.tsv

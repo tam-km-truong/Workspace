@@ -1,3 +1,0 @@
-Dashing version: v1.0.2-4-g04ed
-#Path	Size (est.)
-/dev/fd/63	2500370432.00000000

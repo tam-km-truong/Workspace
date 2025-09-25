@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGC.md",
+                "file": "daily_log/2025-09-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGC"
+              "title": "2025-09-25"
             }
           },
           {
@@ -254,8 +254,10 @@
   },
   "active": "233eceda6d7799a9",
   "lastOpenFiles": [
-    "MBGC.md",
+    "EXP 071.md",
     "AGC.md",
+    "daily_log/2025-09-25.md",
+    "MBGC.md",
     "miniphy2.md",
     "sed command.md",
     "Untitled.base",
@@ -283,8 +285,6 @@
     "Vertical and horizontal inheritance.md",
     "Rust.md",
     "Raptor.md",
-    "QuickTree.md",
-    "pseudo code bin packing.md",
     "images/Pasted image 20250618140312.png",
     "images/Pasted image 20250328125212.png",
     "images/Pasted image 20250204182405.png",

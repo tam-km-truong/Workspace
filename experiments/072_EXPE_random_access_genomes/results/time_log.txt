@@ -1,0 +1,16 @@
+n=17440
+
+AGC time
+real    84m17,532s
+user    84m28,134s
+sys     48m46,170s
+
+MBGC time
+real    2378m58,876s
+user    3859m42,490s
+sys     205m44,697s
+
+XZ time
+real    2564m2,948s
+user    1839m15,469s
+sys     2053m28,125s
